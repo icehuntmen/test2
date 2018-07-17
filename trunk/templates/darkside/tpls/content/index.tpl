@@ -8,9 +8,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>CLAN ENOTWHYNOT</title>
-		<meta name="description" content="Slider Revolution Example" />
-		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
-		<meta name="author" content="HUNTER" />
+		<meta name="description" content="Destiny 2 clan EnotWhyNot" />
+		<meta name="keywords" content="destiny 2, clan, enotwhynot, enot why not" />
+		<meta name="author" content="Hoth & grayjaco " />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- LOAD JQUERY LIBRARY -->
