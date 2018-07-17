@@ -286,7 +286,7 @@
                         }else{
                             revapi346 = tpj("#rev_slider_346_1").show().revolution({
                                 sliderType:"standard",
-                                jsFileLocation:"//assets/js/",
+                                jsFileLocation:"/revolution/assets/js/",
                                 sliderLayout:"fullscreen",
                                 dottedOverlay:"none",
                                 delay:9000,
@@ -306,32 +306,7 @@
                                         modes: {grab: {distance: 400, line_linked: {opacity: 0.5}}, bubble: {distance: 400, size: 40, opacity: 0.4}, repulse: {distance: 200}}
                                     }
                                 },
-                                navigation: {
-                                    keyboardNavigation:"off",
-                                    keyboard_direction: "horizontal",
-                                    mouseScrollNavigation:"off",
-                                    mouseScrollReverse:"default",
-                                    onHoverStop:"off",
-                                    arrows: {
-                                        style:"gyges",
-                                        enable:true,
-                                        hide_onmobile:false,
-                                        hide_onleave:false,
-                                        tmp:'',
-                                        left: {
-                                            h_align:"center",
-                                            v_align:"bottom",
-                                            h_offset:-20,
-                                            v_offset:0
-                                        },
-                                        right: {
-                                            h_align:"center",
-                                            v_align:"bottom",
-                                            h_offset:20,
-                                            v_offset:0
-                                        }
-                                    }
-                                },
+
                                 responsiveLevels:[1240,1240,1240,480],
                                 visibilityLevels:[1240,1240,1240,480],
                                 gridwidth:[1200,1200,1200,480],
