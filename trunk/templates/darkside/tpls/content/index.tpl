@@ -219,7 +219,7 @@
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-11"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['210','210','140','0']"
                                      data-fontsize="['80','80','80','60']"
                                      data-lineheight="['80','80','80','60']"
                                      data-letterspacing="['0','0','0','0']"
