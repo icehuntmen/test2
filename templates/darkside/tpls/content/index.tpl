@@ -342,7 +342,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">CLEAN </div>
+                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -368,7 +368,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">CLEAN </div>
+                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
