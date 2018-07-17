@@ -111,7 +111,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,0,255,1);font-family:Poppins;letter-spacing:-10px;">
-		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">DESTINY 2</div></div>
+		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">ENOTWHYNOT </div></div>
 
 				<!-- LAYER NR. 3 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
@@ -135,7 +135,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,0,1);font-family:Poppins;letter-spacing:-10px;">
-		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">DESIGN 2</div></div>
+		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">ENOTWHYNOT </div></div>
 
 				<!-- LAYER NR. 4 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
@@ -159,7 +159,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(0,255,255,1);font-family:Poppins;letter-spacing:-10px;">
-		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">DESTINY 2</div></div>
+		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">ENOTWHYNOT </div></div>
 
 				<!-- LAYER NR. 5 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
@@ -182,7 +182,7 @@
 					data-paddingbottom="[0,0,0,0]"
 					data-paddingleft="[0,0,0,0]"
 
-					style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">DESTINY 2 </div>
+					style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">ENOTWHYNOT </div>
 
 				<!-- LAYER NR. 6 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
