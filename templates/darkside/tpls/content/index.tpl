@@ -105,7 +105,8 @@
                                      data-type="text"
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
-
+                                     href="https://www.bungie.net/ru/ClanV2?groupid=3118487"
+                                     target="_blank"
                                      data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
                                      data-textAlign="['center','center','center','center']"
                                      data-paddingtop="[0,0,0,0]"
@@ -249,7 +250,8 @@
                                      data-type="text"
                                      data-beforeafter="after"
                                      data-responsive_offset="on"
-
+                                     href="https://www.bungie.net/ru/ClanV2?groupid=2840867"
+                                     target="_blank"
                                      data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
                                      data-textAlign="['center','center','center','center']"
                                      data-paddingtop="[0,0,0,0]"
