@@ -182,7 +182,7 @@
 					data-paddingbottom="[0,0,0,0]"
 					data-paddingleft="[0,0,0,0]"
 
-					style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">GRAVITY<br/>DESIGN </div>
+					style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Poppins;letter-spacing:-10px;">DESTINY 2 </div>
 
 				<!-- LAYER NR. 6 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
