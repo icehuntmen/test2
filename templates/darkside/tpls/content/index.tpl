@@ -572,78 +572,10 @@
 		</article>
 	</section>
 	
-	<div class="bottom-history-wrap" style="margin-top:150px">
-		
-		  <article class="small-history bottom-history" style="background:#f5f7f9;"> 
-            <h2 class="textaligncenter" style="margin-bottom:25px;">Your Slider Revolution jQuery Plugin</h2>
-            <p>Slider Revolution is an innovative, responsive Slider Plugin that displays your content the beautiful way. Whether it's a <strong>Slider, Carousel, Hero Scene</strong> or even a whole <strong>Front Page</strong>.<br>The <a href="https://codecanyon.net/item/slider-revolution-jquery-visual-editor-addon/13934907" target="_blank">visual drag &amp; drop editor</a> will help you to create your Sliders and tell your own stories in no time!</p>
-          </article>
-				
-        <article class="small-history bottom-history">
-            <i class="fa-icon-question tp-headicon"></i>
-            <h2 class="textaligncenter" style="margin-bottom:25px;">Find the Documentation ?</h2>
-            <p>We would always recommend to use our<a target="_blank" href="http://www.themepunch.com/revsliderjquery-doc/slider-revolution-jquery-5-x-documentation/"> online documentation</a> however you can find also our embeded local documentation zipped in the Documentation folder. Online Documentation and FAQ Page is regulary updated. You will find More examples, Visit us also at <a href="http://themepunch.com">http://themepunch.com</a> ! </p>
-            <div class="tp-smallinfo">Learn how to build your Slider!</div>
 
-        </article>
-
-        <article class="small-history bottom-history" style="background:#f5f7f9;">
-            <i class="fa-icon-arrows tp-headicon"></i>
-            <h2 class="textaligncenter" style="margin-bottom:25px;">Navigation Examples !</h2>
-            <p>You find many Examples for All Skins and Positions of Navigation examples in the <a target="_blank" href="file:../Navigation">examples/Navigation folder</a>. Based on these prepared examples you can build your own navigation skins. Feel free to copy and paste the markups after your requests in your own documents.</p>
-            <div class="tp-smallinfo">Customize the interaction with your visitor!</div>
-        </article>
-
-        <article class="small-history bottom-history">
-            <i class="fa-icon-cog tp-headicon"></i>
-            <h2 class="textaligncenter" style="margin-bottom:25px;">Layer and Slide Transitions</h2>
-            <p>We prepared a small List of Transition and a light weight Markup Builder in the <a target="_blank" href="file:../Transitions"> examples/Transitions folder</a>. This will help you to get an overview how the Slider and Layer Transitions works. Copy the Markups of the generated Slide and Layer Animation Examples and paste it into your own Documents.</p>
-            <div class="tp-smallinfo">Eye Catching Effects!</div>
-
-        </article>
-    </div>
     <div class="clearfix"></div>
 
-    <footer>
-        <div class="footer_inner">
-            <div class="footerwidget">
-                <h3>Slider Revolution</h3>
-                <a href="http://revolution.themepunch.com/jquery/#features" target="_self">Features</a>
-                <a href="http://revolution.themepunch.com/examples-jquery/" target="_self">Usage Examples</a>
-                <a href="http://www.themepunch.com/revsliderjquery-doc/slider-revolution-jquery-5-x-documentation/" target="_blank">Online Documentation</a>
-            </div>
-            <div class="footerwidget">
-                <h3>Resources</h3>
-                <a href="http://www.themepunch.com/support-center/" target="_blank">FAQ Database</a>
-                <a href="http://themepunch.com" target="_blank">ThemePunch.com</a>
-                <a href="http://themepunch.us9.list-manage.com/subscribe?u=a5738148e5ec630766e28de16&amp;id=3e718acc63" target="_blank">Newsletter</a>
-                <a href="http://www.themepunch.com/products/" target="_blank">Plugins</a>
-                <a href="http://www.themepunch.com/products/" target="_blank">Themes</a>
-            </div>
-            <div class="footerwidget">
-                <h3>More Versions</h3>
-                <a href="http://revolution.themepunch.com" target="_blank">WordPress</a>
-                <a href="http://codecanyon.net/item/slider-revolution-responsive-prestashop-module/7140939?ref=themepunch" target="_blank">Prestashop</a>
-                <a href="http://codecanyon.net/item/slider-revolution-responsive-magento-extension/9332896?ref=themepunch" target="_blank">Magento</a>
-                <a href="http://codecanyon.net/item/slider-revolution-responsive-opencart-module/9994648?ref=themepunch" target="_blank">OpenCart</a>
-                <a href="http://codecanyon.net/item/slider-revolution-responsive-drupal-module/12041755?ref=themepunch" target="_blank">Drupal</a>
-            </div>
-            <div class="footerwidget social">
-                <h3>Follow Us</h3>
-                <ul>
-                    <li><a href="https://www.facebook.com/themepunchofficial" target="_blank" class="so_facebook" data-rel="tooltip" data-animation="false" data-placement="bottom" data-original-title="Facebook"><i class="s_icon fa-icon-facebook 
-						"></i></a>
-                    </li>
-                    <li><a href="https://twitter.com/themepunch" target="_blank" class="so_twitter" data-rel="tooltip" data-animation="false" data-placement="bottom" data-original-title="Twitter"><i class="s_icon fa-icon-twitter"></i></a>
-                    </li>
-                    <li><a href="https://plus.google.com/+ThemePunch/posts" target="_blank" class="so_gplus" data-rel="tooltip" data-animation="false" data-placement="bottom" data-original-title="Google+"><i class="s_icon fa-icon-google-plus"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </footer>
- 	<script type="text/javascript" src="../../assets/warning.js"></script>
+ 	<script type="text/javascript" src="/assets/warning.js"></script>
 
 	</body>
 </html>
