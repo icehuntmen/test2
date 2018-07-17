@@ -518,9 +518,9 @@
 						delay:9000,
 						particles: {startSlide: "first", endSlide: "last", zIndex: "6",
 							particles: {
-								number: {value: 100}, color: {value: "#ffffff"},
+								number: {value: 100}, color: {value: "#ff0011"},
 								shape: {
-									type: "circle", stroke: {width: 0, color: "#ffffff", opacity: 1},
+									type: "circle", stroke: {width: 0, color: "#ff1800", opacity: 1},
 									image: {src: ""}
 								},
 								opacity: {value: 1, random: true, min: 0.25, anim: {enable: false, speed: 3, opacity_min: 0, sync: false}},
