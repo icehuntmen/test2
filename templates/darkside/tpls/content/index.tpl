@@ -118,7 +118,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(101,101,101);cursor:pointer;">MAKE A CHOICE </div>
+                                     style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(101,101,101);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </div>
 
 
 
