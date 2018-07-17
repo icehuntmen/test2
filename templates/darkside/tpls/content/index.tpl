@@ -19,47 +19,40 @@
 		<!-- LOADING FONTS AND ICONS -->
 		<link href="http://fonts.googleapis.com/css?family=Poppins:700|Oswald:300" rel="stylesheet" property="stylesheet" type="text/css" media="all">
 		
-		<link rel="stylesheet" type="text/css" href="../../revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-		<link rel="stylesheet" type="text/css" href="../../revolution/fonts/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="/revolution/fonts/font-awesome/css/font-awesome.css">
 		
 		<!-- REVOLUTION STYLE SHEETS -->
-		<link rel="stylesheet" type="text/css" href="../../revolution/css/settings.css">
+		<link rel="stylesheet" type="text/css" href="/revolution/css/settings.css">
 		
 		<!-- FONT AND STYLE FOR BASIC DOCUMENTS, NO NEED FOR FURTHER USAGE IN YOUR PROJECTS-->
 		<link href="http://fonts.googleapis.com/css?family=Roboto%3A700%2C300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-		<link rel="stylesheet" type="text/css" href="../../assets/css/noneed.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/noneed.css">
 		
 		<!-- REVOLUTION JS FILES -->
-		<script type="text/javascript" src="../../revolution/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/jquery.themepunch.revolution.min.js"></script>
 		
 		<!-- PARTICLES ADD-ON FILES -->
-		<link rel='stylesheet' href='../../revolution-addons/particles/css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' />
-		<script type='text/javascript' src='../../revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
+		<link rel='stylesheet' href='/revolution-addons/particles/css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' />
+		<script type='text/javascript' src='/revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
 
 		<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->	
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.actions.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.migration.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="../../revolution/js/extensions/revolution.extension.video.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="/revolution/js/extensions/revolution.extension.video.min.js"></script>
 	</head>
 	
 	<body>
 		
 		<!-- HEADER -->
-		<article class="content">
-			<!-- Add your site or application content here -->
-			<section class="header">
-				<span class="logo" style="float:left"></span>
-				<a class="button" style="float:right" target="_blank" href="http://www.themepunch.com/revsliderjquery-doc/slider-revolution-jquery-5-x-documentation/"><i class="pe-7s-help2"></i>Online Documentation</a>
-				<div class="clearfix"></div>
-			</section>
-		</article>
+
 		
 		<!-- SLIDER EXAMPLE -->
 		<section class="example">
@@ -71,7 +64,7 @@
 		<ul>	<!-- SLIDE  -->
 			<li data-index="rs-32" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 				<!-- MAIN IMAGE -->
-				<img src="../../assets/images/transparent.png" data-bgcolor='#1d2931'' style='background:#1d2931' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+				<img src="/assets/images/transparent.png" data-bgcolor='#1d2931'' style='background:#1d2931' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 				<!-- LAYERS -->
 
 				<!-- LAYER NR. 1 -->
@@ -94,7 +87,7 @@
 					data-paddingbottom="[0,0,0,0]"
 					data-paddingleft="[0,0,0,0]"
 
-					style="z-index: 5;"><img src="../../assets/images/gravity_bg.jpg" alt="" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" width="1920" height="1280" data-no-retina> </div>
+					style="z-index: 5;"><img src="/assets/images/gravity_bg.jpg" alt="" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" width="1920" height="1280" data-no-retina> </div>
 
 				<!-- LAYER NR. 2 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
@@ -211,7 +204,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 10;">
-		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="../../assets/images/galaxy_bg-1.png" alt="" data-ww="['509px','509px','509px','407px']" data-hh="['250px','250px','250px','200px']" width="407" height="200" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="/assets/images/galaxy_bg-1.png" alt="" data-ww="['509px','509px','509px','407px']" data-hh="['250px','250px','250px','200px']" width="407" height="200" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 7 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-2" 
@@ -233,7 +226,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 11;">
-		<div class="rs-looped rs-wave"  data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%"><img src="../../assets/images/gravity_astronaut.png" alt="" data-ww="['820px','718px','615px','410px']" data-hh="['400px','350px','300px','200px']" width="1025" height="500" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%"><img src="/assets/images/gravity_astronaut.png" alt="" data-ww="['820px','718px','615px','410px']" data-hh="['400px','350px','300px','200px']" width="1025" height="500" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 8 -->
 				<a class="tp-caption   tp-resizeme" 
@@ -300,7 +293,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 14;">
-		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="../../assets/images/flake2.png" alt="" data-ww="['29px','29px','29px','29px']" data-hh="['21px','21px','21px','21px']" width="29" height="21" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="/assets/images/flake2.png" alt="" data-ww="['29px','29px','29px','29px']" data-hh="['21px','21px','21px','21px']" width="29" height="21" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 11 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-3" 
@@ -322,7 +315,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 15;">
-		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="../../assets/images/flake5.png" alt="" data-ww="['28px','28px','28px','28px']" data-hh="['27px','27px','27px','27px']" width="28" height="27" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="/assets/images/flake5.png" alt="" data-ww="['28px','28px','28px','28px']" data-hh="['27px','27px','27px','27px']" width="28" height="27" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 12 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-5" 
@@ -344,7 +337,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 16;">
-		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%"><img src="../../assets/images/flake4.png" alt="" data-ww="['26px','26px','26px','26px']" data-hh="['24px','24px','24px','24px']" width="26" height="24" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%"><img src="/assets/images/flake4.png" alt="" data-ww="['26px','26px','26px','26px']" data-hh="['24px','24px','24px','24px']" width="26" height="24" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 13 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-5" 
@@ -366,7 +359,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 17;">
-		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../assets/images/flake3.png" alt="" data-ww="['27px','27px','27px','27px']" data-hh="['26px','26px','26px','26px']" width="27" height="26" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="/assets/images/flake3.png" alt="" data-ww="['27px','27px','27px','27px']" data-hh="['26px','26px','26px','26px']" width="27" height="26" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 14 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-4" 
@@ -388,7 +381,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 18;">
-		<div class="rs-looped rs-wave"  data-speed="6" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="../../assets/images/flake1.png" alt="" data-ww="['13','13','13','13px']" data-hh="12px" width="25" height="24" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="6" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="/assets/images/flake1.png" alt="" data-ww="['13','13','13','13px']" data-hh="12px" width="25" height="24" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 15 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-4" 
@@ -410,7 +403,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 19;">
-		<div class="rs-looped rs-wave"  data-speed="7" data-angle="0" data-radius="6px" data-origin="50% 50%"><img src="../../assets/images/flake3.png" alt="" data-ww="['16px','16px','16px','16px']" data-hh="['15px','15px','15px','15px']" width="27" height="26" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="7" data-angle="0" data-radius="6px" data-origin="50% 50%"><img src="/assets/images/flake3.png" alt="" data-ww="['16px','16px','16px','16px']" data-hh="['15px','15px','15px','15px']" width="27" height="26" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 16 -->
 				<a class="tp-caption   tp-resizeme" 
