@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374760</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:40 +0300</rfc>
+      <utc>2018-06-07T15:32:40+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/backup" val="backup"/>
+    <key path="modules/backup/name" val="backup"/>
+    <key path="modules/backup/title" val="Backups"/>
+    <key path="modules/backup/filename" val="modules/backup/class.php"/>
+    <key path="modules/backup/config" val="1" update="1"/>
+    <key path="modules/backup/default_method" val="temp_method" update="1"/>
+    <key path="modules/backup/default_method_admin" val="snapshots" update="1"/>
+    <key path="modules/backup/max_timelimit" val="30"/>
+    <key path="modules/backup/max_save_actions" val="50"/>
+    <key path="modules/backup/enabled" val="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/backup" name="backup">/classes/modules/backup</directory>
+    <directory path="./classes/components/backup" name="backup">/classes/components/backup</directory>
+    <directory path="./styles/skins/mac/data/modules/backup" name="backup">/styles/skins/mac/data/modules/backup</directory>
+    <directory path="./styles/skins/modern/data/modules/backup" name="backup">/styles/skins/modern/data/modules/backup</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/backup/__custom.php" size="86" ext="php" hash="b1d8c0ab8e2c380e3295f8be3f675932" name="__custom.php" only_install="true">/classes/modules/backup/__custom.php</file>
+    <file path="./classes/modules/backup/permissions.php" size="35" ext="php" hash="d6e200ebb7f9ab8378c4f0fdb3172b73" name="permissions.php">/classes/modules/backup/permissions.php</file>
+    <file path="./classes/modules/backup/lang.php" size="582" ext="php" hash="59cf9be742b1e03f58b228ee9f4a2812" name="lang.php">/classes/modules/backup/lang.php</file>
+    <file path="./classes/modules/backup/__custom_adm.php" size="108" ext="php" hash="33b9ef2c68e68ac6d3c61e853fa8e706" name="__custom_adm.php" only_install="true">/classes/modules/backup/__custom_adm.php</file>
+    <file path="./classes/modules/backup/__admin.php" size="5746" ext="php" hash="c57fe4d11dd6185205d75e6dcacc3c6d" name="__admin.php">/classes/modules/backup/__admin.php</file>
+    <file path="./classes/modules/backup/events.php" size="79" ext="php" hash="845c2e18286645b7a64fd8aa8b5390d7" name="events.php">/classes/modules/backup/events.php</file>
+    <file path="./classes/modules/backup/install.php" size="1743" ext="php" hash="a0913d1ccfa6959e96753fe93c83be6b" name="install.php">/classes/modules/backup/install.php</file>
+    <file path="./classes/modules/backup/i18n.en.php" size="1637" ext="php" hash="ddf19c4d13d66f28b059478174271335" name="i18n.en.php" only_install="true">/classes/modules/backup/i18n.en.php</file>
+    <file path="./classes/modules/backup/class.php" size="1752" ext="php" hash="7fa01065dbf3996c873a5d29c78d4d1e" name="class.php">/classes/modules/backup/class.php</file>
+    <file path="./classes/modules/backup/i18n.php" size="2459" ext="php" hash="1a7aab006e980a5a35126a4aec7c7700" name="i18n.php">/classes/modules/backup/i18n.php</file>
+    <file path="./classes/components/backup/permissions.php" size="95" ext="php" hash="bf5852ebffec1d2525b98b5f1959e390" name="permissions.php">/classes/components/backup/permissions.php</file>
+    <file path="./classes/components/backup/customMacros.php" size="153" ext="php" hash="5e2dea26348b69092d492cc1c69a4aef" name="customMacros.php" only_install="true">/classes/components/backup/customMacros.php</file>
+    <file path="./classes/components/backup/lang.php" size="569" ext="php" hash="ff4ac24e5dd12c7c063edcc2a317e12c" name="lang.php">/classes/components/backup/lang.php</file>
+    <file path="./classes/components/backup/customAdmin.php" size="204" ext="php" hash="bb0fba8863e295604997c47f84230f2c" name="customAdmin.php" only_install="true">/classes/components/backup/customAdmin.php</file>
+    <file path="./classes/components/backup/events.php" size="175" ext="php" hash="f41dcc3c3eddbfc673f83bc36ce8815a" name="events.php">/classes/components/backup/events.php</file>
+    <file path="./classes/components/backup/handlers.php" size="1061" ext="php" hash="9ca502175714eec990f4aa54541ccec1" name="handlers.php">/classes/components/backup/handlers.php</file>
+    <file path="./classes/components/backup/admin.php" size="2543" ext="php" hash="50d8e52f9f811bac5b76c22837f2aefb" name="admin.php">/classes/components/backup/admin.php</file>
+    <file path="./classes/components/backup/install.php" size="1224" ext="php" hash="7f388ecd0613550549c82fd2de51c0c6" name="install.php">/classes/components/backup/install.php</file>
+    <file path="./classes/components/backup/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/backup/includes.php</file>
+    <file path="./classes/components/backup/i18n.en.php" size="1601" ext="php" hash="8d2c398c608eb7d07c7c57c04086c6d4" name="i18n.en.php" only_install="true">/classes/components/backup/i18n.en.php</file>
+    <file path="./classes/components/backup/class.php" size="5763" ext="php" hash="f8be5b6af8585048beb4ceef6ec86a89" name="class.php">/classes/components/backup/class.php</file>
+    <file path="./classes/components/backup/i18n.php" size="2515" ext="php" hash="4e7c825c8e3814b8f3b511e64b49043e" name="i18n.php">/classes/components/backup/i18n.php</file>
+    <file path="./classes/components/backup/lang.en.php" size="453" ext="php" hash="5a2fb2bfc8cdcc51e900890be6b1d974" name="lang.en.php">/classes/components/backup/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/backup/list.view.xsl" size="4105" ext="xsl" hash="a8af9e984dd5f452cd9e27e23c21a43e" name="list.view.xsl">/styles/skins/mac/data/modules/backup/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/backup/settings.modify.xsl" size="4483" ext="xsl" hash="609ec91c04d069b233e7b464cbe14847" name="settings.modify.xsl">/styles/skins/mac/data/modules/backup/settings.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/backup/list.view.xsl" size="4939" ext="xsl" hash="cf01ab0184fece5da67fdd9dcde5ba1a" name="list.view.xsl">/styles/skins/modern/data/modules/backup/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/backup/settings.modify.xsl" size="5713" ext="xsl" hash="3613620885d848b5245c7fa8958ef64f" name="settings.modify.xsl">/styles/skins/modern/data/modules/backup/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

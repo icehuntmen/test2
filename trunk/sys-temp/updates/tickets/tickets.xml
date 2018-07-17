@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374765</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:45 +0300</rfc>
+      <utc>2018-06-07T15:32:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/tickets" val="tickets"/>
+    <key path="modules/tickets/name" val="tickets"/>
+    <key path="modules/tickets/filename" val="modules/tickets/class.php"/>
+    <key path="modules/tickets/config" val="0" update="1"/>
+    <key path="modules/tickets/ico" val="ico_tickets"/>
+    <key path="modules/tickets/default_method" val="" update="1"/>
+    <key path="modules/tickets/default_method_admin" val="tickets" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/tickets" name="tickets">/classes/modules/tickets</directory>
+    <directory path="./classes/components/tickets" name="tickets">/classes/components/tickets</directory>
+    <directory path="./styles/skins/modern/data/modules/tickets" name="tickets">/styles/skins/modern/data/modules/tickets</directory>
+    <directory path="./styles/skins/mac/data/modules/tickets" name="tickets">/styles/skins/mac/data/modules/tickets</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/tickets/__custom.php" size="275" ext="php" hash="e2c47a2e6ab01ccfec1b2ceb2c2d2a6f" name="__custom.php" only_install="true">/classes/modules/tickets/__custom.php</file>
+    <file path="./classes/modules/tickets/permissions.php" size="98" ext="php" hash="bcb5bd5c5e4140c3869bb2a05e715687" name="permissions.php">/classes/modules/tickets/permissions.php</file>
+    <file path="./classes/modules/tickets/lang.php" size="72" ext="php" hash="7aa2e20f985858f1286fdd635052e4f1" name="lang.php">/classes/modules/tickets/lang.php</file>
+    <file path="./classes/modules/tickets/__custom_adm.php" size="371" ext="php" hash="af639813f7c03e5027eeeb5b692ffbf5" name="__custom_adm.php" only_install="true">/classes/modules/tickets/__custom_adm.php</file>
+    <file path="./classes/modules/tickets/__admin.php" size="4172" ext="php" hash="ab4ad003b5338517595cee98c2292529" name="__admin.php">/classes/modules/tickets/__admin.php</file>
+    <file path="./classes/modules/tickets/events.php" size="431" ext="php" hash="81eb341817406e2d1eeba510ff5db7dc" name="events.php">/classes/modules/tickets/events.php</file>
+    <file path="./classes/modules/tickets/install.php" size="880" ext="php" hash="e757164f871931838760f3c9501772d6" name="install.php">/classes/modules/tickets/install.php</file>
+    <file path="./classes/modules/tickets/i18n.en.php" size="304" ext="php" hash="28e87cbfb32658eb1710c334e150fb7c" name="i18n.en.php" only_install="true">/classes/modules/tickets/i18n.en.php</file>
+    <file path="./classes/modules/tickets/__events.php" size="1815" ext="php" hash="dc3b0f06a6df09a26b14058232cd5226" name="__events.php">/classes/modules/tickets/__events.php</file>
+    <file path="./classes/modules/tickets/class.php" size="9858" ext="php" hash="fb8f0f9c57e15a4a38d57ab70673ec67" name="class.php">/classes/modules/tickets/class.php</file>
+    <file path="./classes/modules/tickets/i18n.php" size="457" ext="php" hash="d42823765281eadc631036839c743e42" name="i18n.php">/classes/modules/tickets/i18n.php</file>
+    <file path="./classes/modules/tickets/lang.en.php" size="63" ext="php" hash="fea8a1958531af883a351895e26f29e4" name="lang.en.php">/classes/modules/tickets/lang.en.php</file>
+    <file path="./classes/components/tickets/permissions.php" size="226" ext="php" hash="ad4e9330dab85865014aa0b8556ad42d" name="permissions.php">/classes/components/tickets/permissions.php</file>
+    <file path="./classes/components/tickets/customMacros.php" size="155" ext="php" hash="ae76c42d9a123a6341e73c6351f881d1" name="customMacros.php" only_install="true">/classes/components/tickets/customMacros.php</file>
+    <file path="./classes/components/tickets/lang.php" size="145" ext="php" hash="7537a3176d777a96940b174617e96572" name="lang.php">/classes/components/tickets/lang.php</file>
+    <file path="./classes/components/tickets/customAdmin.php" size="199" ext="php" hash="3e3d7226d433994967bc84e6d35c783b" name="customAdmin.php" only_install="true">/classes/components/tickets/customAdmin.php</file>
+    <file path="./classes/components/tickets/events.php" size="429" ext="php" hash="53340ba453c913ed989cc84875361dcf" name="events.php">/classes/components/tickets/events.php</file>
+    <file path="./classes/components/tickets/handlers.php" size="1811" ext="php" hash="2012d1707c94fe75d7ccc4dd8b256050" name="handlers.php">/classes/components/tickets/handlers.php</file>
+    <file path="./classes/components/tickets/admin.php" size="3902" ext="php" hash="40d5e9f416aff4a7a4777cf8fe975dbd" name="admin.php">/classes/components/tickets/admin.php</file>
+    <file path="./classes/components/tickets/install.php" size="1117" ext="php" hash="f05bd4f7a9b2f4c017dcfa72475f8b8f" name="install.php">/classes/components/tickets/install.php</file>
+    <file path="./classes/components/tickets/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/tickets/includes.php</file>
+    <file path="./classes/components/tickets/i18n.en.php" size="525" ext="php" hash="6ba5871b02a62b86c5503378a0d6ba2e" name="i18n.en.php" only_install="true">/classes/components/tickets/i18n.en.php</file>
+    <file path="./classes/components/tickets/class.php" size="10306" ext="php" hash="87fa12d9dad6c7230f170d7faa0407c5" name="class.php">/classes/components/tickets/class.php</file>
+    <file path="./classes/components/tickets/i18n.php" size="731" ext="php" hash="61581957c4a3556ebfa476f21b970e23" name="i18n.php">/classes/components/tickets/i18n.php</file>
+    <file path="./classes/components/tickets/lang.en.php" size="142" ext="php" hash="a015452f6dc6215152c3a62bfee7b6b6" name="lang.en.php">/classes/components/tickets/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/tickets/list.view.xsl" size="1275" ext="xsl" hash="a42c0bdad0cc0960d68015b2142a5c0f" name="list.view.xsl">/styles/skins/modern/data/modules/tickets/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/tickets/list.view.xsl" size="604" ext="xsl" hash="914e83a75d346ae3d5076ec4831de399" name="list.view.xsl">/styles/skins/mac/data/modules/tickets/list.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

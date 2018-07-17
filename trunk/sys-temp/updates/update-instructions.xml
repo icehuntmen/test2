@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package branch="release" last-revision="85083" client-revision="0" generated="1531808415" domain_key="0D2B6B8F0E6-D445EC25B3D-57761C22BB7" ip="62.173.154.170" host="test2.mauris.site" edition="commerce" support_time="2018-11-24 10:28:41" owner_fname="Александр" owner_lname="Хантер" owner_mname="." owner_email="alexander@mauris.me">
+  <component name="core" label="Ядро" filesize="60026880" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="events" label="События" filesize="133120" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="menu" label="Меню" filesize="204800" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="news" label="Новости" filesize="194560" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="content" label="Структура" filesize="768000" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="blogs20" label="Блоги 2.0" filesize="512000" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="forum" label="Форум" filesize="481280" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="comments" label="Комментарии" filesize="399360" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="vote" label="Опросы" filesize="163840" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="webforms" label="Конструктор форм" filesize="266240" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="photoalbum" label="Фотогалереи" filesize="419840" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="faq" label="FAQ" filesize="430080" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="dispatches" label="Рассылки" filesize="552960" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="catalog" label="Каталог" filesize="2324480" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="emarket" label="Интернет-магазин" filesize="2529280" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="banners" label="Баннеры" filesize="245760" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="users" label="Пользователи" filesize="665600" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="stat" label="Статистика" filesize="1843200" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="seo" label="SEO" filesize="286720" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="exchange" label="Обмен данными" filesize="194560" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="social_networks" label="Социальные сети" filesize="112640" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="config" label="Конфигурация" filesize="327680" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="tickets" label="Заметки" filesize="81920" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="data" label="Шаблоны данных" filesize="808960" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="autoupdate" label="Автообновления" filesize="143360" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="backup" label="Резервирование" filesize="92160" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="search" label="Поиск" filesize="276480" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="filemanager" label="Файловая система" filesize="102400" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="umiRedirects" label="Редиректы (umi)" filesize="102400" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="umiSliders" label="Слайдеры" filesize="174080" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="umiNotifications" label="Шаблоны писем" filesize="61440" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="umiSettings" label="Настройки сайта" filesize="61440" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+  <component name="appointment" label="Онлайн-запись" filesize="327680" is_extension="0" downloaded="1" extracted="1" checked="1" installed="1" manifest-executed="1">
+    <version name="18" date="1528374836" revision="85083"/>
+  </component>
+</package>

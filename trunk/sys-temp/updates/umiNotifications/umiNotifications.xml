@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374766</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:46 +0300</rfc>
+      <utc>2018-06-07T15:32:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/umiNotifications" val="umiNotifications"/>
+    <key path="modules/umiNotifications/default_method" val="empty" update="1"/>
+    <key path="modules/umiNotifications/default_method_admin" val="notifications" update="1"/>
+    <key path="modules/umiNotifications/config" val="0" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/umiNotifications" name="umiNotifications">/classes/modules/umiNotifications</directory>
+    <directory path="./classes/components/umiNotifications" name="umiNotifications">/classes/components/umiNotifications</directory>
+    <directory path="./styles/skins/modern/data/modules/umiNotifications" name="umiNotifications">/styles/skins/modern/data/modules/umiNotifications</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/umiNotifications/i18n.en.php" size="219" ext="php" hash="9ded39d956fe9f2cb69b73a21f0a035a" name="i18n.en.php" only_install="true">/classes/modules/umiNotifications/i18n.en.php</file>
+    <file path="./classes/modules/umiNotifications/class.php" size="1006" ext="php" hash="9f6f5657cca3bc09ebfb8c6923324825" name="class.php">/classes/modules/umiNotifications/class.php</file>
+    <file path="./classes/modules/umiNotifications/i18n.php" size="242" ext="php" hash="0b14d08eeb7213df995d5814fd06dd0c" name="i18n.php">/classes/modules/umiNotifications/i18n.php</file>
+    <file path="./classes/components/umiNotifications/macros.php" size="205" ext="php" hash="5c3cbcc538b6f08fe4e646bca64bbbcf" name="macros.php">/classes/components/umiNotifications/macros.php</file>
+    <file path="./classes/components/umiNotifications/permissions.php" size="232" ext="php" hash="f6f31ee080d06b1ae16048576ac59266" name="permissions.php">/classes/components/umiNotifications/permissions.php</file>
+    <file path="./classes/components/umiNotifications/customMacros.php" size="174" ext="php" hash="31dc65af310b06fd45818564cab612b0" name="customMacros.php" only_install="true">/classes/components/umiNotifications/customMacros.php</file>
+    <file path="./classes/components/umiNotifications/lang.php" size="162" ext="php" hash="bc2fc1f359f4dfd4464e0af32b72bcb8" name="lang.php">/classes/components/umiNotifications/lang.php</file>
+    <file path="./classes/components/umiNotifications/customAdmin.php" size="218" ext="php" hash="ade23310537dfa80d5fbf4f37aa85fc0" name="customAdmin.php" only_install="true">/classes/components/umiNotifications/customAdmin.php</file>
+    <file path="./classes/components/umiNotifications/handlers.php" size="70" ext="php" hash="2cccc3844ba891a3863b55953d32cfd7" name="handlers.php">/classes/components/umiNotifications/handlers.php</file>
+    <file path="./classes/components/umiNotifications/admin.php" size="11228" ext="php" hash="70e36df52ceb53abc78847d3ea39239a" name="admin.php">/classes/components/umiNotifications/admin.php</file>
+    <file path="./classes/components/umiNotifications/install.php" size="1480" ext="php" hash="ce9d9ab9c35de2ea84b7d11260a366de" name="install.php">/classes/components/umiNotifications/install.php</file>
+    <file path="./classes/components/umiNotifications/includes.php" size="70" ext="php" hash="2cccc3844ba891a3863b55953d32cfd7" name="includes.php">/classes/components/umiNotifications/includes.php</file>
+    <file path="./classes/components/umiNotifications/i18n.en.php" size="2118" ext="php" hash="5a6a871de13eaa804c21a8c4507a2198" name="i18n.en.php" only_install="true">/classes/components/umiNotifications/i18n.en.php</file>
+    <file path="./classes/components/umiNotifications/class.php" size="2021" ext="php" hash="bcd0b875854fc5111b92e9b2edad4127" name="class.php">/classes/components/umiNotifications/class.php</file>
+    <file path="./classes/components/umiNotifications/i18n.php" size="2779" ext="php" hash="91aa18b1b54fb74481eae27018a18bc5" name="i18n.php">/classes/components/umiNotifications/i18n.php</file>
+    <file path="./classes/components/umiNotifications/lang.en.php" size="145" ext="php" hash="37ac02b65be3caca17f68d585b99e9bd" name="lang.en.php">/classes/components/umiNotifications/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/umiNotifications/list.view.xsl" size="1941" ext="xsl" hash="e7525f220ada884cfbaad5e68c8e6aea" name="list.view.xsl">/styles/skins/modern/data/modules/umiNotifications/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiNotifications/form.modify.xsl" size="3289" ext="xsl" hash="e7d560e9205c7a30f2e4a78373997fa6" name="form.modify.xsl">/styles/skins/modern/data/modules/umiNotifications/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiNotifications/settings.modify.xsl" size="672" ext="xsl" hash="cf9ab5b6bc3970a547d389a6df141f24" name="settings.modify.xsl">/styles/skins/modern/data/modules/umiNotifications/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

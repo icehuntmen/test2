@@ -1,0 +1,342 @@
+; Настройки системы
+[system]
+db-driver = mysql
+default-skin = "modern"
+skins[] = "mac"
+skins[] = "modern"
+interface-langs[] = "ru"
+interface-langs[] = "en"
+default-date-format = "Y-m-d H:i:s"
+time-zone = "Europe/Moscow"
+default-currency = "RUR"
+eip.fake-delete = "0"
+use-old-templater = "1"
+transliterate-uploaded-files = "1"
+clean-eip-attributes = "0"
+allow-object-editing = "1" ;можно ли администраторам редактировать элементы справочника, созданные не ими
+parse-macroses-in-comments="0"; Если parse-macroses-in-comments="1", то в html-комментариях будут выполнятся макросы.
+quota-uploads = "0"
+default-exchange-encoding = "windows-1251"
+server-protocol = "http"
+compatible-modules  = "1" ;Переключить в режим совместимых модулей
+gateways[] = "module-method" ;кастомные шлюзы для метода cmsController::isGateway()
+use-php-template-data-cleaning = "0" ; Использовать очищение (упрощение) данных для php шаблона.
+use-only-base-client-variables = "0" ; Использовать только базовые данные о текущей странице для шаблонизации.
+suppress-exceptions-in-php-macros = "0" ; Подавлять исключения в php-шаблонизаторе для вызываемых макросов
+return-array-from-macros-execution = "0" ; Возвращать данные исполнения макроса в виде массива для php-шаблонизатора
+admin-wysiwyg-version = "tinymce47" ; Версия визуального редактора tinyMCE для административной панели
+
+; Настройки ядра
+[kernel]
+property-value-mode = "" ; XML_PROP_VALUE_MODE
+xslt-nested-menu = 1 ;XLST_NESTED_MENU
+;selection-max-joins = -1 ; MAX_SELECTION_TABLE_JOINS = 10
+selection-max-joins = -1
+cluster-cache-correction = 0 ; CLUSTER_CACHE_CORRECTION
+grab-all-keyword = "mode=all"
+use-reflection-extension = 0
+cluster-cache-correction = 0
+ignore-module-names-overwrite = 0 ; IGNORE_MODULE_NAMES_OVERWRITE
+pages-auto-index = 1 ;
+import-auto-index = 0
+import-csv-reset-value = "0"
+enable-pre-auth = 1
+xml-format-output = 1 ; XML_FORMAT_OUTPUT
+matches-enabled = 1 ; enable or disable matches subsystems (also presented as umaps:// scheme)
+xml-macroses-disable = 0
+; если xml-macroses-disable = 1, можно задать массив доступных макросов
+xml-macroses.allowed[] = 'content/get_page_url'
+show-broken-macro = 1
+send-additional-status-header = 1
+use-ip-blacklist-guide = "0"; использовать ли справочник с черными списком id адресов
+ip-blacklist = ''
+max-guided-items = 50
+jpg-through-gd = 1;
+show-generate-time = 1;
+csrf_protection = 1;
+objects-props-cash-size = "100"; количество объектов, для которых можно хранить в кеше все значения всех их полей
+ignore-permissions-in-filter = "1"
+inner-img-to-attachment = "1"; прикреплять ли к письму изображения, встречающиеся в теле письма
+umi-file-download-mode="apache" ;переключает реализацию скачивания файла в зависимости от сервера. (apache/nginx)
+mysql-queries-log-enable = "0" ;включает логгирование запросов к MySQL
+mysql-queries-log-type = "Test" ;тип логгера запросов к MySQL
+search-min-word-length = 3
+search-in-any-part-of-string = 0
+order-guide-items-by-id = "0" ;сортировать элементы справочника по id, а не по названию
+expired-objects-limit = 50
+objects-expiration-time = "86400"
+
+; Настройки сессии
+[session]
+cookie-lifetime = "1209600" ; секунды
+cookie-path = "/"
+cookie-domain = ""
+cookie-secure-flag = "0"
+cookie-http-flag = "1"
+active-lifetime = "60" ; минуты
+name = "PHPSESSID"
+
+; Настройки режима отладки
+[debug]
+enabled = 0
+;filter.ip[] = "127.0.0.1"
+;allowed-ip[] = "178.16.152.254"
+;allowed-ip[] = "85.114.7.174"
+show-backtrace = "0" ; Показывать backtrace ошибки
+callstack.disabled = "0" ; Выключен сбор стека вызовов (showStreamsCalls)
+log-exceptions = "0" ; Вести лог неперехваченных исключений в errors-logs-path
+
+; Настройки подключения к базе данных
+[connections]
+core.type = mysql	; Тип подключения (сейчас доступем только "mysql")
+
+core.host = "%db-core-host%"	; Хост
+core.login = "%db-core-login%"		; Логин
+core.password = "%db-core-password%"	; Пароль
+core.dbname = "%db-core-name%"	; Имя базы данных
+core.port = "%db-core-port%"	; Порт
+core.persistent = 0	; Постоянное соединение
+core.compression = 0	; Использовать сжатие при передачи данных между БД и системой
+core.api = "mysql" ; API для коннекта с базой в php. Варианты: "mysql" и "mysqli"
+
+[streams]
+enable[] = "udata"
+enable[] = "utype"
+enable[] = "upage"
+enable[] = "uobject"
+enable[] = "ufs"
+enable[] = "usel"
+enable[] = "umap"
+enable[] = "uhttp"
+enable[] = "ulang"
+enable[] = "umess"
+
+udata.http.allow = 1
+;uobject.http.allow = 1
+;uobject.http.permissions = "all"
+upage.http.allow = 1
+umess.http.allow = 1
+;usel.http.allow = 1
+;uhttp.http.allow = 1
+;ufs.http.allow = 1
+udata.http.extended.allow = "0"
+
+user-agent = "UMI.CMS libxml agent"
+
+[includes]
+system.kernel = "~/classes/system/"
+system.kernel.streams = "~/classes/system/subsystems/streams/"
+system.default-module = "~/classes/modules/"
+system.modules = "~/classes/modules/"
+system.virtual-modules = "~/classes/modules/"
+system.libs = "~/libs/"
+system.manifest = "~/sys-temp/manifest/"
+system.runtime-cache = "~/sys-temp/runtime-cache/"
+system.static-cache = "~/sys-temp/static-cache/"
+system.error = "~/errors/"
+system.stub = "~/errors/stub.php"
+templates.skins = "~/styles/skins/{skin}/"
+templates.tpl = "~/tpls/"
+templates.xsl = "~/xsltTpls/"
+mysql-queries-log = "~/queries.log"
+user-files-path = "~/files"
+user-images-path = "~/images"
+errors-logs-path = "~/errors/logs"
+sys-temp-path = "~/sys-temp"
+sys-log-path = "~/sys-temp/logs"
+no-image-holder = "~/images/cms/no_image.png" ;изображение заглушка для битых файлов
+
+;Расширения автозагрузки классов
+[autoload]
+;className[] = "filePath"
+
+; Настройки кеширования системы
+[cache]
+engine = "none"				          ; Текущий кеширующий механизм
+engine.debug = "0"				      ; Включение/выключение режима отладки динамического кеширования
+streams.cache-enabled = 1		      ; Включение/выключение кеширования протоколов
+streams.cache-lifetime = 3600	      ; Время жизни кеша протоколов в секундах
+filter.ip[] = ""				      ; Фильтр по ip для кеша. Если зайти с указанного ip, то данные не будут загружаться из кеша.
+key-validator="BlackList"             ; Валидатор ключей кеша WhiteList/BlackList/MixedList
+whitelist[] = ""                      ; Вхождения в ключи, которые нужно кешировать
+blacklist[] = "appointment/getAppointmentsData"
+blacklist[] = "appointment/postAppointment"
+blacklist[] = "emarket/basket"
+blacklist[] = "emarket/purchase"
+blacklist[] = "emarket/getCompareList"
+blacklist[] = "emarket/ordersList"
+blacklist[] = "emarket/compare"
+blacklist[] = "emarket/getCompareList"
+blacklist[] = "emarket/purchasing_one_step"
+blacklist[] = "emarket/price"
+blacklist[] = "ApiShip"
+blacklist[] = "emarket/getOrderDeliveryAddress"
+blacklist[] = "blogs20/postEdit"
+blacklist[] = "blogs20/postAdd"
+blacklist[] = "blogs20/commentAdd"
+blacklist[] = "blogs20/itemDelete"
+blacklist[] = "blogs20/editUserBlogs"
+blacklist[] = "comments/post"
+blacklist[] = "comments/comment"
+blacklist[] = "dispatches/subscribe"
+blacklist[] = "dispatches/subscribe_do"
+blacklist[] = "dispatches/unsubscribe"
+blacklist[] = "filemanager/download"
+blacklist[] = "forum/message"
+blacklist[] = "forum/topic_post"
+blacklist[] = "forum/message_post"
+blacklist[] = "forum/topic_post_do"
+blacklist[] = "forum/message_post_do"
+blacklist[] = "faq/addQuestionForm"
+blacklist[] = "faq/post_question"
+blacklist[] = "system/includeEditInPlaceJs"
+blacklist[] = "system/numpages"
+blacklist[] = "system/listErrorMessage"
+blacklist[] = "system/captcha"
+blacklist[] = "search/search_do"
+blacklist[] = "search/insert_form"
+blacklist[] = "tickets/manage"
+blacklist[] = "content/getRecentPages"
+blacklist[] = "content/getMobileModesList"
+blacklist[] = "content/ieditor"
+blacklist[] = "content/getImageData"
+blacklist[] = "users/settings"
+blacklist[] = "users/activate"
+blacklist[] = "users/registrate_done"
+blacklist[] = "users/restore"
+blacklist[] = "users/forget_do/"
+blacklist[] = "users/login_do/"
+blacklist[] = "users/loadUserSettings/"
+blacklist[] = "users/saveUserSettings/"
+blacklist[] = "data/getEditForm"
+blacklist[] = "data/getCreateForm"
+blacklist[] = "vote/post"
+blacklist[] = "vote/poll"
+blacklist[] = "vote/results"
+blacklist[] = "webforms/posted"
+blacklist[] = "webforms/send"
+blacklist[] = "core/navibar"
+blacklist[] = "dispatches/subscribe_do"
+blacklist[] = "includeQuickEditJs"
+blacklist[] = "includeFrontendResources"
+redis.host = "localhost"
+redis.port = "6379"
+redis.base = "1"
+redis.auth =
+memcache.host = "localhost"
+memcache.port = "11211"
+memcache.compress = "0"
+memcached.host = "localhost"
+memcached.port = "11211"
+static.enabled = "0"				  ; Включение/выключение статического кеширования
+static.mode = "normal"			      ; Режим работы статического кеширования
+static.debug = "0"				      ; Включить режим отладки статического кеша
+static.cache-for-mobile-devices = "1" ; Включить разделение сохранения статического кеша для мобильных версий шаблонов
+browser.engine = "None"               ; Реализация браузерного кеширования
+browser.cache-control = "private"     ; Опция управления директивой ответа заголовка Cache-Control
+browser.expires.time-to-live = "86400"; Время жизни кеша для заголовка Expires
+
+; Настройки страницы-заглушки
+[stub]
+enabled = 0
+;filter.ip[] = "127.0.0.1"
+;filter.ip[] = "192.168.0.100"
+
+
+[seo]
+alt-name-separator = "-"
+url-suffix = "/"
+url-suffix.add = "1"
+watch-redirects-history = 1
+crawl-delay = 3
+index-redirect = "1" ; Редирект на главную при запросе index.php
+primary-domain-redirect = 0
+primary-www = 0
+
+[mail]
+engine = "phpMail" ; Возможные значения: phpMail, smtp и nullEngine
+smtp.timeout = "" ; Время в секунду
+smtp.host = ""
+smtp.port = ""
+smtp.encryption = "" ; Возможные значения ssl, tls и auto
+smtp.auth = "" ; Возможные значения 1 и 0
+smtp.user-name = "" ; Используется если smtp.auth = 1
+smtp.password = "" ; Используется если smtp.auth = 1
+smtp.debug = "" ; Возможные значения 1 и 0, если 1 - отправка может кидать исключения и пишет лог в /sys-temp/logs/smtp
+smtp.use-verp = "" ; Возможные значения 1 и 0
+
+[anti-spam]
+service.enabled = 0
+service.name = "akisment"
+akisment.wp-api-key = "6317fd125041";
+
+captcha.enabled = 1
+captcha.drawer = "default"
+
+[messages]
+catch-system-events = 0
+
+[modules]
+emarket.numbers = "default"
+emarket.currency.sync.source = "http://www.cbr.ru/scripts/XML_daily.asp"
+emarket.currency.sync.xsl = "cbr2internal.xsl"
+emarket.compare.max-items = 3
+emarket.popular.max-items = 30
+emarket.reindex.max-items = 10
+emarket.order-types.optioned.groups[] = "catalog_option_props"
+emarket.customer-expiration-time = "2678400"
+exchange.splitter.limit = 25
+exchange.export.limit = 25
+exchange.commerceML.timeout = 0
+exchange.commerceML.splitter = "commerceML2"
+exchange.commerceML.renameFiles = 1
+exchange.commerceML.maxFileSize = 102400
+exchange.commerceML.accept-zip = "0"; принимать при синхронизации 1С архив c сжатыми файлами
+exchange.commerceML.ordersByDomains = 0
+exchange.commerceML.ordersLimit = 150
+exchange.translator.1c_price_type_id = "3c49a673-e8ba-11de-adfb-000c297d6967"
+exchange.translator.catalog_rubric_activity = 0
+exchange.translator.catalog_item_activity = 1
+exchange.translator.catalog_rubric_visible = 1
+exchange.translator.catalog_item_visible = 0
+exchange.translator.catalog_item_template = ""
+exchange.translator.catalog_rubric_template = ""
+banners.disable-update-optimization = 1
+users.calculate-last-request-time = "0"; вычислять ли время последнего обращения для авторизованного пользователя
+social_network.check-parents = "0"
+catalog.allow-auto-update-filter-index = "1";
+catalog.index.limit = "25"
+catalog.index.advanced-mode = "1"
+catalog.reindex-on-cron-event-enable = "0"
+content.recent-pages.max-items = 100
+search.allow-virtual-copies = "1"
+geoip.service.blacklist[] = "" ; список имен заблокированных сервисов определения гео локации по ip
+
+[edit-in-place]
+allowed-types[] = "content::page <- *"
+allowed-types[] = "news::rubric <- *"
+allowed-types[] = "news::item <- news::rubric"
+allowed-types[] = "catalog::category <- *"
+allowed-types[] = "catalog::object <- catalog::category"
+allowed-types[] = "faq::project <- *"
+allowed-types[] = "faq::category <- faq::project"
+allowed-types[] = "faq::question <- faq::category"
+allowed-types[] = "forum::conf <- *"
+allowed-types[] = "forum::topic <- forum::conf"
+allowed-types[] = "filemanager::shared_file <- *"
+allowed-types[] = "photoalbum::album <- *"
+allowed-types[] = "photoalbum::photo <- photoalbum::album"
+allowed-types[] = "blogs20::blog <- *"
+allowed-types[] = "blogs20::post <- blogs20::blog"
+theme = "~/styles/skins/_eip/css/theme.css"
+wysiwyg = "tinymce47" ; Версия визуального редактора tinyMCE для EIP
+
+[casual-skins]
+_eip[] = "content::eip_add_page"
+
+[templates]
+social_networks.vkontakte = "1"
+
+[updates]
+update-database-by-parts = "1"
+db-scheme-converter-iteration-limit = "10000"

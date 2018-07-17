@@ -1,0 +1,6 @@
+body#tinymce, body#tinymce td, body#tinymce pre {
+    color: #000;
+    margin: 8px;
+    font-family: "Segoe UI", Arial, Tahoma;
+    font-size: 14px;
+}

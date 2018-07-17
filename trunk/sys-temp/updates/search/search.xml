@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374760</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:40 +0300</rfc>
+      <utc>2018-06-07T15:32:40+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/search" val="search"/>
+    <key path="modules/search/name" val="search"/>
+    <key path="modules/search/filename" val="modules/search/class.php"/>
+    <key path="modules/search/default_method" val="search_do" update="1"/>
+    <key path="modules/search/default_method_admin" val="index_control" update="1"/>
+    <key path="modules/search/per_page" val="10"/>
+    <key path="modules/search/one_iteration_index" val="5"/>
+    <key path="modules/search/config" val="1" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/search" name="search">/classes/modules/search</directory>
+    <directory path="./classes/modules/search/sphinx" name="sphinx">/classes/modules/search/sphinx</directory>
+    <directory path="./classes/components/search" name="search">/classes/components/search</directory>
+    <directory path="./classes/components/search/manifest" name="manifest">/classes/components/search/manifest</directory>
+    <directory path="./classes/components/search/manifest/actions" name="actions">/classes/components/search/manifest/actions</directory>
+    <directory path="./styles/skins/mac/data/modules/search" name="search">/styles/skins/mac/data/modules/search</directory>
+    <directory path="./styles/skins/modern/data/modules/search" name="search">/styles/skins/modern/data/modules/search</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/search/sphinx/sphinxapi.php" size="46871" ext="php" hash="5ec5b1fa9df8e95a180736eb3eb9a30f" name="sphinxapi.php">/classes/modules/search/sphinx/sphinxapi.php</file>
+    <file path="./classes/modules/search/sphinx/SphinxIndexGenerator.php" size="10586" ext="php" hash="0a815a32bdccab9aa938ed0f78ef0d8d" name="SphinxIndexGenerator.php">/classes/modules/search/sphinx/SphinxIndexGenerator.php</file>
+    <file path="./classes/modules/search/__custom.php" size="81" ext="php" hash="af017efd0a2b67bdb2637ebbf8b65b61" name="__custom.php" only_install="true">/classes/modules/search/__custom.php</file>
+    <file path="./classes/modules/search/permissions.php" size="256" ext="php" hash="eb2eeb485a398fcbf21cc2ed9da6932a" name="permissions.php">/classes/modules/search/permissions.php</file>
+    <file path="./classes/modules/search/lang.php" size="2049" ext="php" hash="2d65457a80613263c6232b4589850599" name="lang.php">/classes/modules/search/lang.php</file>
+    <file path="./classes/modules/search/__custom_adm.php" size="108" ext="php" hash="934645d0881c770cb302c4bf45c86037" name="__custom_adm.php" only_install="true">/classes/modules/search/__custom_adm.php</file>
+    <file path="./classes/modules/search/__admin.php" size="28491" ext="php" hash="c4b63acfb718fb71adf4d3fff57261f2" name="__admin.php">/classes/modules/search/__admin.php</file>
+    <file path="./classes/modules/search/install.php" size="2178" ext="php" hash="b5d970548797fa49dde7196ae59c929e" name="install.php">/classes/modules/search/install.php</file>
+    <file path="./classes/modules/search/i18n.en.php" size="4083" ext="php" hash="325619aad62f0fed3159ab3d25a497d3" name="i18n.en.php" only_install="true">/classes/modules/search/i18n.en.php</file>
+    <file path="./classes/modules/search/class.php" size="17569" ext="php" hash="1c18bdca5acfd91f5855117497db9894" name="class.php">/classes/modules/search/class.php</file>
+    <file path="./classes/modules/search/i18n.php" size="6005" ext="php" hash="724a56794af8777400597249a999b4b4" name="i18n.php">/classes/modules/search/i18n.php</file>
+    <file path="./classes/modules/search/lang.en.php" size="1003" ext="php" hash="4cf84721209f2b3d7d5ff3607165ccdb" name="lang.en.php">/classes/modules/search/lang.en.php</file>
+    <file path="./classes/components/search/macros.php" size="10115" ext="php" hash="5e1c41011493cec2e41dab92d13bc6b5" name="macros.php">/classes/components/search/macros.php</file>
+    <file path="./classes/components/search/permissions.php" size="422" ext="php" hash="ccba36da524113593b1fc565ae6417b5" name="permissions.php">/classes/components/search/permissions.php</file>
+    <file path="./classes/components/search/customMacros.php" size="198" ext="php" hash="4514dc54c8422a95d35acb721c21d6f5" name="customMacros.php" only_install="true">/classes/components/search/customMacros.php</file>
+    <file path="./classes/components/search/lang.php" size="2135" ext="php" hash="ad4d3f8d514683bc05ce82f5e650be21" name="lang.php">/classes/components/search/lang.php</file>
+    <file path="./classes/components/search/manifest/install.xml" size="314" ext="xml" hash="470c4f6770f5ca5825b3caa13f96a697" name="install.xml">/classes/components/search/manifest/install.xml</file>
+    <file path="./classes/components/search/manifest/actions/DeleteIndex.php" size="863" ext="php" hash="b90903d424668d41b0f88df26c82e482" name="DeleteIndex.php">/classes/components/search/manifest/actions/DeleteIndex.php</file>
+    <file path="./classes/components/search/manifest/actions/SearchIndexing.php" size="2148" ext="php" hash="7381718c8d94987374392467c8d6a234" name="SearchIndexing.php">/classes/components/search/manifest/actions/SearchIndexing.php</file>
+    <file path="./classes/components/search/manifest/update.xml" size="313" ext="xml" hash="8b47bea5a03c3e650b1334a5634947ae" name="update.xml">/classes/components/search/manifest/update.xml</file>
+    <file path="./classes/components/search/customAdmin.php" size="204" ext="php" hash="b642f9f52757994d46976d6ea6aae0e3" name="customAdmin.php" only_install="true">/classes/components/search/customAdmin.php</file>
+    <file path="./classes/components/search/sphinx.php" size="7714" ext="php" hash="fc51a4b26621adb8f42c2a62e3c1ed8e" name="sphinx.php">/classes/components/search/sphinx.php</file>
+    <file path="./classes/components/search/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/search/handlers.php</file>
+    <file path="./classes/components/search/admin.php" size="22841" ext="php" hash="a94bfe17d51cea85fe963ebf933286fd" name="admin.php">/classes/components/search/admin.php</file>
+    <file path="./classes/components/search/install.php" size="1243" ext="php" hash="ba185a9a709f6068cf66bc1adda439b7" name="install.php">/classes/components/search/install.php</file>
+    <file path="./classes/components/search/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/search/includes.php</file>
+    <file path="./classes/components/search/i18n.en.php" size="4339" ext="php" hash="7b5298117ce63d8e2b28059cef3bc3ce" name="i18n.en.php" only_install="true">/classes/components/search/i18n.en.php</file>
+    <file path="./classes/components/search/class.php" size="8861" ext="php" hash="f242c26fb5a5361ce550994c5c25598a" name="class.php">/classes/components/search/class.php</file>
+    <file path="./classes/components/search/i18n.php" size="6353" ext="php" hash="dc785fc4d4d13006eedc7a9690b4f30d" name="i18n.php">/classes/components/search/i18n.php</file>
+    <file path="./classes/components/search/lang.en.php" size="1310" ext="php" hash="80c30bad67cbb340bfcbefeefb1cedfd" name="lang.en.php">/classes/components/search/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/search/settings.view.xsl" size="3166" ext="xsl" hash="f24a9eb6367f8753048369717ea807c7" name="settings.view.xsl">/styles/skins/mac/data/modules/search/settings.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/search/settings-sphinx.xsl" size="3162" ext="xsl" hash="9ec3753bc295898b5a0d0b946dc5e5e7" name="settings-sphinx.xsl">/styles/skins/mac/data/modules/search/settings-sphinx.xsl</file>
+    <file path="./styles/skins/mac/data/modules/search/settings.modify.xsl" size="2153" ext="xsl" hash="d7d0daaf0a278c5d97e728eb6243cbb8" name="settings.modify.xsl">/styles/skins/mac/data/modules/search/settings.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/search/list.view.xsl" size="10809" ext="xsl" hash="8b8a4e55c3347a6b38c4a8b79af3c67f" name="list.view.xsl">/styles/skins/modern/data/modules/search/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/search/settings.view.xsl" size="5224" ext="xsl" hash="cd2986aebce117be54341271332e4e23" name="settings.view.xsl">/styles/skins/modern/data/modules/search/settings.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/search/settings-sphinx.xsl" size="3803" ext="xsl" hash="af7a0bb4740a8256d888eae458076cdc" name="settings-sphinx.xsl">/styles/skins/modern/data/modules/search/settings-sphinx.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

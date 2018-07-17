@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374765</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:45 +0300</rfc>
+      <utc>2018-06-07T15:32:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/social_networks" val="social_networks"/>
+    <key path="modules/social_networks/version" val="1"/>
+    <key path="modules/social_networks/name" val="social_networks"/>
+    <key path="modules/social_networks/title" val="Интеграция с социальными сетями"/>
+    <key path="modules/social_networks/filename" val="modules/social_networks/class.php"/>
+    <key path="modules/social_networks/config" val="0" update="1"/>
+    <key path="modules/social_networks/ico" val="ico_social_networks"/>
+    <key path="modules/social_networks/default_method" val="vkontakte" update="1"/>
+    <key path="modules/social_networks/default_method_admin" val="vkontakte" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/social_networks" name="social_networks">/classes/modules/social_networks</directory>
+    <directory path="./classes/modules/social_networks/classes" name="classes">/classes/modules/social_networks/classes</directory>
+    <directory path="./classes/modules/social_networks/classes/networks" name="networks">/classes/modules/social_networks/classes/networks</directory>
+    <directory path="./classes/components/social_networks" name="social_networks">/classes/components/social_networks</directory>
+    <directory path="./classes/components/social_networks/classes" name="classes">/classes/components/social_networks/classes</directory>
+    <directory path="./classes/components/social_networks/classes/networks" name="networks">/classes/components/social_networks/classes/networks</directory>
+    <directory path="./styles/skins/mac/data/modules/social_networks" name="social_networks">/styles/skins/mac/data/modules/social_networks</directory>
+    <directory path="./styles/skins/modern/data/modules/social_networks" name="social_networks">/styles/skins/modern/data/modules/social_networks</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/social_networks/__custom.php" size="95" ext="php" hash="53a241db2216eb2c02538d1b2fb4263c" name="__custom.php" only_install="true">/classes/modules/social_networks/__custom.php</file>
+    <file path="./classes/modules/social_networks/permissions.php" size="122" ext="php" hash="86d98a5d41bf9e48773e418c38b93248" name="permissions.php">/classes/modules/social_networks/permissions.php</file>
+    <file path="./classes/modules/social_networks/lang.php" size="426" ext="php" hash="ae01aa6ff8448f69c6851c5dd6ea7de0" name="lang.php">/classes/modules/social_networks/lang.php</file>
+    <file path="./classes/modules/social_networks/__custom_adm.php" size="117" ext="php" hash="932107a18957d866ebdabc7dd33d931c" name="__custom_adm.php" only_install="true">/classes/modules/social_networks/__custom_adm.php</file>
+    <file path="./classes/modules/social_networks/__admin.php" size="1291" ext="php" hash="bb5d2f8d97ac777c4fe69e693d1317e2" name="__admin.php">/classes/modules/social_networks/__admin.php</file>
+    <file path="./classes/modules/social_networks/events.php" size="13" ext="php" hash="ee471f3f62757b69a621aea29dfaa94d" name="events.php">/classes/modules/social_networks/events.php</file>
+    <file path="./classes/modules/social_networks/classes/network.php" size="4164" ext="php" hash="125d27b228180beb480961718df09d01" name="network.php">/classes/modules/social_networks/classes/network.php</file>
+    <file path="./classes/modules/social_networks/classes/networks/facebook.php" size="77" ext="php" hash="14536ea2f19c703b1fd1d71428554d9e" name="facebook.php">/classes/modules/social_networks/classes/networks/facebook.php</file>
+    <file path="./classes/modules/social_networks/classes/networks/vkontakte.php" size="947" ext="php" hash="c23a1a0e67ea36263d88355ef92a48f9" name="vkontakte.php">/classes/modules/social_networks/classes/networks/vkontakte.php</file>
+    <file path="./classes/modules/social_networks/install.php" size="564" ext="php" hash="2c7af178d4fee7025c0b70d7dead97d5" name="install.php">/classes/modules/social_networks/install.php</file>
+    <file path="./classes/modules/social_networks/includes.php" size="119" ext="php" hash="c6fbd923e383bca6eb65978bd41e03b8" name="includes.php">/classes/modules/social_networks/includes.php</file>
+    <file path="./classes/modules/social_networks/i18n.en.php" size="372" ext="php" hash="d1d1307baff381f9a40b19436c4a595c" name="i18n.en.php" only_install="true">/classes/modules/social_networks/i18n.en.php</file>
+    <file path="./classes/modules/social_networks/class.php" size="6594" ext="php" hash="f22d9c2308d23400a47315cc5b691e77" name="class.php">/classes/modules/social_networks/class.php</file>
+    <file path="./classes/modules/social_networks/i18n.php" size="482" ext="php" hash="e82a2ed7482dd5a4944d9a41f56a40d0" name="i18n.php">/classes/modules/social_networks/i18n.php</file>
+    <file path="./classes/components/social_networks/autoload.php" size="98" ext="php" hash="43af56710c369a681b21aeba7fc0d1e7" name="autoload.php">/classes/components/social_networks/autoload.php</file>
+    <file path="./classes/components/social_networks/permissions.php" size="218" ext="php" hash="1bb134af43d1815cfbd6369a27930665" name="permissions.php">/classes/components/social_networks/permissions.php</file>
+    <file path="./classes/components/social_networks/customMacros.php" size="168" ext="php" hash="4524dda63a97f905d6ccc21211478a59" name="customMacros.php" only_install="true">/classes/components/social_networks/customMacros.php</file>
+    <file path="./classes/components/social_networks/lang.php" size="496" ext="php" hash="153f7ef697247bbb2a9d9f3de790b751" name="lang.php">/classes/components/social_networks/lang.php</file>
+    <file path="./classes/components/social_networks/customAdmin.php" size="219" ext="php" hash="3ab6a4ee2372e7128f3f35b9a787da7f" name="customAdmin.php" only_install="true">/classes/components/social_networks/customAdmin.php</file>
+    <file path="./classes/components/social_networks/classes/network.php" size="5548" ext="php" hash="0134187691d9d7c8c151bbde397ac7a7" name="network.php">/classes/components/social_networks/classes/network.php</file>
+    <file path="./classes/components/social_networks/classes/networks/vkontakte.php" size="1099" ext="php" hash="a8625cdfac266827bccbfb1e708d9fda" name="vkontakte.php">/classes/components/social_networks/classes/networks/vkontakte.php</file>
+    <file path="./classes/components/social_networks/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/social_networks/handlers.php</file>
+    <file path="./classes/components/social_networks/admin.php" size="2001" ext="php" hash="3cc4a9f9d4ebcc00fe0d10407de555cf" name="admin.php">/classes/components/social_networks/admin.php</file>
+    <file path="./classes/components/social_networks/install.php" size="1213" ext="php" hash="d5d159a77475df71e55dfe0da250f47b" name="install.php">/classes/components/social_networks/install.php</file>
+    <file path="./classes/components/social_networks/includes.php" size="73" ext="php" hash="f0228d7892d162545902bc293e45e61e" name="includes.php">/classes/components/social_networks/includes.php</file>
+    <file path="./classes/components/social_networks/i18n.en.php" size="525" ext="php" hash="0983c0e08d3c48d054fe6d291cb07986" name="i18n.en.php" only_install="true">/classes/components/social_networks/i18n.en.php</file>
+    <file path="./classes/components/social_networks/class.php" size="8216" ext="php" hash="8a0ce5414be8ffc1f9ba53a87f40ebab" name="class.php">/classes/components/social_networks/class.php</file>
+    <file path="./classes/components/social_networks/i18n.php" size="645" ext="php" hash="947fc26c2a75e3cc033e8972eeb96c0b" name="i18n.php">/classes/components/social_networks/i18n.php</file>
+    <file path="./classes/components/social_networks/lang.en.php" size="375" ext="php" hash="ac38131fc5d02c4ee624d36847e5766a" name="lang.en.php">/classes/components/social_networks/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/social_networks/form.modify.xsl" size="3193" ext="xsl" hash="fb85651bd478926f0ef67f852f6e60eb" name="form.modify.xsl">/styles/skins/mac/data/modules/social_networks/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/social_networks/form.modify.xsl" size="4496" ext="xsl" hash="d6f44e47a411573e6547f7975c0a4252" name="form.modify.xsl">/styles/skins/modern/data/modules/social_networks/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="Статус страницы" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="Свойства статуса страницы" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="id статуса" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="Раздел сайта" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta description" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="822" guid="social_networks-network" title="Социальные сети" parent-id="{root-pages-type}" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="social_networks" method="network">Социальные сети</base>
+      <fieldgroups>
+        <group name="network_system_props" title="Служебные свойства" visible="visible" active="active">
+          <field id="9350" name="social_id" title="Идентификатор социальной сети" visible="visible" required="required" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9380" name="template_id" title="Идентификатор шаблона" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9381" name="domain_id" title="Домен" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="823" guid="social_networks-network-vkontakte" title="Vkontakte" parent-id="822" domain-id="0" locked="locked">
+      <base module="social_networks" method="vkontakte">Вконтакте</base>
+      <fieldgroups>
+        <group name="props" title="Свойства" visible="visible" locked="locked" active="active">
+          <field id="9351" name="nazvanie_sajta" title="Название сайта" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9349" name="is_iframe_enabled" title="Включить отображение" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="9347" name="iframe_pages" title="Разделы сайта" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+            <tip>Здесь в дополнение к разделам каталога, можно выбрать, какие страницы нужно показывать в социальной сети</tip>
+          </field>
+        </group>
+        <group name="pages" title="Разделы сайта" visible="visible" locked="locked" active="active"/>
+        <group name="network_system_props" title="Служебные свойства" visible="visible" active="active">
+          <field id="9350" name="social_id" title="Идентификатор социальной сети" visible="visible" required="required" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9380" name="template_id" title="Идентификатор шаблона" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9381" name="domain_id" title="Домен" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <tip>Настройки интеграции интернет-магазина с социальными сетями</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="27915" guid="social_networks-network-27915" name="&quot;В контакте&quot;" type-id="823" type-guid="social_networks-network-vkontakte" ownerId="14" locked="1" xlink:href="uobject://27915" install-only="1">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="9351" object-id="27915" name="nazvanie_sajta" type="string" is-important="0">
+            <title>Название сайта</title>
+            <value>Демонстрационный магазин UMI.CMS</value>
+          </property>
+          <property id="9349" object-id="27915" name="is_iframe_enabled" type="boolean" is-important="0">
+            <title>Включить отображение</title>
+            <value>1</value>
+          </property>
+        </group>
+        <group name="network_system_props">
+          <title>Служебные свойства</title>
+          <property id="9350" object-id="27915" name="social_id" type="string" is-important="0">
+            <title>Идентификатор социальной сети</title>
+            <value>vkontakte</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27085" guid="25ec3f9da5444fe6a125910137ec28200d4eaaa8" name="Опубликован" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27085" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27085" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_publish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27086" guid="8a6f804b3690f0592a3f17ed980a9df5f16bacd8" name="Снят с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27086" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27086" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_unpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27087" guid="f4df5d14f5a1aeeebfe3db75b73e57fef8bcc4f2" name="Готовится к снятию с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27087" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27087" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_preunpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

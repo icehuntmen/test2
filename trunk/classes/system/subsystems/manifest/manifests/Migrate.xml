@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<route>
+		<transaction name="MigrateObjectType">
+			<action name="UmiCms\Manifest\Migrate\Object\Type\Hierarchy\TruncateRelationTable" />
+			<action name="UmiCms\Manifest\Migrate\Object\Type\Hierarchy\FillRelationTable" />
+		</transaction>
+	</route>
+</manifest>

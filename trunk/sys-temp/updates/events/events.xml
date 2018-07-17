@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374765</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:45 +0300</rfc>
+      <utc>2018-06-07T15:32:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/events" val="events"/>
+    <key path="modules/events/name" val="events"/>
+    <key path="modules/events/title" val="Events"/>
+    <key path="modules/events/description" val="Events"/>
+    <key path="modules/events/filename" val="modules/events/class.php"/>
+    <key path="modules/events/config" val="1" update="1"/>
+    <key path="modules/events/ico" val="ico_events"/>
+    <key path="modules/events/default_method" val="getUserSettings" update="1"/>
+    <key path="modules/events/default_method_admin" val="last" update="1"/>
+    <key path="modules/events/max-days-storing-events" val="30"/>
+    <key path="modules/events/collect-events" val="0"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/events" name="events">/classes/modules/events</directory>
+    <directory path="./classes/components/events" name="events">/classes/components/events</directory>
+    <directory path="./styles/skins/mac/data/modules/events" name="events">/styles/skins/mac/data/modules/events</directory>
+    <directory path="./styles/skins/modern/data/modules/events" name="events">/styles/skins/modern/data/modules/events</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/events/__custom.php" size="84" ext="php" hash="012ef4964721353a64a2446e1614d535" name="__custom.php" only_install="true">/classes/modules/events/__custom.php</file>
+    <file path="./classes/modules/events/permissions.php" size="155" ext="php" hash="110b930050ae2ce7aaea4b9bb8ea7d6e" name="permissions.php">/classes/modules/events/permissions.php</file>
+    <file path="./classes/modules/events/lang.php" size="168" ext="php" hash="26b56d46fdb8277a5b7be0339df73972" name="lang.php">/classes/modules/events/lang.php</file>
+    <file path="./classes/modules/events/__custom_adm.php" size="108" ext="php" hash="cfb2f6290aa40a1fe9afc8ca8b040c65" name="__custom_adm.php" only_install="true">/classes/modules/events/__custom_adm.php</file>
+    <file path="./classes/modules/events/__admin.php" size="7279" ext="php" hash="2964c61b5d5ee7a4a14f880a220cb15f" name="__admin.php">/classes/modules/events/__admin.php</file>
+    <file path="./classes/modules/events/events.php" size="1481" ext="php" hash="c4a9e9fe2b53864edd251b9deaf534f2" name="events.php">/classes/modules/events/events.php</file>
+    <file path="./classes/modules/events/custom_events.php" size="10" ext="php" hash="14e24a38b5ee0bac2396cd0dbf288060" name="custom_events.php">/classes/modules/events/custom_events.php</file>
+    <file path="./classes/modules/events/__events_handlers.php" size="10320" ext="php" hash="fadea5bc85d2ba7d65a5450f08c54545" name="__events_handlers.php">/classes/modules/events/__events_handlers.php</file>
+    <file path="./classes/modules/events/install.php" size="770" ext="php" hash="48988061aba037784725049e06189d3f" name="install.php">/classes/modules/events/install.php</file>
+    <file path="./classes/modules/events/i18n.en.php" size="4784" ext="php" hash="770e52a77cfc136cb56b192323d2601c" name="i18n.en.php" only_install="true">/classes/modules/events/i18n.en.php</file>
+    <file path="./classes/modules/events/class.php" size="3930" ext="php" hash="1f374c5950a716da1bda36c5b5e44270" name="class.php">/classes/modules/events/class.php</file>
+    <file path="./classes/modules/events/i18n.php" size="6500" ext="php" hash="241a93b5ccf124cf32f21e374781f602" name="i18n.php">/classes/modules/events/i18n.php</file>
+    <file path="./classes/components/events/permissions.php" size="307" ext="php" hash="c434cc0520c29aff893c71c4445cb94e" name="permissions.php">/classes/components/events/permissions.php</file>
+    <file path="./classes/components/events/customMacros.php" size="153" ext="php" hash="a043cadb17730c1d76c439cfc93b8ddc" name="customMacros.php" only_install="true">/classes/components/events/customMacros.php</file>
+    <file path="./classes/components/events/lang.php" size="235" ext="php" hash="12a25a1eb0868394d4601a80ea48c5d5" name="lang.php">/classes/components/events/lang.php</file>
+    <file path="./classes/components/events/customAdmin.php" size="204" ext="php" hash="028dc8dc0285056080fb683dc52f4d4f" name="customAdmin.php" only_install="true">/classes/components/events/customAdmin.php</file>
+    <file path="./classes/components/events/events.php" size="1493" ext="php" hash="cc26a3094ab2131f560fa0c933c4c722" name="events.php">/classes/components/events/events.php</file>
+    <file path="./classes/components/events/handlers.php" size="15616" ext="php" hash="cc0a7da23063d39fc15bcf00548a458b" name="handlers.php">/classes/components/events/handlers.php</file>
+    <file path="./classes/components/events/admin.php" size="8777" ext="php" hash="a73c1f3ce2e0e9c940ba3455e7e3c369" name="admin.php">/classes/components/events/admin.php</file>
+    <file path="./classes/components/events/install.php" size="1127" ext="php" hash="56a28cd0855c672a7a5b479e5b073988" name="install.php">/classes/components/events/install.php</file>
+    <file path="./classes/components/events/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/events/includes.php</file>
+    <file path="./classes/components/events/i18n.en.php" size="4746" ext="php" hash="4aca369142fe417526f67fcee3fd42ee" name="i18n.en.php" only_install="true">/classes/components/events/i18n.en.php</file>
+    <file path="./classes/components/events/class.php" size="4290" ext="php" hash="5230d4ef6daed3dc116bdf128744a248" name="class.php">/classes/components/events/class.php</file>
+    <file path="./classes/components/events/i18n.php" size="6629" ext="php" hash="9657aa26827065356cba74b9349bec3e" name="i18n.php">/classes/components/events/i18n.php</file>
+    <file path="./classes/components/events/lang.en.php" size="232" ext="php" hash="397e466859dfa6c9d0264401325860b4" name="lang.en.php">/classes/components/events/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/events/settings.view.xsl" size="5969" ext="xsl" hash="326855d6a6e270b089937239c8c3886c" name="settings.view.xsl">/styles/skins/mac/data/modules/events/settings.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/events/settings.view.xsl" size="8969" ext="xsl" hash="6a2ab3e9cdf8c3dfa2ca346e3eae4288" name="settings.view.xsl">/styles/skins/modern/data/modules/events/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

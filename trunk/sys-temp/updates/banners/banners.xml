@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374761</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:41 +0300</rfc>
+      <utc>2018-06-07T15:32:41+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/banners" val="banners"/>
+    <key path="modules/banners/name" val="banners"/>
+    <key path="modules/banners/filename" val="banners/class.php"/>
+    <key path="modules/banners/config" val="1" update="1"/>
+    <key path="modules/banners/default_method" val="insert_banner" update="1"/>
+    <key path="modules/banners/default_method_admin" val="lists" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/banners" name="banners">/classes/modules/banners</directory>
+    <directory path="./classes/components/banners" name="banners">/classes/components/banners</directory>
+    <directory path="./styles/skins/mac/data/modules/banners" name="banners">/styles/skins/mac/data/modules/banners</directory>
+    <directory path="./styles/skins/modern/data/modules/banners" name="banners">/styles/skins/modern/data/modules/banners</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/banners/__custom.php" size="86" ext="php" hash="613abfcefdf11b1cc7b412a5a179d667" name="__custom.php" only_install="true">/classes/modules/banners/__custom.php</file>
+    <file path="./classes/modules/banners/permissions.php" size="248" ext="php" hash="2e4024fbe7620b20acd266e9d7c53d37" name="permissions.php">/classes/modules/banners/permissions.php</file>
+    <file path="./classes/modules/banners/lang.php" size="971" ext="php" hash="bd54c10e64e021aa21276d4c1b3a6cc5" name="lang.php">/classes/modules/banners/lang.php</file>
+    <file path="./classes/modules/banners/__custom_adm.php" size="109" ext="php" hash="725f3b03e9aab1db517e50e6b24d1f9b" name="__custom_adm.php" only_install="true">/classes/modules/banners/__custom_adm.php</file>
+    <file path="./classes/modules/banners/__places.php" size="547" ext="php" hash="fc04d5fadcee3b59638636674e26a024" name="__places.php">/classes/modules/banners/__places.php</file>
+    <file path="./classes/modules/banners/__admin.php" size="1452" ext="php" hash="c02a8552c8575a0a8f9404e9b804ccb4" name="__admin.php">/classes/modules/banners/__admin.php</file>
+    <file path="./classes/modules/banners/forms.php" size="11431" ext="php" hash="bc0df144ea67b17789bc4442ec1b9980" name="forms.php">/classes/modules/banners/forms.php</file>
+    <file path="./classes/modules/banners/__banners.php" size="4601" ext="php" hash="8e7c169c34618687375af7764cbd5924" name="__banners.php">/classes/modules/banners/__banners.php</file>
+    <file path="./classes/modules/banners/install.php" size="1139" ext="php" hash="e759e6339358219b74e03dde325dec08" name="install.php">/classes/modules/banners/install.php</file>
+    <file path="./classes/modules/banners/i18n.en.php" size="1534" ext="php" hash="e4d71aba63c32a9e46728fcf45f4de5b" name="i18n.en.php" only_install="true">/classes/modules/banners/i18n.en.php</file>
+    <file path="./classes/modules/banners/class.php" size="33681" ext="php" hash="789c44744070b7f9f7f9fc7498d540a9" name="class.php">/classes/modules/banners/class.php</file>
+    <file path="./classes/modules/banners/i18n.php" size="2234" ext="php" hash="946d6a7509b1aa7b579e922fae38738b" name="i18n.php">/classes/modules/banners/i18n.php</file>
+    <file path="./classes/components/banners/macros.php" size="23076" ext="php" hash="1aba0260214b1b57c8353d7b568289fc" name="macros.php">/classes/components/banners/macros.php</file>
+    <file path="./classes/components/banners/permissions.php" size="470" ext="php" hash="152551afb9460d6d3cae425f199a4783" name="permissions.php">/classes/components/banners/permissions.php</file>
+    <file path="./classes/components/banners/customMacros.php" size="155" ext="php" hash="c4254f0b2470bea008a897a73044617d" name="customMacros.php" only_install="true">/classes/components/banners/customMacros.php</file>
+    <file path="./classes/components/banners/lang.php" size="1050" ext="php" hash="9bb8f329011a8beb47d3dde3a7df339d" name="lang.php">/classes/components/banners/lang.php</file>
+    <file path="./classes/components/banners/customAdmin.php" size="204" ext="php" hash="0840b21054b88065cfade5ed4e733c10" name="customAdmin.php" only_install="true">/classes/components/banners/customAdmin.php</file>
+    <file path="./classes/components/banners/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/banners/handlers.php</file>
+    <file path="./classes/components/banners/admin.php" size="8781" ext="php" hash="6e662cde617fe6bc248a7e464cbb535d" name="admin.php">/classes/components/banners/admin.php</file>
+    <file path="./classes/components/banners/install.php" size="1143" ext="php" hash="3ccd0bba46a5abdcc6ad87f44ff139ef" name="install.php">/classes/components/banners/install.php</file>
+    <file path="./classes/components/banners/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/banners/includes.php</file>
+    <file path="./classes/components/banners/i18n.en.php" size="2281" ext="php" hash="0debb910a731929dbbcf3779e1942863" name="i18n.en.php" only_install="true">/classes/components/banners/i18n.en.php</file>
+    <file path="./classes/components/banners/class.php" size="14656" ext="php" hash="d50322d633fef2b7cc4cd0f091d42ebc" name="class.php">/classes/components/banners/class.php</file>
+    <file path="./classes/components/banners/i18n.php" size="3114" ext="php" hash="1a0b3a8680a4095f8f68576c2c8a8059" name="i18n.php">/classes/components/banners/i18n.php</file>
+    <file path="./classes/components/banners/lang.en.php" size="744" ext="php" hash="24fca97e2573a8ec2ae902d26197bcff" name="lang.en.php">/classes/components/banners/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/banners/list.view.xsl" size="1215" ext="xsl" hash="ea4327d6fa8abb99c15d8b6a5204d477" name="list.view.xsl">/styles/skins/mac/data/modules/banners/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/form.modify.xsl" size="2144" ext="xsl" hash="5ef92ad6d05b5dc1d365a2aa9f32f22b" name="form.modify.xsl">/styles/skins/mac/data/modules/banners/form.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/list.modify.xsl" size="2284" ext="xsl" hash="62ca9460d235cc38c713ccac214a7635" name="list.modify.xsl">/styles/skins/mac/data/modules/banners/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/settings.modify.xsl" size="486" ext="xsl" hash="89a9d5f5060c7e6b6b1e7cfa02f3de54" name="settings.modify.xsl">/styles/skins/mac/data/modules/banners/settings.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/list.view.xsl" size="1710" ext="xsl" hash="ad7b569ed0ec41ab7da8d7ffbde47672" name="list.view.xsl">/styles/skins/modern/data/modules/banners/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/form.modify.xsl" size="2222" ext="xsl" hash="7e6fc9fecb5f3fdaadde0671582a2ea5" name="form.modify.xsl">/styles/skins/modern/data/modules/banners/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/list.modify.xsl" size="3197" ext="xsl" hash="aa46314898f9d15eee11f46c748b7963" name="list.modify.xsl">/styles/skins/modern/data/modules/banners/list.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/banners/settings.modify.xsl" size="507" ext="xsl" hash="fedd473a8353125bbd31934890683ed5" name="settings.modify.xsl">/styles/skins/modern/data/modules/banners/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="671" guid="banners-place" title="Места показов баннеров" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base module="banners" method="place">Место показа баннера</base>
+      <fieldgroups>
+        <group name="common_props" title="Общие свойства" visible="visible" locked="locked" active="active">
+          <field id="8789" name="id" title="ID" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8790" name="descr" title="Описание" visible="visible" locked="locked" important="important">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8839" name="is_show_rand_banner" title="Показ случайного баннера" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="739" guid="sytem-citylist" title="Список городов" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="5" guid="banners-banner" title="Баннер" parent-id="0" domain-id="0" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked" important="important">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки баннера</tip>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="Настройки отображения" visible="visible" active="active">
+          <field id="9454" name="priority" title="Приоритет" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="672" guid="banners-banner-image" title="Баннер с картинкой" parent-id="5" domain-id="0" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked" important="important">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки баннера</tip>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8799" name="image" title="Изображение" visible="visible" locked="locked" important="important">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="8802" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8803" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8804" name="alt" title="Альтернативный текст" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <tip>Графические настройки баннера</tip>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="Настройки отображения" visible="visible" active="active">
+          <field id="9454" name="priority" title="Приоритет" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="674" guid="banners-banner-swf-quality" title="Качество флешки" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="props" title="Свойства" visible="visible" active="active">
+          <field id="8808" name="quality_value" title="Значение" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="673" guid="banners-banner-swf" title="Баннер с флешкой" parent-id="5" domain-id="0" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked" important="important">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8805" name="swf" title="Флеш-ролик" visible="visible" locked="locked" important="important">
+            <type name="Флеш-ролик" data-type="swf_file"/>
+          </field>
+          <field id="8806" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8807" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8809" name="swf_quality" title="Качество ролика" visible="visible" locked="locked" guide-id="674">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Графические настройки баннера</tip>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="Настройки отображения" visible="visible" active="active">
+          <field id="9454" name="priority" title="Приоритет" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="675" guid="banners-banner-html" title="Баннер с HTML" parent-id="5" domain-id="0" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked" important="important">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки баннера</tip>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8810" name="html_content" title="HTML-содержание" visible="visible" locked="locked" important="important">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <tip>Содержимое баннера</tip>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки перехода с баннера</tip>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Статистика и ограничения баннера</tip>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671" important="important">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <tip>Где будет отображаться баннер</tip>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Таргетинг показов баннера по временным параметрам</tip>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_settings" title="Настройки отображения" visible="visible" active="active">
+          <field id="9454" name="priority" title="Приоритет" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <tip>Настройки отображения баннера</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="26905" guid="sytem-citylist-26905" name="Москва" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26905" install-only="1"/>
+    <object id="26906" guid="sytem-citylist-26906" name="Санкт-Петербург" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26906" install-only="1"/>
+    <object id="26907" guid="sytem-citylist-26907" name="Новосибирск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26907" install-only="1"/>
+    <object id="26908" guid="sytem-citylist-26908" name="Екатеринбург" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26908" install-only="1"/>
+    <object id="26909" guid="sytem-citylist-26909" name="Нижний Новгород" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26909" install-only="1"/>
+    <object id="26910" guid="sytem-citylist-26910" name="Самара" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26910" install-only="1"/>
+    <object id="26911" guid="sytem-citylist-26911" name="Омск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26911" install-only="1"/>
+    <object id="26912" guid="sytem-citylist-26912" name="Казань" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26912" install-only="1"/>
+    <object id="26913" guid="sytem-citylist-26913" name="Челябинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26913" install-only="1"/>
+    <object id="26914" guid="sytem-citylist-26914" name="Ростов-на-Дону" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26914" install-only="1"/>
+    <object id="26915" guid="sytem-citylist-26915" name="Уфа" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26915" install-only="1"/>
+    <object id="26916" guid="sytem-citylist-26916" name="Пермь" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26916" install-only="1"/>
+    <object id="26917" guid="sytem-citylist-26917" name="Волгоград" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26917" install-only="1"/>
+    <object id="26918" guid="sytem-citylist-26918" name="Красноярск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26918" install-only="1"/>
+    <object id="26919" guid="sytem-citylist-26919" name="Саратов" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26919" install-only="1"/>
+    <object id="26920" guid="sytem-citylist-26920" name="Воронеж" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26920" install-only="1"/>
+    <object id="26921" guid="sytem-citylist-26921" name="Краснодар" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26921" install-only="1"/>
+    <object id="26922" guid="sytem-citylist-26922" name="Тольятти" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26922" install-only="1"/>
+    <object id="26923" guid="sytem-citylist-26923" name="Ижевск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26923" install-only="1"/>
+    <object id="26924" guid="sytem-citylist-26924" name="Ульяновск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26924" install-only="1"/>
+    <object id="26925" guid="sytem-citylist-26925" name="Ярославль" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26925" install-only="1"/>
+    <object id="26926" guid="sytem-citylist-26926" name="Барнаул" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26926" install-only="1"/>
+    <object id="26927" guid="sytem-citylist-26927" name="Владивосток" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26927" install-only="1"/>
+    <object id="26928" guid="sytem-citylist-26928" name="Хабаровск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26928" install-only="1"/>
+    <object id="26929" guid="sytem-citylist-26929" name="Иркутск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26929" install-only="1"/>
+    <object id="26930" guid="sytem-citylist-26930" name="Новокузнецк" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26930" install-only="1"/>
+    <object id="26931" guid="sytem-citylist-26931" name="Тюмень" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26931" install-only="1"/>
+    <object id="26932" guid="sytem-citylist-26932" name="Оренбург" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26932" install-only="1"/>
+    <object id="26933" guid="sytem-citylist-26933" name="Кемерово" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26933" install-only="1"/>
+    <object id="26934" guid="sytem-citylist-26934" name="Рязань" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26934" install-only="1"/>
+    <object id="26935" guid="sytem-citylist-26935" name="Пенза" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26935" install-only="1"/>
+    <object id="26936" guid="sytem-citylist-26936" name="Набережные Челны" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26936" install-only="1"/>
+    <object id="26937" guid="sytem-citylist-26937" name="Тула" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26937" install-only="1"/>
+    <object id="26938" guid="sytem-citylist-26938" name="Липецк" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26938" install-only="1"/>
+    <object id="26939" guid="sytem-citylist-26939" name="Астрахань" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26939" install-only="1"/>
+    <object id="26940" guid="sytem-citylist-26940" name="Томск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26940" install-only="1"/>
+    <object id="26941" guid="sytem-citylist-26941" name="Махачкала" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26941" install-only="1"/>
+    <object id="26942" guid="sytem-citylist-26942" name="Киров" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26942" install-only="1"/>
+    <object id="26943" guid="sytem-citylist-26943" name="Чебоксары" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26943" install-only="1"/>
+    <object id="26944" guid="sytem-citylist-26944" name="Калининград" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26944" install-only="1"/>
+    <object id="26945" guid="sytem-citylist-26945" name="Брянск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26945" install-only="1"/>
+    <object id="26946" guid="sytem-citylist-26946" name="Магнитогорск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26946" install-only="1"/>
+    <object id="26947" guid="sytem-citylist-26947" name="Иваново" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26947" install-only="1"/>
+    <object id="26948" guid="sytem-citylist-26948" name="Курск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26948" install-only="1"/>
+    <object id="26949" guid="sytem-citylist-26949" name="Тверь" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26949" install-only="1"/>
+    <object id="26950" guid="sytem-citylist-26950" name="Нижний Тагил" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26950" install-only="1"/>
+    <object id="26951" guid="sytem-citylist-26951" name="Ставрополь" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26951" install-only="1"/>
+    <object id="26952" guid="sytem-citylist-26952" name="Архангельск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26952" install-only="1"/>
+    <object id="26953" guid="sytem-citylist-26953" name="Белгород" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26953" install-only="1"/>
+    <object id="26954" guid="sytem-citylist-26954" name="Улан-Удэ" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26954" install-only="1"/>
+    <object id="26955" guid="sytem-citylist-26955" name="Владимир" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26955" install-only="1"/>
+    <object id="26956" guid="sytem-citylist-26956" name="Сочи" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26956" install-only="1"/>
+    <object id="26957" guid="sytem-citylist-26957" name="Калуга" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26957" install-only="1"/>
+    <object id="26958" guid="sytem-citylist-26958" name="Курган" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26958" install-only="1"/>
+    <object id="26959" guid="sytem-citylist-26959" name="Орёл" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26959" install-only="1"/>
+    <object id="26960" guid="sytem-citylist-26960" name="Смоленск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26960" install-only="1"/>
+    <object id="26961" guid="sytem-citylist-26961" name="Мурманск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26961" install-only="1"/>
+    <object id="26962" guid="sytem-citylist-26962" name="Владикавказ" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26962" install-only="1"/>
+    <object id="26963" guid="sytem-citylist-26963" name="Череповец" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26963" install-only="1"/>
+    <object id="26964" guid="sytem-citylist-26964" name="Волжский" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26964" install-only="1"/>
+    <object id="26965" guid="sytem-citylist-26965" name="Чита" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26965" install-only="1"/>
+    <object id="26966" guid="sytem-citylist-26966" name="Саранск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26966" install-only="1"/>
+    <object id="26967" guid="sytem-citylist-26967" name="Сургут" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26967" install-only="1"/>
+    <object id="26968" guid="sytem-citylist-26968" name="Вологда" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26968" install-only="1"/>
+    <object id="26969" guid="sytem-citylist-26969" name="Тамбов" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26969" install-only="1"/>
+    <object id="26970" guid="sytem-citylist-26970" name="Кострома" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26970" install-only="1"/>
+    <object id="26971" guid="sytem-citylist-26971" name="Комсомольск-на-Амуре" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26971" install-only="1"/>
+    <object id="26972" guid="sytem-citylist-26972" name="Нальчик" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26972" install-only="1"/>
+    <object id="26973" guid="sytem-citylist-26973" name="Петрозаводск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26973" install-only="1"/>
+    <object id="26974" guid="sytem-citylist-26974" name="Стерлитамак" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26974" install-only="1"/>
+    <object id="26975" guid="sytem-citylist-26975" name="Таганрог" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26975" install-only="1"/>
+    <object id="26976" guid="sytem-citylist-26976" name="Братск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26976" install-only="1"/>
+    <object id="26977" guid="sytem-citylist-26977" name="Дзержинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26977" install-only="1"/>
+    <object id="26978" guid="sytem-citylist-26978" name="Йошкар-Ола" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26978" install-only="1"/>
+    <object id="26979" guid="sytem-citylist-26979" name="Орск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26979" install-only="1"/>
+    <object id="26980" guid="sytem-citylist-26980" name="Шахты" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26980" install-only="1"/>
+    <object id="26981" guid="sytem-citylist-26981" name="Якутск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26981" install-only="1"/>
+    <object id="26982" guid="sytem-citylist-26982" name="Ангарск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26982" install-only="1"/>
+    <object id="26983" guid="sytem-citylist-26983" name="Нижневартовск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26983" install-only="1"/>
+    <object id="26984" guid="sytem-citylist-26984" name="Сыктывкар" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26984" install-only="1"/>
+    <object id="26985" guid="sytem-citylist-26985" name="Новороссийск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26985" install-only="1"/>
+    <object id="26986" guid="sytem-citylist-26986" name="Нижнекамск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26986" install-only="1"/>
+    <object id="26987" guid="sytem-citylist-26987" name="Бийск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26987" install-only="1"/>
+    <object id="26988" guid="sytem-citylist-26988" name="Грозный" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26988" install-only="1"/>
+    <object id="26989" guid="sytem-citylist-26989" name="Старый Оскол" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26989" install-only="1"/>
+    <object id="26990" guid="sytem-citylist-26990" name="Великий Новгород" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26990" install-only="1"/>
+    <object id="26991" guid="sytem-citylist-26991" name="Прокопьевск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26991" install-only="1"/>
+    <object id="26992" guid="sytem-citylist-26992" name="Рыбинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26992" install-only="1"/>
+    <object id="26993" guid="sytem-citylist-26993" name="Норильск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26993" install-only="1"/>
+    <object id="26994" guid="sytem-citylist-26994" name="Благовещенск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26994" install-only="1"/>
+    <object id="26995" guid="sytem-citylist-26995" name="Энгельс" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26995" install-only="1"/>
+    <object id="26996" guid="sytem-citylist-26996" name="Балаково" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26996" install-only="1"/>
+    <object id="26997" guid="sytem-citylist-26997" name="Петропавловск-Камчатский" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26997" install-only="1"/>
+    <object id="26998" guid="sytem-citylist-26998" name="Псков" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26998" install-only="1"/>
+    <object id="26999" guid="sytem-citylist-26999" name="Северодвинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://26999" install-only="1"/>
+    <object id="27000" guid="sytem-citylist-27000" name="Армавир" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27000" install-only="1"/>
+    <object id="27001" guid="sytem-citylist-27001" name="Златоуст" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27001" install-only="1"/>
+    <object id="27002" guid="sytem-citylist-27002" name="Балашиха" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27002" install-only="1"/>
+    <object id="27003" guid="sytem-citylist-27003" name="Каменск-Уральский" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27003" install-only="1"/>
+    <object id="27004" guid="sytem-citylist-27004" name="Химки" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27004" install-only="1"/>
+    <object id="27005" guid="sytem-citylist-27005" name="Сызрань" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27005" install-only="1"/>
+    <object id="27006" guid="sytem-citylist-27006" name="Подольск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27006" install-only="1"/>
+    <object id="27007" guid="sytem-citylist-27007" name="Новочеркасск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27007" install-only="1"/>
+    <object id="27008" guid="sytem-citylist-27008" name="Королёв" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27008" install-only="1"/>
+    <object id="27009" guid="sytem-citylist-27009" name="Южно-Сахалинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27009" install-only="1"/>
+    <object id="27010" guid="sytem-citylist-27010" name="Волгодонск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27010" install-only="1"/>
+    <object id="27011" guid="sytem-citylist-27011" name="Находка" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27011" install-only="1"/>
+    <object id="27012" guid="sytem-citylist-27012" name="Березники" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27012" install-only="1"/>
+    <object id="27013" guid="sytem-citylist-27013" name="Абакан" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27013" install-only="1"/>
+    <object id="27014" guid="sytem-citylist-27014" name="Мытищи" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27014" install-only="1"/>
+    <object id="27015" guid="sytem-citylist-27015" name="Люберцы" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27015" install-only="1"/>
+    <object id="27016" guid="sytem-citylist-27016" name="Рубцовск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27016" install-only="1"/>
+    <object id="27017" guid="sytem-citylist-27017" name="Майкоп" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27017" install-only="1"/>
+    <object id="27018" guid="sytem-citylist-27018" name="Салават" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27018" install-only="1"/>
+    <object id="27019" guid="sytem-citylist-27019" name="Уссурийск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27019" install-only="1"/>
+    <object id="27020" guid="sytem-citylist-27020" name="Миасс" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27020" install-only="1"/>
+    <object id="27021" guid="sytem-citylist-27021" name="Ковров" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27021" install-only="1"/>
+    <object id="27022" guid="sytem-citylist-27022" name="Коломна" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27022" install-only="1"/>
+    <object id="27023" guid="sytem-citylist-27023" name="Электросталь" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27023" install-only="1"/>
+    <object id="27024" guid="sytem-citylist-27024" name="Альметьевск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27024" install-only="1"/>
+    <object id="27025" guid="sytem-citylist-27025" name="Пятигорск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27025" install-only="1"/>
+    <object id="27026" guid="sytem-citylist-27026" name="Копейск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27026" install-only="1"/>
+    <object id="27027" guid="sytem-citylist-27027" name="Первоуральск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27027" install-only="1"/>
+    <object id="27028" guid="sytem-citylist-27028" name="Назрань" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27028" install-only="1"/>
+    <object id="27029" guid="sytem-citylist-27029" name="Одинцово" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27029" install-only="1"/>
+    <object id="27030" guid="sytem-citylist-27030" name="Невинномысск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27030" install-only="1"/>
+    <object id="27031" guid="sytem-citylist-27031" name="Кисловодск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27031" install-only="1"/>
+    <object id="27032" guid="sytem-citylist-27032" name="Димитровград" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27032" install-only="1"/>
+    <object id="27033" guid="sytem-citylist-27033" name="Хасавюрт" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27033" install-only="1"/>
+    <object id="27034" guid="sytem-citylist-27034" name="Новочебоксарск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27034" install-only="1"/>
+    <object id="27035" guid="sytem-citylist-27035" name="Новомосковск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27035" install-only="1"/>
+    <object id="27036" guid="sytem-citylist-27036" name="Серпухов" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27036" install-only="1"/>
+    <object id="27037" guid="sytem-citylist-27037" name="Орехово-Зуево" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27037" install-only="1"/>
+    <object id="27038" guid="sytem-citylist-27038" name="Муром" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27038" install-only="1"/>
+    <object id="27039" guid="sytem-citylist-27039" name="Камышин" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27039" install-only="1"/>
+    <object id="27040" guid="sytem-citylist-27040" name="Железнодорожный" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27040" install-only="1"/>
+    <object id="27041" guid="sytem-citylist-27041" name="Нефтекамск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27041" install-only="1"/>
+    <object id="27042" guid="sytem-citylist-27042" name="Новый Уренгой" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27042" install-only="1"/>
+    <object id="27043" guid="sytem-citylist-27043" name="Черкесск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27043" install-only="1"/>
+    <object id="27044" guid="sytem-citylist-27044" name="Ногинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27044" install-only="1"/>
+    <object id="27045" guid="sytem-citylist-27045" name="Новошахтинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27045" install-only="1"/>
+    <object id="27046" guid="sytem-citylist-27046" name="Нефтеюганск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27046" install-only="1"/>
+    <object id="27047" guid="sytem-citylist-27047" name="Щёлково" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27047" install-only="1"/>
+    <object id="27048" guid="sytem-citylist-27048" name="Елец" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27048" install-only="1"/>
+    <object id="27049" guid="sytem-citylist-27049" name="Ачинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27049" install-only="1"/>
+    <object id="27050" guid="sytem-citylist-27050" name="Новокуйбышевск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27050" install-only="1"/>
+    <object id="27051" guid="sytem-citylist-27051" name="Сергиев Посад" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27051" install-only="1"/>
+    <object id="27052" guid="sytem-citylist-27052" name="Ноябрьск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27052" install-only="1"/>
+    <object id="27053" guid="sytem-citylist-27053" name="Кызыл" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27053" install-only="1"/>
+    <object id="27054" guid="sytem-citylist-27054" name="Дербент" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27054" install-only="1"/>
+    <object id="27055" guid="sytem-citylist-27055" name="Октябрьский" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27055" install-only="1"/>
+    <object id="27056" guid="sytem-citylist-27056" name="Северск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27056" install-only="1"/>
+    <object id="27057" guid="sytem-citylist-27057" name="Ленинск-Кузнецкий" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27057" install-only="1"/>
+    <object id="27058" guid="sytem-citylist-27058" name="Арзамас" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27058" install-only="1"/>
+    <object id="27059" guid="sytem-citylist-27059" name="Обнинск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27059" install-only="1"/>
+    <object id="27060" guid="sytem-citylist-27060" name="Ухта" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27060" install-only="1"/>
+    <object id="27061" guid="sytem-citylist-27061" name="Междуреченск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27061" install-only="1"/>
+    <object id="27062" guid="sytem-citylist-27062" name="Киселёвск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27062" install-only="1"/>
+    <object id="27063" guid="sytem-citylist-27063" name="Новотроицк" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27063" install-only="1"/>
+    <object id="27064" guid="sytem-citylist-27064" name="Батайск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27064" install-only="1"/>
+    <object id="27065" guid="sytem-citylist-27065" name="Элиста" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27065" install-only="1"/>
+    <object id="27066" guid="sytem-citylist-27066" name="Артём" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27066" install-only="1"/>
+    <object id="27067" guid="sytem-citylist-27067" name="Жуковский" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27067" install-only="1"/>
+    <object id="27068" guid="sytem-citylist-27068" name="Великие Луки" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27068" install-only="1"/>
+    <object id="27069" guid="sytem-citylist-27069" name="Канск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27069" install-only="1"/>
+    <object id="27070" guid="sytem-citylist-27070" name="Магадан" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27070" install-only="1"/>
+    <object id="27071" guid="sytem-citylist-27071" name="Тобольск" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27071" install-only="1"/>
+    <object id="27072" guid="sytem-citylist-27072" name="Глазов" type-id="739" type-guid="sytem-citylist" ownerId="14" locked="0" xlink:href="uobject://27072" install-only="1"/>
+    <object id="25974" guid="swf-banner-quality-low" name="Низкое" type-id="674" type-guid="banners-banner-swf-quality" ownerId="0" locked="0" xlink:href="uobject://25974" install-only="1">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="8808" object-id="25974" name="quality_value" type="string" is-important="0">
+            <title>Значение</title>
+            <value>low</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="25975" guid="swf-banner-quality-medium" name="Среднее" type-id="674" type-guid="banners-banner-swf-quality" ownerId="0" locked="0" xlink:href="uobject://25975" install-only="1">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="8808" object-id="25975" name="quality_value" type="string" is-important="0">
+            <title>Значение</title>
+            <value>normal</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="25976" guid="swf-banner-quality-high" name="Высокое" type-id="674" type-guid="banners-banner-swf-quality" ownerId="0" locked="0" xlink:href="uobject://25976" install-only="1">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="8808" object-id="25976" name="quality_value" type="string" is-important="0">
+            <title>Значение</title>
+            <value>high</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="5" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="5" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="672" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="672" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="673" field-name="swf_quality">
+      <guide id="674"/>
+    </relation>
+    <relation type-id="673" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="673" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="675" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="675" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

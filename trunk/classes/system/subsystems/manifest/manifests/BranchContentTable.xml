@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<route>
+		<transaction name="branch_content_table">
+			<action name="CheckPermissions">
+				<param name="target" value="./sys-temp/runtime-cache" />
+				<param name="mode" value="write" />
+			</action>
+			<action name="CreateBranchTable">
+				<param name="hierarchy-type-id" value="{hierarchy-type-id}" />
+			</action>
+			<action name="MoveContentTableData">
+				<param name="hierarchy-type-id" value="{hierarchy-type-id}" />
+			</action>
+			<action name="SaveBranchTableRelations">
+			</action>
+			<action name="DeleteContentTableData">
+				<param name="hierarchy-type-id" value="{hierarchy-type-id}" />
+			</action>
+		</transaction>
+	</route>
+</manifest>
