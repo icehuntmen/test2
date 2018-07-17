@@ -74,32 +74,6 @@
 
 
 
-                                <!-- LAYER NR. 6 -->
-                                <div class="tp-caption   tp-resizeme  tp-whiteshadow rs-parallaxlevel-5"
-                                     id="slide-964-layer-1"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
-                                     data-fontsize="['120','120','120','60']"
-                                     data-lineheight="['120','120','120','60']"
-                                     data-letterspacing="['50','50','50','30']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[50,50,50,50]"
-                                     data-blendmode="screen"
-
-                                     style="z-index: 10; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #000000; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">NICE </div>
-
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                                      id="slide-964-layer-48"
@@ -216,7 +190,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -242,7 +216,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
