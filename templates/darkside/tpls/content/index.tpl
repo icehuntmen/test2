@@ -143,7 +143,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 7;"><img src="/assets/images/posters.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 7;"><img src="/assets/images/posters_d.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -165,7 +165,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 15;"><img src="/assets/images/posters.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 15;"><img src="/assets/images/posters_w.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
