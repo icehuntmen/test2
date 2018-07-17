@@ -7,10 +7,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>GravityDesign1 - Slider Revolution</title>
+		<title>CLAN ENOTWHYNOT</title>
 		<meta name="description" content="Slider Revolution Example" />
 		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
-		<meta name="author" content="ThemePunch" />
+		<meta name="author" content="HUNTER" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- LOAD JQUERY LIBRARY -->
