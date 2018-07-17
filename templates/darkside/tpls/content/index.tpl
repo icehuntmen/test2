@@ -135,7 +135,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,0,1);font-family:Poppins;letter-spacing:-10px;">
-		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">GRAVITY<br/>DESIGN </div></div>
+		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">DESIGN 2</div></div>
 
 				<!-- LAYER NR. 4 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
