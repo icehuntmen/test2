@@ -95,7 +95,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ В ТЕБЕ ТЬМА </div>
+                                     style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, В ТЕБЕ ТЬМА </div>
 
                                 <!-- LAYER NR. 8 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -239,7 +239,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ В ТЕБЕ СВЕТ </div>
+                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, В ТЕБЕ СВЕТ </div>
 
                                 <!-- LAYER NR. 14 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
