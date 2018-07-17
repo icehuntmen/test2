@@ -231,7 +231,7 @@
 				<!-- LAYER NR. 8 -->
 				<a class="tp-caption   tp-resizeme" 
 		 href="https://revolution.themepunch.com/direct-customer-benefits/" target="_blank"			 id="slide-32-layer-16" 
-					 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+					 data-x="['bottom','center','center','center']" data-hoffset="['0','0','0','0']"
 					 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['230','210','310','310']" 
 								data-fontsize="['25','25','25','20']"
 					data-lineheight="['25','25','25','20']"
@@ -243,14 +243,14 @@
 					data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-32-layer-17","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-32-layer-17","delay":""}]'
 					data-responsive_offset="on" 
 
-					data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
+					data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:0px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
 					data-textAlign="['inherit','inherit','inherit','center']"
 					data-paddingtop="[0,0,0,0]"
 					data-paddingright="[0,0,0,0]"
 					data-paddingbottom="[0,0,0,0]"
 					data-paddingleft="[0,0,0,0]"
 
-					style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">START THE EXPERIENCE </a>
+					style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">ВСТУПИТЬ В КЛАН</a>
 
 				<!-- LAYER NR. 9 -->
 				<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" 
