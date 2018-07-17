@@ -218,10 +218,10 @@
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-11"
-                                     data-x="['center','center','center','center']" data-hoffset="['100','100','100','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['200','200','200','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['210','210','140','0']"
-                                     data-fontsize="['80','80','80','60']"
-                                     data-lineheight="['80','80','80','60']"
+                                     data-fontsize="['60','60','60','60']"
+                                     data-lineheight="['60','60','60','60']"
                                      data-letterspacing="['0','0','0','0']"
                                      data-width="none"
                                      data-height="none"
@@ -239,7 +239,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 17; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
+                                     style="z-index: 17; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
