@@ -65,7 +65,7 @@
                         <ul>	<!-- SLIDE  -->
                             <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://server.local/revslider/wp-content/uploads/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"linear-gradient(270deg, rgba(238,205,163,1) 0%, rgba(239,98,159,1) 100%)","bgType":"solid","bgImage":"","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false,"bounceArrows":"infinite","bounceType":"repel","bounceAmount":"5","bounceSpeed":"1500","bounceEasing":"ease-in-out","bounceDelay":"750","shiftOffset":"10","shiftTiming":"300","shiftEasing":"ease","shiftDelay":"250"}'>
                                 <!-- MAIN IMAGE -->
-                                <img src="../../assets/images/transparent.png" data-bgcolor='linear-gradient(90deg, rgba(203,186,204,1) 0%, rgba(36,57,73,1) 100%)' style='background:linear-gradient(90deg, rgba(203,186,204,1) 0%, rgba(36,57,73,1) 100%)' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <img src="/assets/images/transparent.png" data-bgcolor='linear-gradient(90deg, rgba(203,186,204,1) 0%, rgba(36,57,73,1) 100%)' style='background:linear-gradient(90deg, rgba(203,186,204,1) 0%, rgba(36,57,73,1) 100%)' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 -->
@@ -88,7 +88,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 5;"><img src="../../assets/images/object_macscreen_1-2.png" alt="" data-ww="['1000px','1000px','1000px','500px']" data-hh="['1000px','1000px','1000px','500']" width="2000" height="2000" data-no-retina> </div>
+                                     style="z-index: 5;"><img src="/assets/images/object_macscreen_1-2.png" alt="" data-ww="['1000px','1000px','1000px','500px']" data-hh="['1000px','1000px','1000px','500']" width="2000" height="2000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -110,7 +110,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 6;"><img src="../../assets/images/object_plant_1.png" alt="" data-ww="['375px','375px','375px','200px']" data-hh="['375px','375px','375px','200px']" width="1500" height="1500" data-no-retina> </div>
+                                     style="z-index: 6;"><img src="/assets/images/object_plant_1.png" alt="" data-ww="['375px','375px','375px','200px']" data-hh="['375px','375px','375px','200px']" width="1500" height="1500" data-no-retina> </div>
 
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -132,7 +132,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 7;"><img src="../../assets/images/keyboard_apple.png" alt="" data-ww="['600px','600px','600px','300px']" data-hh="['600px','600px','600px','300px']" width="1600" height="1600" data-no-retina> </div>
+                                     style="z-index: 7;"><img src="/assets/images/keyboard_apple.png" alt="" data-ww="['600px','600px','600px','300px']" data-hh="['600px','600px','600px','300px']" width="1600" height="1600" data-no-retina> </div>
 
                                 <!-- LAYER NR. 4 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
@@ -154,7 +154,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 8;"><img src="../../assets/images/object_macmouse_1.png" alt="" data-ww="['250px','250px','250px','125px']" data-hh="['250px','250px','250px','125px']" width="1000" height="1000" data-no-retina> </div>
+                                     style="z-index: 8;"><img src="/assets/images/object_macmouse_1.png" alt="" data-ww="['250px','250px','250px','125px']" data-hh="['250px','250px','250px','125px']" width="1000" height="1000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 5 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
@@ -176,7 +176,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 9;"><img src="../../assets/images/object_glasses_2.png" alt="" data-ww="['250px','250px','250px','125px']" data-hh="['250px','250px','250px','125px']" width="1000" height="1000" data-no-retina> </div>
+                                     style="z-index: 9;"><img src="/assets/images/object_glasses_2.png" alt="" data-ww="['250px','250px','250px','125px']" data-hh="['250px','250px','250px','125px']" width="1000" height="1000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 6 -->
                                 <div class="tp-caption   tp-resizeme  tp-whiteshadow rs-parallaxlevel-5"
@@ -269,7 +269,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 13;"><img src="../../assets/images/object_macscreen_2.png" alt="" data-ww="['1000px','1000px','1000px','500px']" data-hh="['1000px','1000px','1000px','500']" width="2000" height="2000" data-no-retina> </div>
+                                     style="z-index: 13;"><img src="/assets/images/object_macscreen_2.png" alt="" data-ww="['1000px','1000px','1000px','500px']" data-hh="['1000px','1000px','1000px','500']" width="2000" height="2000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 10 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -291,7 +291,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 14;"><img src="../../assets/images/object_coffee_1.png" alt="" data-ww="['375px','375px','375px','170px']" data-hh="['375px','375px','375px','170px']" width="1500" height="1500" data-no-retina> </div>
+                                     style="z-index: 14;"><img src="/assets/images/object_coffee_1.png" alt="" data-ww="['375px','375px','375px','170px']" data-hh="['375px','375px','375px','170px']" width="1500" height="1500" data-no-retina> </div>
 
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -313,7 +313,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 15;"><img src="../../assets/images/keyboard_apple.png" alt="" data-ww="['600px','600px','600px','300px']" data-hh="['600px','600px','600px','300px']" width="1600" height="1600" data-no-retina> </div>
+                                     style="z-index: 15;"><img src="/assets/images/keyboard_apple.png" alt="" data-ww="['600px','600px','600px','300px']" data-hh="['600px','600px','600px','300px']" width="1600" height="1600" data-no-retina> </div>
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -387,263 +387,8 @@
                                      style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(101,101,101);cursor:pointer;">MAKE A CHOICE </div>
                             </li>
                             <!-- SLIDE  -->
-                            <li data-index="rs-965" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="../../assets/images/night-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"http:\/\/server.local\/revslider\/wp-content\/uploads\/revslider\/beforeafterslider\/day.jpg","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
-                                <!-- MAIN IMAGE -->
-                                <img src="../../assets/images/night.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
 
-                                <!-- LAYER NR. 15 -->
-                                <div class="tp-caption   fullscreenvideo  tp-blendvideo disabled_lc tp-videolayer"
-                                     id="slide-965-layer-15"
-                                     data-x="0"
-                                     data-y="0"
-                                     data-whitespace="normal"
 
-                                     data-type="video"
-                                     data-beforeafter="before"
-                                     data-basealign="slide"
-                                     data-responsive_offset="off"
-                                     data-responsive="off"
-                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-videocontrols="none" data-videowidth="100%" data-videoheight="100%" data-videoposter="../../assets/images/tp_vid_clouds-1.jpg" data-videomp4="../../assets/videos/tp_vid_clouds-2.mp4" data-noposteronmobile="off" data-videopreload="auto" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-                                     data-blendmode="overlay"
-                                     data-autoplay="on"
-                                     data-volume="mute"
-                                     style="z-index: 5;"> </div>
-
-                                <!-- LAYER NR. 16 -->
-                                <div class="tp-caption tp-shape tp-shapewrapper "
-                                     id="slide-965-layer-17"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                                     data-width="full"
-                                     data-height="full"
-                                     data-whitespace="normal"
-
-                                     data-type="shape"
-                                     data-beforeafter="before"
-                                     data-basealign="slide"
-                                     data-responsive_offset="off"
-                                     data-responsive="off"
-                                     data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 6;"> </div>
-
-                                <!-- LAYER NR. 17 -->
-                                <div class="tp-caption   tp-resizeme  tp-whiteshadow"
-                                     id="slide-965-layer-1"
-                                     data-x="['center','center','center','center']" data-hoffset="['-280','-280','-280','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']"
-                                     data-fontsize="['100','100','100','60']"
-                                     data-lineheight="['100','100','100','60']"
-                                     data-width="['600','600','600','none']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[20,20,20,20]"
-                                     data-blendmode="screen"
-
-                                     style="z-index: 7; min-width: 600px; max-width: 600px; white-space: nowrap; font-size: 100px; line-height: 100px; font-weight: 400; color: #000000; letter-spacing: 20px;font-family:Montserrat;text-transform:uppercase;">Night </div>
-
-                                <!-- LAYER NR. 18 -->
-                                <div class="tp-caption   tp-resizeme  tp-blackshadow"
-                                     id="slide-965-layer-9"
-                                     data-x="['center','center','center','center']" data-hoffset="['280','280','280','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']"
-                                     data-fontsize="['100','100','100','60']"
-                                     data-lineheight="['100','100','100','60']"
-                                     data-width="['600','600','600','none']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="after"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[20,20,20,20]"
-                                     data-blendmode="overlay"
-
-                                     style="z-index: 8; min-width: 600px; max-width: 600px; white-space: nowrap; font-size: 100px; line-height: 100px; font-weight: 400; color: #ffffff; letter-spacing: 20px;font-family:Montserrat;text-transform:uppercase;">DAY </div>
-
-                                <!-- LAYER NR. 19 -->
-                                <div class="tp-caption   tp-resizeme"
-                                     id="slide-965-layer-11"
-                                     data-x="['center','center','center','center']" data-hoffset="['300','300','300','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','100']"
-                                     data-fontsize="['20','20','20','15']"
-                                     data-lineheight="['25','25','25','20']"
-                                     data-width="['400','400','400','320']"
-                                     data-height="none"
-                                     data-whitespace="normal"
-
-                                     data-type="text"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 9; min-width: 400px; max-width: 400px; white-space: normal; font-size: 20px; line-height: 25px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">I often think that the night is more alive and more richly colored than the day.<br/>
-                                    — Vincent Van Gogh
-                                </div>
-
-                                <!-- LAYER NR. 20 -->
-                                <div class="tp-caption   tp-resizeme"
-                                     id="slide-965-layer-13"
-                                     data-x="['center','center','center','center']" data-hoffset="['-300','-300','-300','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','100']"
-                                     data-fontsize="['20','20','20','15']"
-                                     data-lineheight="['25','25','25','20']"
-                                     data-width="['400','400','400','320']"
-                                     data-height="none"
-                                     data-whitespace="normal"
-
-                                     data-type="text"
-                                     data-beforeafter="after"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 10; min-width: 400px; max-width: 400px; white-space: normal; font-size: 20px; line-height: 25px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">Fishing, with me, has always been an excuse to drink in the daytime.
-                                    <br/>
-                                    — Jimmy Cannon </div>
-                            </li>
-                            <!-- SLIDE  -->
-                            <li data-index="rs-966" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="../../assets/images/before1-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"http:\/\/server.local\/revslider\/wp-content\/uploads\/revslider\/beforeafterslider\/after1-1.jpg","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
-                                <!-- MAIN IMAGE -->
-                                <img src="../../assets/images/before1-1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
-
-                                <!-- LAYER NR. 21 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                                     id="slide-966-layer-3"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','1']"
-                                     data-fontsize="['300','300','300','200']"
-                                     data-lineheight="['300','300','300','200']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":300,"speed":2000,"frame":"0","from":"sX:5;sY:5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[50,50,50,50]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 5; white-space: nowrap; font-size: 300px; line-height: 300px; font-weight: 400; color: rgba(0,28,159,0.5); letter-spacing: 0px;font-family:Abril Fatface;">
-                                    <div class="rs-looped rs-pulse"  data-easing="Power1.easeInOut" data-speed="1" data-zoomstart="1" data-zoomend="1.05">& </div></div>
-
-                                <!-- LAYER NR. 22 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-966-layer-1"
-                                     data-x="['center','center','center','center']" data-hoffset="['-250','-250','-250','-60']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['1','1','1','-50']"
-                                     data-fontsize="['150','150','150','80']"
-                                     data-lineheight="['150','150','150','80']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"x:-200px;sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[20,20,20,20]"
-                                     data-paddingbottom="[30,30,30,30]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 6; white-space: nowrap; font-size: 150px; line-height: 150px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Yellowtail;">Before </div>
-
-                                <!-- LAYER NR. 23 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                                     id="slide-966-layer-5"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                                     data-fontsize="['300','300','300','200']"
-                                     data-lineheight="['300','300','300','200']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="after"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":300,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[50,50,50,50]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 7; white-space: nowrap; font-size: 300px; line-height: 300px; font-weight: 400; color: rgba(233,0,82,0.5); letter-spacing: 0px;font-family:Abril Fatface;">
-                                    <div class="rs-looped rs-pulse"  data-easing="Power1.easeInOut" data-speed="1" data-zoomstart="1" data-zoomend="1.05">& </div></div>
-
-                                <!-- LAYER NR. 24 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-966-layer-7"
-                                     data-x="['center','center','center','center']" data-hoffset="['250','250','250','60']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','40']"
-                                     data-fontsize="['120','120','120','80']"
-                                     data-lineheight="['120','120','120','80']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="text"
-                                     data-beforeafter="after"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"x:200px;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[5,5,5,5]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[5,5,5,5]"
-
-                                     style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Abril Fatface;">After </div>
-                            </li>
                         </ul>
                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
                 </div><!-- END REVOLUTION SLIDER -->
@@ -662,7 +407,7 @@
                         }else{
                             revapi346 = tpj("#rev_slider_346_1").show().revolution({
                                 sliderType:"standard",
-                                jsFileLocation:"//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
+                                jsFileLocation:"//assets/js/",
                                 sliderLayout:"fullscreen",
                                 dottedOverlay:"none",
                                 delay:9000,
