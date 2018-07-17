@@ -69,53 +69,10 @@
                                 <!-- LAYERS -->
 
 
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
-                                     id="slide-964-layer-23"
-                                     data-x="['center','center','center','center']" data-hoffset="['-578','-578','-578','-221']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-344','-344','-344','-194']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="image"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"x:left;y:-500px;rZ:90deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 6;"><img src="/assets/images/object_plant_1.png" alt="" data-ww="['375px','375px','375px','200px']" data-hh="['375px','375px','375px','200px']" width="1500" height="1500" data-no-retina> </div>
 
 
 
 
-
-                                <!-- LAYER NR. 5 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                                     id="slide-964-layer-35"
-                                     data-x="['center','center','center','center']" data-hoffset="['-296','-296','-296','-149']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-67','-67','-67','-89']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="image"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:left;y:200px;rZ:180deg;sX:1;sY:1;","to":"o:1;rZ:45;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 9;"><img src="/assets/images/object_glasses_2.png" alt="" data-ww="['250px','250px','250px','125px']" data-hh="['250px','250px','250px','125px']" width="1000" height="1000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 6 -->
                                 <div class="tp-caption   tp-resizeme  tp-whiteshadow rs-parallaxlevel-5"
