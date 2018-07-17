@@ -112,27 +112,7 @@
 
                                      style="z-index: 6;"><img src="/assets/images/object_plant_1.png" alt="" data-ww="['375px','375px','375px','200px']" data-hh="['375px','375px','375px','200px']" width="1500" height="1500" data-no-retina> </div>
 
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-964-layer-28"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
 
-                                     data-type="image"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:90deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 7;"><img src="/assets/images/keyboard_apple.png" alt="" data-ww="['600px','600px','600px','300px']" data-hh="['600px','600px','600px','300px']" width="1600" height="1600" data-no-retina> </div>
 
                                 <!-- LAYER NR. 4 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
@@ -293,6 +273,29 @@
 
                                      style="z-index: 14;"><img src="/assets/images/object_coffee_1.png" alt="" data-ww="['375px','375px','375px','170px']" data-hh="['375px','375px','375px','170px']" width="1500" height="1500" data-no-retina> </div>
 
+
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
+                                     id="slide-964-layer-28"
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
+                                     data-width="none"
+                                     data-height="none"
+                                     data-whitespace="nowrap"
+
+                                     data-type="image"
+                                     data-beforeafter="before"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:90deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['inherit','inherit','inherit','inherit']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+
+                                     style="z-index: 7;"><img src="/assets/images/posters.png" alt=""  width="405" height="611" data-no-retina> </div>
+
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-45"
@@ -313,7 +316,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 15;"><img src="/assets/images/posters.png" alt="" data-ww="['600px','600px','600px','300px']" data-hh="['600px','600px','600px','300px']" width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 15;"><img src="/assets/images/posters.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
