@@ -341,6 +341,32 @@
 
                                      style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">CLEAN </div>
 
+
+                                <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
+                                     id="slide-964-layer-9"
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
+                                     data-fontsize="['120','120','120','60']"
+                                     data-lineheight="['120','120','120','60']"
+                                     data-letterspacing="['50','50','50','30']"
+                                     data-width="none"
+                                     data-height="none"
+                                     data-whitespace="nowrap"
+
+                                     data-type="text"
+                                     data-beforeafter="before"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['center','center','center','center']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[50,50,50,50]"
+                                     data-blendmode="overlay"
+
+                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">CLEAN </div>
+
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                                      id="slide-964-layer-49"
@@ -394,8 +420,8 @@
                 </div><!-- END REVOLUTION SLIDER -->
 
                 <!-- BEFORE/AFTER ADD-ON FILES  MUST BE INSERTED AFTER THE SLIDER DOM ELEMENTS !-->
-                <link rel='stylesheet' href='../../revolution-addons/beforeafter/css/revolution.addon.beforeafter.css?ver=1.0.0' type='text/css' media='all' />
-                <script type='text/javascript' src='../../revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js?ver=1.0.0'></script>
+                <link rel='stylesheet' href='/revolution-addons/beforeafter/css/revolution.addon.beforeafter.css?ver=1.0.0' type='text/css' media='all' />
+                <script type='text/javascript' src='/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js?ver=1.0.0'></script>
 
                 <script type="text/javascript">
                     var revapi346,
