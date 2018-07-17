@@ -239,7 +239,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 17; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
+                                     style="z-index: 17; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
