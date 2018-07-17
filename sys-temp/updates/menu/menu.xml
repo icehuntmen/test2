@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374765</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:45 +0300</rfc>
+      <utc>2018-06-07T15:32:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/menu" val="menu"/>
+    <key path="modules/menu/name" val="menu"/>
+    <key path="modules/menu/filename" val="modules/menu/class.php"/>
+    <key path="modules/menu/config" val="0" update="1"/>
+    <key path="modules/menu/ico" val="ico_menu"/>
+    <key path="modules/menu/default_method" val="show" update="1"/>
+    <key path="modules/menu/default_method_admin" val="lists" update="1"/>
+    <key path="modules/menu/per_page" val="10"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/menu" name="menu">/classes/modules/menu</directory>
+    <directory path="./classes/components/menu" name="menu">/classes/components/menu</directory>
+    <directory path="./classes/components/menu/manifest" name="manifest">/classes/components/menu/manifest</directory>
+    <directory path="./classes/components/menu/manifest/actions" name="actions">/classes/components/menu/manifest/actions</directory>
+    <directory path="./styles/skins/mac/data/modules/menu" name="menu">/styles/skins/mac/data/modules/menu</directory>
+    <directory path="./styles/skins/modern/data/modules/menu" name="menu">/styles/skins/modern/data/modules/menu</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/menu/permissions.php" size="157" ext="php" hash="8a2a3757300710d4fb61b951ef4fb1bc" name="permissions.php">/classes/modules/menu/permissions.php</file>
+    <file path="./classes/modules/menu/lang.php" size="94" ext="php" hash="cccb5f33e96a7e2f0dc011df2f3b66d8" name="lang.php">/classes/modules/menu/lang.php</file>
+    <file path="./classes/modules/menu/__admin.php" size="5614" ext="php" hash="20a05452b31998404c0c651da8f15beb" name="__admin.php">/classes/modules/menu/__admin.php</file>
+    <file path="./classes/modules/menu/events.php" size="326" ext="php" hash="1e26954ce163497015ef4fb3ad5704d0" name="events.php">/classes/modules/menu/events.php</file>
+    <file path="./classes/modules/menu/install.php" size="3435" ext="php" hash="3c61c5a9120b340f43078a9a96ac530f" name="install.php">/classes/modules/menu/install.php</file>
+    <file path="./classes/modules/menu/i18n.en.php" size="1499" ext="php" hash="219061694da44ab1d20755b99d4d305b" name="i18n.en.php" only_install="true">/classes/modules/menu/i18n.en.php</file>
+    <file path="./classes/modules/menu/__events.php" size="1473" ext="php" hash="c44f2d297cf81ecb0873b94e44f4b865" name="__events.php">/classes/modules/menu/__events.php</file>
+    <file path="./classes/modules/menu/class.php" size="12082" ext="php" hash="1f868d42cd42972e89ef4c336a1f0f99" name="class.php">/classes/modules/menu/class.php</file>
+    <file path="./classes/modules/menu/i18n.php" size="1985" ext="php" hash="4a8fb282346fde5d875f8a0ce95480f3" name="i18n.php">/classes/modules/menu/i18n.php</file>
+    <file path="./classes/components/menu/macros.php" size="5392" ext="php" hash="7f2a3cc2091b512b4802f25a0c3a1f18" name="macros.php">/classes/components/menu/macros.php</file>
+    <file path="./classes/components/menu/permissions.php" size="384" ext="php" hash="8bdbb90f77485902305a64054551f9e0" name="permissions.php">/classes/components/menu/permissions.php</file>
+    <file path="./classes/components/menu/customMacros.php" size="194" ext="php" hash="4b643a51f41f5a83738b1b46786020e9" name="customMacros.php" only_install="true">/classes/components/menu/customMacros.php</file>
+    <file path="./classes/components/menu/lang.php" size="163" ext="php" hash="999d82e2b336fccdd61e482fbd3c81a6" name="lang.php">/classes/components/menu/lang.php</file>
+    <file path="./classes/components/menu/manifest/install.xml" size="199" ext="xml" hash="0c4c51d5b78b3c7185d2d3245005ef8b" name="install.xml">/classes/components/menu/manifest/install.xml</file>
+    <file path="./classes/components/menu/manifest/actions/UpdateLinks.php" size="3133" ext="php" hash="5fbe3a87912271d3350a20f194c62258" name="UpdateLinks.php">/classes/components/menu/manifest/actions/UpdateLinks.php</file>
+    <file path="./classes/components/menu/customAdmin.php" size="193" ext="php" hash="8b8d6f604bfb49776fd63e16ab36585d" name="customAdmin.php" only_install="true">/classes/components/menu/customAdmin.php</file>
+    <file path="./classes/components/menu/events.php" size="421" ext="php" hash="d086ff6de142befed274507fadd74105" name="events.php">/classes/components/menu/events.php</file>
+    <file path="./classes/components/menu/handlers.php" size="1708" ext="php" hash="9b39538be0a2491962f80e49b4ab5d84" name="handlers.php">/classes/components/menu/handlers.php</file>
+    <file path="./classes/components/menu/admin.php" size="5269" ext="php" hash="e387f903a5ccc3be8dd7176f614c52cb" name="admin.php">/classes/components/menu/admin.php</file>
+    <file path="./classes/components/menu/install.php" size="1071" ext="php" hash="b557e5df148cfaca698cdcc046647229" name="install.php">/classes/components/menu/install.php</file>
+    <file path="./classes/components/menu/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/menu/includes.php</file>
+    <file path="./classes/components/menu/i18n.en.php" size="1701" ext="php" hash="ab812656ba5a4bad99522f45352b9d2a" name="i18n.en.php" only_install="true">/classes/components/menu/i18n.en.php</file>
+    <file path="./classes/components/menu/class.php" size="5430" ext="php" hash="56e30ff0ea0d011775a8b9e43a9ebe22" name="class.php">/classes/components/menu/class.php</file>
+    <file path="./classes/components/menu/i18n.php" size="2240" ext="php" hash="61bf9bbec71326efedff9867defd6b9d" name="i18n.php">/classes/components/menu/i18n.php</file>
+    <file path="./classes/components/menu/lang.en.php" size="162" ext="php" hash="2880da782b70a81688ad583a1ba8309b" name="lang.en.php">/classes/components/menu/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/menu/list.view.xsl" size="689" ext="xsl" hash="029ba791f463304d7aac4ead48d47cbc" name="list.view.xsl">/styles/skins/mac/data/modules/menu/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/menu/nestable.css" size="5335" ext="css" hash="f704b2e38ec77cd3f1447622561146db" name="nestable.css">/styles/skins/mac/data/modules/menu/nestable.css</file>
+    <file path="./styles/skins/mac/data/modules/menu/style.css" size="5524" ext="css" hash="5cfca6ddcf0ea6a4cae64ee6c2fd4fee" name="style.css">/styles/skins/mac/data/modules/menu/style.css</file>
+    <file path="./styles/skins/mac/data/modules/menu/jquery.nestable.js" size="19232" ext="js" hash="f5e71de368557beaa379cfadb273c14e" name="jquery.nestable.js">/styles/skins/mac/data/modules/menu/jquery.nestable.js</file>
+    <file path="./styles/skins/mac/data/modules/menu/menu.js" size="6875" ext="js" hash="ab77d0c969f47c401e7f853b64c8fae7" name="menu.js">/styles/skins/mac/data/modules/menu/menu.js</file>
+    <file path="./styles/skins/mac/data/modules/menu/form.modify.xsl" size="6988" ext="xsl" hash="777d4d21a8c25a938a7134fe42576db8" name="form.modify.xsl">/styles/skins/mac/data/modules/menu/form.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/menu/tree.js" size="3939" ext="js" hash="160aafa7573b77813e0a91ba2090d1c1" name="tree.js">/styles/skins/mac/data/modules/menu/tree.js</file>
+    <file path="./styles/skins/modern/data/modules/menu/list.view.xsl" size="1343" ext="xsl" hash="96bb72ddbd8f9dbd1b6b9156ecbf4bf4" name="list.view.xsl">/styles/skins/modern/data/modules/menu/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/menu/nestable.css" size="5231" ext="css" hash="fcdb6104c2977eb90783b495c2c22a88" name="nestable.css">/styles/skins/modern/data/modules/menu/nestable.css</file>
+    <file path="./styles/skins/modern/data/modules/menu/style.css" size="5342" ext="css" hash="f76d49b64646a31b2a5382c123b92897" name="style.css">/styles/skins/modern/data/modules/menu/style.css</file>
+    <file path="./styles/skins/modern/data/modules/menu/jquery.nestable.js" size="18743" ext="js" hash="41784699e8f5e6169a4661d1790aab70" name="jquery.nestable.js">/styles/skins/modern/data/modules/menu/jquery.nestable.js</file>
+    <file path="./styles/skins/modern/data/modules/menu/menu.js" size="6986" ext="js" hash="49d2cb572be2a513a462eb4ba10e7ae1" name="menu.js">/styles/skins/modern/data/modules/menu/menu.js</file>
+    <file path="./styles/skins/modern/data/modules/menu/form.modify.xsl" size="7100" ext="xsl" hash="14d946bb61d2fce1c7162c23fa784aa7" name="form.modify.xsl">/styles/skins/modern/data/modules/menu/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/menu/tree.js" size="4229" ext="js" hash="a553a54c6f71dc21f6792e556859fb3e" name="tree.js">/styles/skins/modern/data/modules/menu/tree.js</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="839" guid="menu-menu" title="Меню" parent-id="0" domain-id="0">
+      <base module="menu" method="item_element">Меню</base>
+      <fieldgroups>
+        <group name="common" title="Основные" visible="visible" active="active">
+          <field id="9449" name="menu_id" title="Идентификатор" visible="visible" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9448" name="menuhierarchy" title="Структура меню" visible="visible" important="important">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <tip>Основные настройки меню</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

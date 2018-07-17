@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<route>
+		<transaction name="merge_content_table">
+			<action name="CheckPermissions">
+				<param name="target" value="./sys-temp/runtime-cache" />
+				<param name="mode" value="write" />
+			</action>
+			<action name="MergeContentTableData">
+				<param name="hierarchy-type-id" value="{hierarchy-type-id}" />
+			</action>
+			<action name="DeleteBranchedTable">
+				<param name="hierarchy-type-id" value="{hierarchy-type-id}" />
+			</action>
+			<action name="SaveBranchTableRelations"/>
+		</transaction>
+	</route>
+</manifest>

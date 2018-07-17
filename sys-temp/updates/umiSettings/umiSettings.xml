@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374766</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:46 +0300</rfc>
+      <utc>2018-06-07T15:32:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/umiSettings" val="umiSettings"/>
+    <key path="modules/umiSettings/default_method" val="empty" update="1"/>
+    <key path="modules/umiSettings/default_method_admin" val="read" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/umiSettings" name="umiSettings">/classes/modules/umiSettings</directory>
+    <directory path="./classes/components/umiSettings" name="umiSettings">/classes/components/umiSettings</directory>
+    <directory path="./classes/components/umiSettings/manifest" name="manifest">/classes/components/umiSettings/manifest</directory>
+    <directory path="./classes/components/umiSettings/manifest/actions" name="actions">/classes/components/umiSettings/manifest/actions</directory>
+    <directory path="./styles/skins/modern/data/modules/umiSettings" name="umiSettings">/styles/skins/modern/data/modules/umiSettings</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/umiSettings/i18n.en.php" size="188" ext="php" hash="20e62d6262f691f0f0acc9da2f5acfdd" name="i18n.en.php" only_install="true">/classes/modules/umiSettings/i18n.en.php</file>
+    <file path="./classes/modules/umiSettings/class.php" size="975" ext="php" hash="fbc040427be66a78e5dad92ed9ea425e" name="class.php">/classes/modules/umiSettings/class.php</file>
+    <file path="./classes/modules/umiSettings/i18n.php" size="206" ext="php" hash="ad5845c29ca852eb1c3a4d3108c6c629" name="i18n.php">/classes/modules/umiSettings/i18n.php</file>
+    <file path="./classes/components/umiSettings/macros.php" size="4511" ext="php" hash="1f9c1b4f4eb1096e18fc42530a44cf02" name="macros.php">/classes/components/umiSettings/macros.php</file>
+    <file path="./classes/components/umiSettings/permissions.php" size="564" ext="php" hash="42b81f7d036e04c6af7e0e77f26b0723" name="permissions.php">/classes/components/umiSettings/permissions.php</file>
+    <file path="./classes/components/umiSettings/customMacros.php" size="153" ext="php" hash="27b1bcfdda5fd8b055298279cf2e0b6e" name="customMacros.php" only_install="true">/classes/components/umiSettings/customMacros.php</file>
+    <file path="./classes/components/umiSettings/lang.php" size="152" ext="php" hash="6d1b6b16a300b396dcbb8065bbf94494" name="lang.php">/classes/components/umiSettings/lang.php</file>
+    <file path="./classes/components/umiSettings/manifest/install.xml" size="215" ext="xml" hash="234cb6cb4392e191c31af4fd3a826011" name="install.xml">/classes/components/umiSettings/manifest/install.xml</file>
+    <file path="./classes/components/umiSettings/manifest/actions/UpdateRelatedId.php" size="3565" ext="php" hash="63ac40aa04f7eb1baeedb3bf7b6c742d" name="UpdateRelatedId.php">/classes/components/umiSettings/manifest/actions/UpdateRelatedId.php</file>
+    <file path="./classes/components/umiSettings/customAdmin.php" size="196" ext="php" hash="09c4f50c221836b92499530f2e2dbb54" name="customAdmin.php" only_install="true">/classes/components/umiSettings/customAdmin.php</file>
+    <file path="./classes/components/umiSettings/admin.php" size="4639" ext="php" hash="0ae7631bd0791a2c3b6f4600dfcaa1de" name="admin.php">/classes/components/umiSettings/admin.php</file>
+    <file path="./classes/components/umiSettings/install.php" size="1151" ext="php" hash="5926750b14b47fbeaa0c1a73d5f6e3fe" name="install.php">/classes/components/umiSettings/install.php</file>
+    <file path="./classes/components/umiSettings/i18n.en.php" size="1007" ext="php" hash="cadce0f3e33c09050823d0e6a40a4bfa" name="i18n.en.php" only_install="true">/classes/components/umiSettings/i18n.en.php</file>
+    <file path="./classes/components/umiSettings/class.php" size="2943" ext="php" hash="18efc39d0f7a90fa09c17a6076a01ed1" name="class.php">/classes/components/umiSettings/class.php</file>
+    <file path="./classes/components/umiSettings/i18n.php" size="1341" ext="php" hash="46df9103e2382567e6016ed604375696" name="i18n.php">/classes/components/umiSettings/i18n.php</file>
+    <file path="./classes/components/umiSettings/lang.en.php" size="136" ext="php" hash="0c68a25f1d630bc287fffc556402e5e4" name="lang.en.php">/classes/components/umiSettings/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/umiSettings/list.view.xsl" size="3716" ext="xsl" hash="e1f23698b0fc472207152ea30b547a26" name="list.view.xsl">/styles/skins/modern/data/modules/umiSettings/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiSettings/form.modify.xsl" size="5080" ext="xsl" hash="f2fe7e2a49ba804fbcac28816893e938" name="form.modify.xsl">/styles/skins/modern/data/modules/umiSettings/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="843" guid="root-settings-type" title="Настройки" parent-id="0" domain-id="0" locked="locked">
+      <base module="umiSettings" method="settings">Настройки</base>
+      <fieldgroups>
+        <group name="common" title="Общие параметры" locked="locked" active="active" visible="0">
+          <field id="9514" name="custom_id" title="Идентификатор" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9509" name="lang_id" title="Язык" locked="locked" required="required" important="important">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9508" name="domain_id" title="Домен" locked="locked" required="required" important="important">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

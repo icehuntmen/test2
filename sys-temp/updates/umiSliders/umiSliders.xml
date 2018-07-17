@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374766</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:46 +0300</rfc>
+      <utc>2018-06-07T15:32:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/umiSliders" val="umiSliders"/>
+    <key path="modules/umiSliders/config" val="1" update="1"/>
+    <key path="modules/umiSliders/name" val="umiSliders"/>
+    <key path="modules/umiSliders/default_method" val="empty" update="1"/>
+    <key path="modules/umiSliders/default_method_admin" val="getSliders" update="1"/>
+    <key path="modules/umiSliders/default_sliding_speed" val="1"/>
+    <key path="modules/umiSliders/default_sliding_delay" val="1"/>
+    <key path="modules/umiSliders/default_sliding_slides_count" val="10"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/umiSliders" name="umiSliders">/classes/modules/umiSliders</directory>
+    <directory path="./classes/components/umiSliders" name="umiSliders">/classes/components/umiSliders</directory>
+    <directory path="./classes/components/umiSliders/classes" name="classes">/classes/components/umiSliders/classes</directory>
+    <directory path="./classes/components/umiSliders/classes/interfaces" name="interfaces">/classes/components/umiSliders/classes/interfaces</directory>
+    <directory path="./classes/components/umiSliders/classes/collections" name="collections">/classes/components/umiSliders/classes/collections</directory>
+    <directory path="./classes/components/umiSliders/classes/constants" name="constants">/classes/components/umiSliders/classes/constants</directory>
+    <directory path="./classes/components/umiSliders/classes/exceptions" name="exceptions">/classes/components/umiSliders/classes/exceptions</directory>
+    <directory path="./classes/components/umiSliders/classes/entities" name="entities">/classes/components/umiSliders/classes/entities</directory>
+    <directory path="./styles/skins/modern/data/modules/umiSliders" name="umiSliders">/styles/skins/modern/data/modules/umiSliders</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/umiSliders/i18n.en.php" size="188" ext="php" hash="d5024b7b92aea71c0c5cc1db1e8c3d5b" name="i18n.en.php" only_install="true">/classes/modules/umiSliders/i18n.en.php</file>
+    <file path="./classes/modules/umiSliders/class.php" size="973" ext="php" hash="708c3fba1223f57bf2320ff8ca1de704" name="class.php">/classes/modules/umiSliders/class.php</file>
+    <file path="./classes/modules/umiSliders/i18n.php" size="201" ext="php" hash="1f758af5e82b7f41bcb824ce7dd8b510" name="i18n.php">/classes/modules/umiSliders/i18n.php</file>
+    <file path="./classes/components/umiSliders/autoload.php" size="1690" ext="php" hash="ed3d4de982799b241a5f4d5270bc7ada" name="autoload.php">/classes/components/umiSliders/autoload.php</file>
+    <file path="./classes/components/umiSliders/macros.php" size="7059" ext="php" hash="64138f13c63d2719466ed33b14c6d17a" name="macros.php">/classes/components/umiSliders/macros.php</file>
+    <file path="./classes/components/umiSliders/permissions.php" size="752" ext="php" hash="b343cf9afa69bf7e41ecf0fd70ecede0" name="permissions.php">/classes/components/umiSliders/permissions.php</file>
+    <file path="./classes/components/umiSliders/customMacros.php" size="149" ext="php" hash="d0b1e764a64d854a54dc9d4d2f9d4325" name="customMacros.php" only_install="true">/classes/components/umiSliders/customMacros.php</file>
+    <file path="./classes/components/umiSliders/services.php" size="1740" ext="php" hash="c5694df565752ddba708caee705d6330" name="services.php">/classes/components/umiSliders/services.php</file>
+    <file path="./classes/components/umiSliders/lang.php" size="155" ext="php" hash="c5bc2d4d9544b4dc33e0452d6f15c39a" name="lang.php">/classes/components/umiSliders/lang.php</file>
+    <file path="./classes/components/umiSliders/customAdmin.php" size="192" ext="php" hash="402d9a9420818fbc5d23117e354b17b0" name="customAdmin.php" only_install="true">/classes/components/umiSliders/customAdmin.php</file>
+    <file path="./classes/components/umiSliders/classes/interfaces/iSlidersCollection.php" size="1307" ext="php" hash="c8c28f248857542171a12351dc2aa14e" name="iSlidersCollection.php">/classes/components/umiSliders/classes/interfaces/iSlidersCollection.php</file>
+    <file path="./classes/components/umiSliders/classes/interfaces/iSlide.php" size="3339" ext="php" hash="204d3fc7e0c56fa177f1340b2ff8cc21" name="iSlide.php">/classes/components/umiSliders/classes/interfaces/iSlide.php</file>
+    <file path="./classes/components/umiSliders/classes/interfaces/iSlider.php" size="4258" ext="php" hash="eeba9fb3c368f03342b5b6e19e254f4c" name="iSlider.php">/classes/components/umiSliders/classes/interfaces/iSlider.php</file>
+    <file path="./classes/components/umiSliders/classes/interfaces/iSlidesCollection.php" size="411" ext="php" hash="d6afe3a73f403d5557e566af4eec037e" name="iSlidesCollection.php">/classes/components/umiSliders/classes/interfaces/iSlidesCollection.php</file>
+    <file path="./classes/components/umiSliders/classes/collections/SlidersCollection.php" size="5514" ext="php" hash="7dcd1d30919014342042521e2e06de84" name="SlidersCollection.php">/classes/components/umiSliders/classes/collections/SlidersCollection.php</file>
+    <file path="./classes/components/umiSliders/classes/collections/SlidesCollection.php" size="4270" ext="php" hash="cf23a4b75c0235f3f5f5f54f22e5f15c" name="SlidesCollection.php">/classes/components/umiSliders/classes/collections/SlidesCollection.php</file>
+    <file path="./classes/components/umiSliders/classes/constants/SlidersConstantMap.php" size="2371" ext="php" hash="855b866ac4d9f2d669034caf8d9b8841" name="SlidersConstantMap.php">/classes/components/umiSliders/classes/constants/SlidersConstantMap.php</file>
+    <file path="./classes/components/umiSliders/classes/constants/SlidesConstantMap.php" size="1076" ext="php" hash="3e2dc37dd4a8571963a24a9fe32b6201" name="SlidesConstantMap.php">/classes/components/umiSliders/classes/constants/SlidesConstantMap.php</file>
+    <file path="./classes/components/umiSliders/classes/exceptions/ExpectSliderException.php" size="389" ext="php" hash="0ecd5be43ef13ec45d87d7cbd8d0dc89" name="ExpectSliderException.php">/classes/components/umiSliders/classes/exceptions/ExpectSliderException.php</file>
+    <file path="./classes/components/umiSliders/classes/exceptions/ExpectSlideException.php" size="387" ext="php" hash="7014beb34a2071bd2c88c032525b6710" name="ExpectSlideException.php">/classes/components/umiSliders/classes/exceptions/ExpectSlideException.php</file>
+    <file path="./classes/components/umiSliders/classes/entities/Slider.php" size="10496" ext="php" hash="35a9e1409952016353fe37bc118be9c6" name="Slider.php">/classes/components/umiSliders/classes/entities/Slider.php</file>
+    <file path="./classes/components/umiSliders/classes/entities/Slide.php" size="10787" ext="php" hash="73624ac0134dd203ceb905390a8ebbb8" name="Slide.php">/classes/components/umiSliders/classes/entities/Slide.php</file>
+    <file path="./classes/components/umiSliders/handlers.php" size="134" ext="php" hash="3c1f07ebee21324f8747a063834ef115" name="handlers.php">/classes/components/umiSliders/handlers.php</file>
+    <file path="./classes/components/umiSliders/admin.php" size="31872" ext="php" hash="568a10d125d3f576d9ef1b59779d6501" name="admin.php">/classes/components/umiSliders/admin.php</file>
+    <file path="./classes/components/umiSliders/install.php" size="2013" ext="php" hash="12716394b559a7061658b94cd5e93f5c" name="install.php">/classes/components/umiSliders/install.php</file>
+    <file path="./classes/components/umiSliders/includes.php" size="161" ext="php" hash="3a1172f1d5f47084157eea32333eb8ce" name="includes.php">/classes/components/umiSliders/includes.php</file>
+    <file path="./classes/components/umiSliders/i18n.en.php" size="5048" ext="php" hash="a35c98e4f13d0722d5f8272a062f03ab" name="i18n.en.php" only_install="true">/classes/components/umiSliders/i18n.en.php</file>
+    <file path="./classes/components/umiSliders/class.php" size="4311" ext="php" hash="addb6390814bf80b391f9315824d7f4f" name="class.php">/classes/components/umiSliders/class.php</file>
+    <file path="./classes/components/umiSliders/i18n.php" size="7254" ext="php" hash="e4356c91c897d1a0b001fdf9e317d436" name="i18n.php">/classes/components/umiSliders/i18n.php</file>
+    <file path="./classes/components/umiSliders/lang.en.php" size="152" ext="php" hash="630998cdccdca724c269d4d520c46bff" name="lang.en.php">/classes/components/umiSliders/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/umiSliders/list.view.xsl" size="4595" ext="xsl" hash="41c10314f78d1844850a3d844fade7ee" name="list.view.xsl">/styles/skins/modern/data/modules/umiSliders/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiSliders/form.modify.xsl" size="12450" ext="xsl" hash="03365cac4bde4cd9ceaf741ba0746b61" name="form.modify.xsl">/styles/skins/modern/data/modules/umiSliders/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

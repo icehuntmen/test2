@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374760</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:40 +0300</rfc>
+      <utc>2018-06-07T15:32:40+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/data" val="data"/>
+    <key path="modules/data/name" val="data"/>
+    <key path="modules/data/filename" val="modules/data/class.php"/>
+    <key path="modules/data/config" val="1" update="1"/>
+    <key path="modules/data/default_method" val="test" update="1"/>
+    <key path="modules/data/default_method_admin" val="types" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/data" name="data">/classes/modules/data</directory>
+    <directory path="./classes/components/data" name="data">/classes/components/data</directory>
+    <directory path="./styles/skins/mac/data/modules/data" name="data">/styles/skins/mac/data/modules/data</directory>
+    <directory path="./styles/skins/modern/data/modules/data" name="data">/styles/skins/modern/data/modules/data</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/data/__client_reflection.php" size="47875" ext="php" hash="b9e1eecf4605df75a3a217accaa463fd" name="__client_reflection.php">/classes/modules/data/__client_reflection.php</file>
+    <file path="./classes/modules/data/__json.php" size="3701" ext="php" hash="a29baa4bc66715c5e28849a2e2a0319d" name="__json.php">/classes/modules/data/__json.php</file>
+    <file path="./classes/modules/data/__rss.php" size="7139" ext="php" hash="06af21d572e1c64afca5fb3c20c29644" name="__rss.php">/classes/modules/data/__rss.php</file>
+    <file path="./classes/modules/data/__files.php" size="14879" ext="php" hash="2faae19e31115fbdde0cd95f32685ada" name="__files.php">/classes/modules/data/__files.php</file>
+    <file path="./classes/modules/data/__custom.php" size="594" ext="php" hash="7d5bccaed11b324bb619c9b7dce74b11" name="__custom.php" only_install="true">/classes/modules/data/__custom.php</file>
+    <file path="./classes/modules/data/permissions.php" size="1672" ext="php" hash="a27fd2cf54286847d846dcc4083a0515" name="permissions.php">/classes/modules/data/permissions.php</file>
+    <file path="./classes/modules/data/lang.php" size="1839" ext="php" hash="99fb866721c2a3a3ed6ab83af618fd77" name="lang.php">/classes/modules/data/lang.php</file>
+    <file path="./classes/modules/data/__guides.php" size="8397" ext="php" hash="aa3ffa75fdab3f4577630bf31b7be114" name="__guides.php">/classes/modules/data/__guides.php</file>
+    <file path="./classes/modules/data/__custom_adm.php" size="106" ext="php" hash="e174844d749edb02102c478357bd7954" name="__custom_adm.php" only_install="true">/classes/modules/data/__custom_adm.php</file>
+    <file path="./classes/modules/data/__trash.php" size="2157" ext="php" hash="11e618fdefdb8f56cf902bcedf0d225c" name="__trash.php">/classes/modules/data/__trash.php</file>
+    <file path="./classes/modules/data/__admin.php" size="14525" ext="php" hash="de9277b4f0cf197e103fe4e096825c63" name="__admin.php">/classes/modules/data/__admin.php</file>
+    <file path="./classes/modules/data/install.php" size="4650" ext="php" hash="d16538058cddc90b6425179d561abb63" name="install.php">/classes/modules/data/install.php</file>
+    <file path="./classes/modules/data/__search.php" size="13184" ext="php" hash="484375dba760141fc4c18e7713b004fc" name="__search.php">/classes/modules/data/__search.php</file>
+    <file path="./classes/modules/data/i18n.en.php" size="77194" ext="php" hash="778e800c45b26e53c05dfa0d0f737b15" name="i18n.en.php" only_install="true">/classes/modules/data/i18n.en.php</file>
+    <file path="./classes/modules/data/class.php" size="37434" ext="php" hash="f2f62d3be2c98467a7ace9961ba8e851" name="class.php">/classes/modules/data/class.php</file>
+    <file path="./classes/modules/data/i18n.php" size="103367" ext="php" hash="c3fffcbe9a95ea6de7e8f8f5fb2f799c" name="i18n.php">/classes/modules/data/i18n.php</file>
+    <file path="./classes/components/data/macros.php" size="42577" ext="php" hash="dcbca727de1db7dfc04c3c000dd70de6" name="macros.php">/classes/components/data/macros.php</file>
+    <file path="./classes/components/data/permissions.php" size="1576" ext="php" hash="e29675680f483c940f05c9b89e129f86" name="permissions.php">/classes/components/data/permissions.php</file>
+    <file path="./classes/components/data/customMacros.php" size="150" ext="php" hash="827fdae8ac14e9069c06914569bb0808" name="customMacros.php" only_install="true">/classes/components/data/customMacros.php</file>
+    <file path="./classes/components/data/lang.php" size="1916" ext="php" hash="b76bcc113bb8dad53ffca4c548801bee" name="lang.php">/classes/components/data/lang.php</file>
+    <file path="./classes/components/data/customAdmin.php" size="200" ext="php" hash="16fcab716e4e6fa2e5eea5dff1c801a2" name="customAdmin.php" only_install="true">/classes/components/data/customAdmin.php</file>
+    <file path="./classes/components/data/forms.php" size="55039" ext="php" hash="a4337f9cd19bc4d11fec074f7f5c41cc" name="forms.php">/classes/components/data/forms.php</file>
+    <file path="./classes/components/data/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/data/handlers.php</file>
+    <file path="./classes/components/data/admin.php" size="38077" ext="php" hash="6849088a4aed2056b7b1bfbe5af07cf5" name="admin.php">/classes/components/data/admin.php</file>
+    <file path="./classes/components/data/install.php" size="1277" ext="php" hash="639a08a41edf75c5d2805f76bc378447" name="install.php">/classes/components/data/install.php</file>
+    <file path="./classes/components/data/fileManager.php" size="17885" ext="php" hash="f3d17a28efb9c7cee7bd7892b0ef4a9c" name="fileManager.php">/classes/components/data/fileManager.php</file>
+    <file path="./classes/components/data/feeds.php" size="5206" ext="php" hash="2b6a3b8eaa1512835ccace6d243ae08a" name="feeds.php">/classes/components/data/feeds.php</file>
+    <file path="./classes/components/data/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/data/includes.php</file>
+    <file path="./classes/components/data/i18n.en.php" size="81805" ext="php" hash="10bcc7bb3de3b78ea16f5c0bf21aa6e7" name="i18n.en.php" only_install="true">/classes/components/data/i18n.en.php</file>
+    <file path="./classes/components/data/class.php" size="8164" ext="php" hash="d7410fe6ae336e55550136bb08a53c57" name="class.php">/classes/components/data/class.php</file>
+    <file path="./classes/components/data/i18n.php" size="109044" ext="php" hash="0e94c06ebe5c54db357c569867bf1e89" name="i18n.php">/classes/components/data/i18n.php</file>
+    <file path="./classes/components/data/lang.en.php" size="1394" ext="php" hash="bc5c8a0532bea4699b1422a8260b208b" name="lang.en.php">/classes/components/data/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/data/list.view.xsl" size="8482" ext="xsl" hash="20a65324c4c967db7bae1d105a71f0f6" name="list.view.xsl">/styles/skins/mac/data/modules/data/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/data/form.modify.xsl" size="7186" ext="xsl" hash="6aeb2fd8c2da4738053a0f7a3da59cdd" name="form.modify.xsl">/styles/skins/mac/data/modules/data/form.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/data/list.modify.xsl" size="1891" ext="xsl" hash="f42bcf0e17a26db884ca6c8ffab8770f" name="list.modify.xsl">/styles/skins/mac/data/modules/data/list.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/data/list.view.xsl" size="10530" ext="xsl" hash="08294b947092f7ba84e85171acb4ceb8" name="list.view.xsl">/styles/skins/modern/data/modules/data/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/data/form.modify.xsl" size="19489" ext="xsl" hash="6116248f5790caf5ab5629a5b30eb99d" name="form.modify.xsl">/styles/skins/modern/data/modules/data/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/data/list.modify.xsl" size="2660" ext="xsl" hash="cb6b317466ade4914dccc9fd4ab2269f" name="list.modify.xsl">/styles/skins/modern/data/modules/data/list.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

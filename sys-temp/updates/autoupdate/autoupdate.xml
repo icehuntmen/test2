@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374762</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:42 +0300</rfc>
+      <utc>2018-06-07T15:32:42+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/autoupdate" val="autoupdate"/>
+    <key path="modules/autoupdate/name" val="autoupdate"/>
+    <key path="modules/autoupdate/filename" val="modules/autoupdate/class.php"/>
+    <key path="modules/autoupdate/config" val="0" update="1"/>
+    <key path="modules/autoupdate/default_method" val="updateall" update="1"/>
+    <key path="modules/autoupdate/default_method_admin" val="versions" update="1"/>
+    <key path="modules/autoupdate/system_version" val="15"/>
+    <key path="modules/autoupdate/system_edition" val="commerce"/>
+    <key path="modules/autoupdate/last_updated" val="1260358009"/>
+    <key path="modules/autoupdate/system_build" val="13294"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/autoupdate" name="autoupdate">/classes/modules/autoupdate</directory>
+    <directory path="./classes/components/autoupdate" name="autoupdate">/classes/components/autoupdate</directory>
+    <directory path="./classes/components/autoupdate/Classes" name="Classes">/classes/components/autoupdate/Classes</directory>
+    <directory path="./classes/components/autoupdate/Classes/UpdateServer" name="UpdateServer">/classes/components/autoupdate/Classes/UpdateServer</directory>
+    <directory path="./styles/skins/mac/data/modules/autoupdate" name="autoupdate">/styles/skins/mac/data/modules/autoupdate</directory>
+    <directory path="./styles/skins/modern/data/modules/autoupdate" name="autoupdate">/styles/skins/modern/data/modules/autoupdate</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/autoupdate/__json.php" size="3640" ext="php" hash="73661af10f505347d9f3c7b9b9553242" name="__json.php">/classes/modules/autoupdate/__json.php</file>
+    <file path="./classes/modules/autoupdate/__custom.php" size="90" ext="php" hash="78bc8a8749102a9e9171aebdf42a95cd" name="__custom.php" only_install="true">/classes/modules/autoupdate/__custom.php</file>
+    <file path="./classes/modules/autoupdate/permissions.php" size="129" ext="php" hash="e999c2eb73f5cf614f678a65f8e26f7d" name="permissions.php">/classes/modules/autoupdate/permissions.php</file>
+    <file path="./classes/modules/autoupdate/lang.php" size="1508" ext="php" hash="7893bfa65b90e21a9119aa134ef39540" name="lang.php">/classes/modules/autoupdate/lang.php</file>
+    <file path="./classes/modules/autoupdate/__custom_adm.php" size="112" ext="php" hash="edc5b9ffc0772091a898020ea341585a" name="__custom_adm.php" only_install="true">/classes/modules/autoupdate/__custom_adm.php</file>
+    <file path="./classes/modules/autoupdate/update.php" size="76" ext="php" hash="9813b3fa4694e1f224d59af8dc322fb8" name="update.php">/classes/modules/autoupdate/update.php</file>
+    <file path="./classes/modules/autoupdate/__admin.php" size="2196" ext="php" hash="db0bd92c3001dad5276270941e39a9cb" name="__admin.php">/classes/modules/autoupdate/__admin.php</file>
+    <file path="./classes/modules/autoupdate/install.php" size="1372" ext="php" hash="4f52edbdc9d1ffac533e1f729a102152" name="install.php">/classes/modules/autoupdate/install.php</file>
+    <file path="./classes/modules/autoupdate/ch_m.php" size="1641" ext="php" hash="aa1e13ce7408dff25577573eb7e439df" name="ch_m.php">/classes/modules/autoupdate/ch_m.php</file>
+    <file path="./classes/modules/autoupdate/i18n.en.php" size="1178" ext="php" hash="ffa54c77c9608184d6ab46828a89acc4" name="i18n.en.php" only_install="true">/classes/modules/autoupdate/i18n.en.php</file>
+    <file path="./classes/modules/autoupdate/class.php" size="11146" ext="php" hash="15069b20693d8be230f4794b3c81e439" name="class.php">/classes/modules/autoupdate/class.php</file>
+    <file path="./classes/modules/autoupdate/i18n.php" size="1718" ext="php" hash="67ba8f93d88cb948435fcb5971cd67f1" name="i18n.php">/classes/modules/autoupdate/i18n.php</file>
+    <file path="./classes/components/autoupdate/autoload.php" size="616" ext="php" hash="546f570003742511c5fea3f224ca780c" name="autoload.php">/classes/components/autoupdate/autoload.php</file>
+    <file path="./classes/components/autoupdate/service.php" size="4178" ext="php" hash="cbed70470a6998fd0d3a8c850fb49464" name="service.php">/classes/components/autoupdate/service.php</file>
+    <file path="./classes/components/autoupdate/permissions.php" size="95" ext="php" hash="bf5852ebffec1d2525b98b5f1959e390" name="permissions.php">/classes/components/autoupdate/permissions.php</file>
+    <file path="./classes/components/autoupdate/customMacros.php" size="162" ext="php" hash="84e5d0a0eca5e6824e401cf556322e54" name="customMacros.php" only_install="true">/classes/components/autoupdate/customMacros.php</file>
+    <file path="./classes/components/autoupdate/services.php" size="621" ext="php" hash="ff30e1327779001e5361c84a79e7ae9c" name="services.php">/classes/components/autoupdate/services.php</file>
+    <file path="./classes/components/autoupdate/lang.php" size="1590" ext="php" hash="7b746d3fe7c386968bb7ae3591bb149e" name="lang.php">/classes/components/autoupdate/lang.php</file>
+    <file path="./classes/components/autoupdate/Classes/Registry.php" size="1305" ext="php" hash="7dc27fd83dfffe9cc5d0b7916ed975d2" name="Registry.php">/classes/components/autoupdate/Classes/Registry.php</file>
+    <file path="./classes/components/autoupdate/Classes/UpdateServer/Client.php" size="9720" ext="php" hash="1c61b7182a884476a29d82005b54394b" name="Client.php">/classes/components/autoupdate/Classes/UpdateServer/Client.php</file>
+    <file path="./classes/components/autoupdate/Classes/UpdateServer/iClient.php" size="2894" ext="php" hash="246766a8d3e1722d38d1ad76181fdcc8" name="iClient.php">/classes/components/autoupdate/Classes/UpdateServer/iClient.php</file>
+    <file path="./classes/components/autoupdate/Classes/iRegistry.php" size="1103" ext="php" hash="0e38cb5d1609a0761f3259bd2ae6f889" name="iRegistry.php">/classes/components/autoupdate/Classes/iRegistry.php</file>
+    <file path="./classes/components/autoupdate/customAdmin.php" size="210" ext="php" hash="fbd8da590002be580026457b6753c3e6" name="customAdmin.php" only_install="true">/classes/components/autoupdate/customAdmin.php</file>
+    <file path="./classes/components/autoupdate/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/autoupdate/handlers.php</file>
+    <file path="./classes/components/autoupdate/admin.php" size="2111" ext="php" hash="81a7824029eaede45537cb01e8cb6944" name="admin.php">/classes/components/autoupdate/admin.php</file>
+    <file path="./classes/components/autoupdate/install.php" size="1304" ext="php" hash="46c3fa269111daf8c5dbd0280c042c85" name="install.php">/classes/components/autoupdate/install.php</file>
+    <file path="./classes/components/autoupdate/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/autoupdate/includes.php</file>
+    <file path="./classes/components/autoupdate/i18n.en.php" size="2614" ext="php" hash="17ba8a30169ed30dae8337ab8ac16aca" name="i18n.en.php" only_install="true">/classes/components/autoupdate/i18n.en.php</file>
+    <file path="./classes/components/autoupdate/class.php" size="10047" ext="php" hash="816bf070a4e63b891b6d90498bf963cf" name="class.php">/classes/components/autoupdate/class.php</file>
+    <file path="./classes/components/autoupdate/i18n.php" size="3822" ext="php" hash="a39693d57180ed29d3a0e57c432ca4d7" name="i18n.php">/classes/components/autoupdate/i18n.php</file>
+    <file path="./classes/components/autoupdate/lang.en.php" size="1382" ext="php" hash="3d36f5da52831f7d1e4bc5262c2385ea" name="lang.en.php">/classes/components/autoupdate/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/autoupdate/settings.view.xsl" size="14519" ext="xsl" hash="2e350729426a2db29e9d15d59223c69e" name="settings.view.xsl">/styles/skins/mac/data/modules/autoupdate/settings.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/autoupdate/settings.view.xsl" size="4528" ext="xsl" hash="cf15aeb495947867d60b2e474f4c3b65" name="settings.view.xsl">/styles/skins/modern/data/modules/autoupdate/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

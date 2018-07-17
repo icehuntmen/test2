@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374766</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:46 +0300</rfc>
+      <utc>2018-06-07T15:32:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/appointment" val="appointment"/>
+    <key path="modules/appointment/config" val="1" update="1"/>
+    <key path="modules/appointment/name" val="appointment"/>
+    <key path="modules/appointment/work-time-0" val=""/>
+    <key path="modules/appointment/work-time-1" val=""/>
+    <key path="modules/appointment/work-time-2" val=""/>
+    <key path="modules/appointment/work-time-3" val=""/>
+    <key path="modules/appointment/work-time-4" val=""/>
+    <key path="modules/appointment/work-time-5" val=""/>
+    <key path="modules/appointment/work-time-6" val=""/>
+    <key path="modules/appointment/default_method" val="page" update="1"/>
+    <key path="modules/appointment/default_method_admin" val="orders" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/appointment" name="appointment">/classes/modules/appointment</directory>
+    <directory path="./classes/components/appointment" name="appointment">/classes/components/appointment</directory>
+    <directory path="./classes/components/appointment/classes" name="classes">/classes/components/appointment/classes</directory>
+    <directory path="./classes/components/appointment/classes/items" name="items">/classes/components/appointment/classes/items</directory>
+    <directory path="./classes/components/appointment/classes/interfaces" name="interfaces">/classes/components/appointment/classes/interfaces</directory>
+    <directory path="./classes/components/appointment/classes/collections" name="collections">/classes/components/appointment/classes/collections</directory>
+    <directory path="./classes/components/appointment/classes/constants" name="constants">/classes/components/appointment/classes/constants</directory>
+    <directory path="./styles/skins/modern/data/modules/appointment" name="appointment">/styles/skins/modern/data/modules/appointment</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/appointment/i18n.en.php" size="202" ext="php" hash="cf812259eb162a511e19c0b269548b26" name="i18n.en.php" only_install="true">/classes/modules/appointment/i18n.en.php</file>
+    <file path="./classes/modules/appointment/class.php" size="975" ext="php" hash="0b6af7034cd01e16e0655deb2545e555" name="class.php">/classes/modules/appointment/class.php</file>
+    <file path="./classes/modules/appointment/i18n.php" size="221" ext="php" hash="0f3cfac6a647f7b00142b6ebd692e663" name="i18n.php">/classes/modules/appointment/i18n.php</file>
+    <file path="./classes/components/appointment/autoload.php" size="2760" ext="php" hash="c685f0335a33c5302269b0ffdb807366" name="autoload.php">/classes/components/appointment/autoload.php</file>
+    <file path="./classes/components/appointment/macros.php" size="24812" ext="php" hash="6b31256d40c6e6d80449cc5e08e2219a" name="macros.php">/classes/components/appointment/macros.php</file>
+    <file path="./classes/components/appointment/permissions.php" size="1378" ext="php" hash="20515b7ab139951461b49720fdca712f" name="permissions.php">/classes/components/appointment/permissions.php</file>
+    <file path="./classes/components/appointment/customMacros.php" size="163" ext="php" hash="0658e1058b8bcf30ef60d229f2092111" name="customMacros.php" only_install="true">/classes/components/appointment/customMacros.php</file>
+    <file path="./classes/components/appointment/services.php" size="3782" ext="php" hash="a0afc3ab0077ba42a144ec41e8f040e9" name="services.php">/classes/components/appointment/services.php</file>
+    <file path="./classes/components/appointment/lang.php" size="149" ext="php" hash="59178928acf33f09d97a2752572cb50b" name="lang.php">/classes/components/appointment/lang.php</file>
+    <file path="./classes/components/appointment/notifier.php" size="10187" ext="php" hash="be906c30440e6c840d6f7874e108d182" name="notifier.php">/classes/components/appointment/notifier.php</file>
+    <file path="./classes/components/appointment/customAdmin.php" size="208" ext="php" hash="a6be2f27ee093f1d225e293fd8179111" name="customAdmin.php" only_install="true">/classes/components/appointment/customAdmin.php</file>
+    <file path="./classes/components/appointment/events.php" size="359" ext="php" hash="b7ee45985e20de015e8f00a378684835" name="events.php">/classes/components/appointment/events.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentEmployee.php" size="4926" ext="php" hash="a108995f93edf59c732757892f18851a" name="AppointmentEmployee.php">/classes/components/appointment/classes/items/AppointmentEmployee.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentEmployeeService.php" size="2718" ext="php" hash="3ed5f33537134e5a16103124c4826b71" name="AppointmentEmployeeService.php">/classes/components/appointment/classes/items/AppointmentEmployeeService.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentEmployeeSchedule.php" size="4701" ext="php" hash="f16215cc3de72a1b8f81760d3a498b97" name="AppointmentEmployeeSchedule.php">/classes/components/appointment/classes/items/AppointmentEmployeeSchedule.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentOrder.php" size="11041" ext="php" hash="5c24d0eb94e6d8dffa64f46b50b29123" name="AppointmentOrder.php">/classes/components/appointment/classes/items/AppointmentOrder.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentServiceGroup.php" size="1913" ext="php" hash="a7d30f778d6c4376d649d20e6f622600" name="AppointmentServiceGroup.php">/classes/components/appointment/classes/items/AppointmentServiceGroup.php</file>
+    <file path="./classes/components/appointment/classes/items/AppointmentService.php" size="4283" ext="php" hash="e43de4cad0bdb028e059c27817c97fa7" name="AppointmentService.php">/classes/components/appointment/classes/items/AppointmentService.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentEmployee.php" size="1114" ext="php" hash="9ef0d69cff1080b66f9788b20372e751" name="iAppointmentEmployee.php">/classes/components/appointment/classes/interfaces/iAppointmentEmployee.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentService.php" size="1420" ext="php" hash="e1834cf438f2962949e36480a1f1e61c" name="iAppointmentService.php">/classes/components/appointment/classes/interfaces/iAppointmentService.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentOrder.php" size="3459" ext="php" hash="94b0ebde5d19233152b4f55f17a06142" name="iAppointmentOrder.php">/classes/components/appointment/classes/interfaces/iAppointmentOrder.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentEmployeeService.php" size="862" ext="php" hash="c1f39bc1c72b0397b0714b3e00cde2fc" name="iAppointmentEmployeeService.php">/classes/components/appointment/classes/interfaces/iAppointmentEmployeeService.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentServiceGroup.php" size="465" ext="php" hash="c864dac42922c8ecfc6d745e306ea4b9" name="iAppointmentServiceGroup.php">/classes/components/appointment/classes/interfaces/iAppointmentServiceGroup.php</file>
+    <file path="./classes/components/appointment/classes/interfaces/iAppointmentEmployeeSchedule.php" size="1537" ext="php" hash="192eb1323cebbfc55460b5cb9456fe4d" name="iAppointmentEmployeeSchedule.php">/classes/components/appointment/classes/interfaces/iAppointmentEmployeeSchedule.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentEmployeesCollection.php" size="1645" ext="php" hash="641b4a11765f35c4e72c6306a5d81d05" name="AppointmentEmployeesCollection.php">/classes/components/appointment/classes/collections/AppointmentEmployeesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentEmployeesSchedulesCollection.php" size="2387" ext="php" hash="d59714efc33b1df216f316aabecca364" name="AppointmentEmployeesSchedulesCollection.php">/classes/components/appointment/classes/collections/AppointmentEmployeesSchedulesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentServicesCollection.php" size="3163" ext="php" hash="dc3644346cd41243c784923621df8ca8" name="AppointmentServicesCollection.php">/classes/components/appointment/classes/collections/AppointmentServicesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentEmployeesServicesCollection.php" size="2396" ext="php" hash="9361869c647b6a9366f17defedf359f3" name="AppointmentEmployeesServicesCollection.php">/classes/components/appointment/classes/collections/AppointmentEmployeesServicesCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentOrdersCollection.php" size="5533" ext="php" hash="37116521d2f762936874602488d8a870" name="AppointmentOrdersCollection.php">/classes/components/appointment/classes/collections/AppointmentOrdersCollection.php</file>
+    <file path="./classes/components/appointment/classes/collections/AppointmentServiceGroupsCollection.php" size="2622" ext="php" hash="008feed643c4331251d6d946a0d23f78" name="AppointmentServiceGroupsCollection.php">/classes/components/appointment/classes/collections/AppointmentServiceGroupsCollection.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentEmployeesConstantMap.php" size="537" ext="php" hash="4b9771846f369faa3bdc4575957a09df" name="appointmentEmployeesConstantMap.php">/classes/components/appointment/classes/constants/appointmentEmployeesConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentOrdersConstantMap.php" size="1059" ext="php" hash="5e453a7b09f3cfb41685d65c13e43960" name="appointmentOrdersConstantMap.php">/classes/components/appointment/classes/constants/appointmentOrdersConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentEmployeesServicesConstantMap.php" size="629" ext="php" hash="7778bda03ba5a5efd7819744e73ec495" name="appointmentEmployeesServicesConstantMap.php">/classes/components/appointment/classes/constants/appointmentEmployeesServicesConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentServiceGroupsConstantMap.php" size="551" ext="php" hash="7a16bea797ad243b793aa1ce3a5ac4b6" name="appointmentServiceGroupsConstantMap.php">/classes/components/appointment/classes/constants/appointmentServiceGroupsConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentServicesConstantMap.php" size="512" ext="php" hash="bab62bac7d09c7fc769f7082cb1e505e" name="appointmentServicesConstantMap.php">/classes/components/appointment/classes/constants/appointmentServicesConstantMap.php</file>
+    <file path="./classes/components/appointment/classes/constants/appointmentEmployeesSchedulesConstantMap.php" size="737" ext="php" hash="19eb2d24dc3e51657b6db7c6ebcacef0" name="appointmentEmployeesSchedulesConstantMap.php">/classes/components/appointment/classes/constants/appointmentEmployeesSchedulesConstantMap.php</file>
+    <file path="./classes/components/appointment/handlers.php" size="1940" ext="php" hash="1c3e36cd7aa782788ef1777c364089d5" name="handlers.php">/classes/components/appointment/handlers.php</file>
+    <file path="./classes/components/appointment/admin.php" size="55919" ext="php" hash="2afc5e1bfd09045d9a5961b9746b4571" name="admin.php">/classes/components/appointment/admin.php</file>
+    <file path="./classes/components/appointment/install.php" size="3445" ext="php" hash="ebdcaeea3cb720d1f3a36cd60fa2a87a" name="install.php">/classes/components/appointment/install.php</file>
+    <file path="./classes/components/appointment/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/appointment/includes.php</file>
+    <file path="./classes/components/appointment/i18n.en.php" size="5303" ext="php" hash="6c2ddf3db0d0099b598001ae7f2e1783" name="i18n.en.php" only_install="true">/classes/components/appointment/i18n.en.php</file>
+    <file path="./classes/components/appointment/class.php" size="14727" ext="php" hash="f4e60e28b14aa3fc62c7cf188335098f" name="class.php">/classes/components/appointment/class.php</file>
+    <file path="./classes/components/appointment/i18n.php" size="6981" ext="php" hash="7f5122925b5698bd4c9dcce8f34fbc3d" name="i18n.php">/classes/components/appointment/i18n.php</file>
+    <file path="./classes/components/appointment/lang.en.php" size="141" ext="php" hash="7f61e403fed56bb0f0db44c0acd42474" name="lang.en.php">/classes/components/appointment/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/appointment/list.view.xsl" size="7902" ext="xsl" hash="ba60781878862903b9faec6608dbe23a" name="list.view.xsl">/styles/skins/modern/data/modules/appointment/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/appointment/form.modify.xsl" size="30239" ext="xsl" hash="94a8d901d8a80bb76e62d040958dd6ba" name="form.modify.xsl">/styles/skins/modern/data/modules/appointment/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/appointment/time.ranges.selections.js" size="3067" ext="js" hash="76c28c6634cac5bfc4b6e91c94d6e09d" name="time.ranges.selections.js">/styles/skins/modern/data/modules/appointment/time.ranges.selections.js</file>
+    <file path="./styles/skins/modern/data/modules/appointment/settings.modify.xsl" size="3487" ext="xsl" hash="a947c594dcbd193b27003965a77a1078" name="settings.modify.xsl">/styles/skins/modern/data/modules/appointment/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="Статус страницы" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="Свойства статуса страницы" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="id статуса" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="Раздел сайта" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta description" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="841" guid="appointment-page" title="Страница с записью на прием" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="appointment" method="page">Страница с записью на прием</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta description" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="appointment" title="Настройки виджета записи на прием" visible="visible" locked="locked" active="active">
+          <field id="9470" name="appoint_service_choice_title" title="Заголовок этапа выбора услуги" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9471" name="appoint_hint_step_text" title="Подсказка этапа выбора услуги" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9472" name="appoint_personal_step_title" title="Заголовок этапа выбора специалиста" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9473" name="appoint_personal_choice_title" title="Заголовок выбора специалиста" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9474" name="appoint_dont_care_button" title="Текст кнопки &quot;Мне все равно&quot;" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9475" name="appoint_dont_care_hint" title="Подсказка кнопки &quot;Мне все равно&quot;" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9476" name="appoint_date_step_title" title="Заголовок этапа выбора даты" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9477" name="appoint_date_choice_title" title="Заголовок выбора даты" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9478" name="appoint_confirm_step_title" title="Заголовок этапа подтверждения" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9479" name="appoint_book_time_button" title="Текст кнопки отправки заявки" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9480" name="appoint_book_time_hint" title="Подсказка кнопки отправки заявки" visible="visible" locked="locked" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="27085" guid="25ec3f9da5444fe6a125910137ec28200d4eaaa8" name="Опубликован" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27085" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27085" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_publish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27086" guid="8a6f804b3690f0592a3f17ed980a9df5f16bacd8" name="Снят с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27086" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27086" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_unpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27087" guid="f4df5d14f5a1aeeebfe3db75b73e57fef8bcc4f2" name="Готовится к снятию с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27087" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27087" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_preunpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="841" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

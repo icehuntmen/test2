@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374766</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:46 +0300</rfc>
+      <utc>2018-06-07T15:32:46+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/umiRedirects" val="umiRedirects"/>
+    <key path="modules/umiRedirects/config" val="1" update="1"/>
+    <key path="modules/umiRedirects/name" val="umiRedirects"/>
+    <key path="modules/umiRedirects/default_method" val="empty" update="1"/>
+    <key path="modules/umiRedirects/default_method_admin" val="lists" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/umiRedirects" name="umiRedirects">/classes/modules/umiRedirects</directory>
+    <directory path="./classes/components/umiRedirects" name="umiRedirects">/classes/components/umiRedirects</directory>
+    <directory path="./styles/skins/modern/data/modules/umiRedirects" name="umiRedirects">/styles/skins/modern/data/modules/umiRedirects</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/umiRedirects/__custom.php" size="280" ext="php" hash="d0be82eea4a55f36c771d8be3516e952" name="__custom.php" only_install="true">/classes/modules/umiRedirects/__custom.php</file>
+    <file path="./classes/modules/umiRedirects/permissions.php" size="337" ext="php" hash="9e17c40c7a22377f894a13c08b4768a3" name="permissions.php">/classes/modules/umiRedirects/permissions.php</file>
+    <file path="./classes/modules/umiRedirects/lang.php" size="150" ext="php" hash="162152948c01d28522f8c4c2640216a0" name="lang.php">/classes/modules/umiRedirects/lang.php</file>
+    <file path="./classes/modules/umiRedirects/__custom_adm.php" size="376" ext="php" hash="aa37645223749ecb37a77b5fd429938c" name="__custom_adm.php" only_install="true">/classes/modules/umiRedirects/__custom_adm.php</file>
+    <file path="./classes/modules/umiRedirects/__admin.php" size="14755" ext="php" hash="6e6bb8b0e93e2b1bee5ad804b2f8acac" name="__admin.php">/classes/modules/umiRedirects/__admin.php</file>
+    <file path="./classes/modules/umiRedirects/install.php" size="1135" ext="php" hash="ce3b02a39ccc76cb6f15e21328516f73" name="install.php">/classes/modules/umiRedirects/install.php</file>
+    <file path="./classes/modules/umiRedirects/i18n.en.php" size="1675" ext="php" hash="e6d0036109cd7a369ad5c7232aadd4dc" name="i18n.en.php" only_install="true">/classes/modules/umiRedirects/i18n.en.php</file>
+    <file path="./classes/modules/umiRedirects/class.php" size="3697" ext="php" hash="10425bc0d23f0f495d4b9e8d629fc059" name="class.php">/classes/modules/umiRedirects/class.php</file>
+    <file path="./classes/modules/umiRedirects/i18n.php" size="2668" ext="php" hash="dd16e89a1765e2aae640b05ffb591eef" name="i18n.php">/classes/modules/umiRedirects/i18n.php</file>
+    <file path="./classes/modules/umiRedirects/lang.en.php" size="147" ext="php" hash="1e3484a16889589de900ffbf9eceda85" name="lang.en.php">/classes/modules/umiRedirects/lang.en.php</file>
+    <file path="./classes/components/umiRedirects/permissions.php" size="335" ext="php" hash="3992a825d7c693b9886dc29441667241" name="permissions.php">/classes/components/umiRedirects/permissions.php</file>
+    <file path="./classes/components/umiRedirects/customMacros.php" size="165" ext="php" hash="428d7bf814cc00bf9e39a61b486b2623" name="customMacros.php" only_install="true">/classes/components/umiRedirects/customMacros.php</file>
+    <file path="./classes/components/umiRedirects/lang.php" size="142" ext="php" hash="70e3717b6aa2ce12db02d0f95cf1d65e" name="lang.php">/classes/components/umiRedirects/lang.php</file>
+    <file path="./classes/components/umiRedirects/customAdmin.php" size="209" ext="php" hash="0d4a0a847e2cf84efd18a4b7601d6bde" name="customAdmin.php" only_install="true">/classes/components/umiRedirects/customAdmin.php</file>
+    <file path="./classes/components/umiRedirects/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/umiRedirects/handlers.php</file>
+    <file path="./classes/components/umiRedirects/admin.php" size="13374" ext="php" hash="ae7b056089837f29cd508d820576544b" name="admin.php">/classes/components/umiRedirects/admin.php</file>
+    <file path="./classes/components/umiRedirects/install.php" size="930" ext="php" hash="59182d75c1b880b5d373f90b8a988bd3" name="install.php">/classes/components/umiRedirects/install.php</file>
+    <file path="./classes/components/umiRedirects/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/umiRedirects/includes.php</file>
+    <file path="./classes/components/umiRedirects/i18n.en.php" size="1852" ext="php" hash="496264f2ab2c9dc33ab8cca30e42d847" name="i18n.en.php" only_install="true">/classes/components/umiRedirects/i18n.en.php</file>
+    <file path="./classes/components/umiRedirects/class.php" size="3723" ext="php" hash="bbf599573b39ed584aed8e178af1c4d1" name="class.php">/classes/components/umiRedirects/class.php</file>
+    <file path="./classes/components/umiRedirects/i18n.php" size="2836" ext="php" hash="d07f0ac68ba595372a4571403925a5bb" name="i18n.php">/classes/components/umiRedirects/i18n.php</file>
+    <file path="./classes/components/umiRedirects/lang.en.php" size="139" ext="php" hash="c6e2319c66b07e2047bbb1efce49d638" name="lang.en.php">/classes/components/umiRedirects/lang.en.php</file>
+    <file path="./styles/skins/modern/data/modules/umiRedirects/removeAllRedirects.js" size="1089" ext="js" hash="4e77fbde9fcd053e912115dd5e92e62a" name="removeAllRedirects.js">/styles/skins/modern/data/modules/umiRedirects/removeAllRedirects.js</file>
+    <file path="./styles/skins/modern/data/modules/umiRedirects/list.view.xsl" size="2104" ext="xsl" hash="05a04a3e0c83170e739bb6792c694740" name="list.view.xsl">/styles/skins/modern/data/modules/umiRedirects/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/umiRedirects/form.modify.xsl" size="7248" ext="xsl" hash="159f3e436c1078413d59259b6c07a90e" name="form.modify.xsl">/styles/skins/modern/data/modules/umiRedirects/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374765</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:45 +0300</rfc>
+      <utc>2018-06-07T15:32:45+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/exchange" val="exchange"/>
+    <key path="modules/exchange/name" val="exchange"/>
+    <key path="modules/exchange/filename" val="modules/exchange/class.php"/>
+    <key path="modules/exchange/config" val="0" update="1"/>
+    <key path="modules/exchange/ico" val="exchange"/>
+    <key path="modules/exchange/default_method" val="import" update="1"/>
+    <key path="modules/exchange/default_method_admin" val="import" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/exchange" name="exchange">/classes/modules/exchange</directory>
+    <directory path="./classes/components/exchange" name="exchange">/classes/components/exchange</directory>
+    <directory path="./styles/skins/mac/data/modules/exchange" name="exchange">/styles/skins/mac/data/modules/exchange</directory>
+    <directory path="./styles/skins/modern/data/modules/exchange" name="exchange">/styles/skins/modern/data/modules/exchange</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/exchange/__auto.php" size="10744" ext="php" hash="f29ac818264d7b5668a0814a202c081e" name="__auto.php">/classes/modules/exchange/__auto.php</file>
+    <file path="./classes/modules/exchange/__custom.php" size="87" ext="php" hash="62990fd5c2645d8681afeb217cf3b9cf" name="__custom.php" only_install="true">/classes/modules/exchange/__custom.php</file>
+    <file path="./classes/modules/exchange/permissions.php" size="223" ext="php" hash="cae3c77e2ff41db33504f6fa20666f41" name="permissions.php">/classes/modules/exchange/permissions.php</file>
+    <file path="./classes/modules/exchange/__import.php" size="3964" ext="php" hash="d97d5e3917c309eaa1184ec8840cf12a" name="__import.php">/classes/modules/exchange/__import.php</file>
+    <file path="./classes/modules/exchange/__export.php" size="5899" ext="php" hash="c4f9f22ab113f98d09ed6ad1f0fa32ac" name="__export.php">/classes/modules/exchange/__export.php</file>
+    <file path="./classes/modules/exchange/__admin.php" size="9879" ext="php" hash="625e5dc483b912a1a521010eb9207dd6" name="__admin.php">/classes/modules/exchange/__admin.php</file>
+    <file path="./classes/modules/exchange/install.php" size="866" ext="php" hash="ba76087fd031101e58daabf323a3d066" name="install.php">/classes/modules/exchange/install.php</file>
+    <file path="./classes/modules/exchange/__auto_export.php" size="9532" ext="php" hash="954c133f48d22225ff3ffd1e8ad988d8" name="__auto_export.php">/classes/modules/exchange/__auto_export.php</file>
+    <file path="./classes/modules/exchange/i18n.en.php" size="3376" ext="php" hash="5fbf2538fabfdbf1623fbbfd0b42c238" name="i18n.en.php" only_install="true">/classes/modules/exchange/i18n.en.php</file>
+    <file path="./classes/modules/exchange/class.php" size="2391" ext="php" hash="7a0d2ba00d424258ead5967b32977638" name="class.php">/classes/modules/exchange/class.php</file>
+    <file path="./classes/modules/exchange/i18n.php" size="5479" ext="php" hash="72536b6bc875d9dd05af12726d5c2770" name="i18n.php">/classes/modules/exchange/i18n.php</file>
+    <file path="./classes/components/exchange/1CExchange.php" size="24359" ext="php" hash="1add936ec47763357321059c0b03a2df" name="1CExchange.php">/classes/components/exchange/1CExchange.php</file>
+    <file path="./classes/components/exchange/permissions.php" size="527" ext="php" hash="34e768c7504127bec9c8fac63c8b5dce" name="permissions.php">/classes/components/exchange/permissions.php</file>
+    <file path="./classes/components/exchange/customMacros.php" size="163" ext="php" hash="5572c9a0da94e20f161320c74c180e95" name="customMacros.php" only_install="true">/classes/components/exchange/customMacros.php</file>
+    <file path="./classes/components/exchange/customAdmin.php" size="206" ext="php" hash="4acc9f776431f9bdce474e50f7ae6616" name="customAdmin.php" only_install="true">/classes/components/exchange/customAdmin.php</file>
+    <file path="./classes/components/exchange/handlers.php" size="70" ext="php" hash="43bd8b4ddc4564615fce3adee8c13105" name="handlers.php">/classes/components/exchange/handlers.php</file>
+    <file path="./classes/components/exchange/admin.php" size="20385" ext="php" hash="10ac81364be3415ff97fbf4b5ff4b0cf" name="admin.php">/classes/components/exchange/admin.php</file>
+    <file path="./classes/components/exchange/install.php" size="1013" ext="php" hash="aaed86f1623415da3c051722167810d7" name="install.php">/classes/components/exchange/install.php</file>
+    <file path="./classes/components/exchange/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/exchange/includes.php</file>
+    <file path="./classes/components/exchange/i18n.en.php" size="3636" ext="php" hash="edde27e4bb8539710da0b3f4b7935b77" name="i18n.en.php" only_install="true">/classes/components/exchange/i18n.en.php</file>
+    <file path="./classes/components/exchange/class.php" size="9458" ext="php" hash="f678ec31f668ea84a5cd0392b0de12f4" name="class.php">/classes/components/exchange/class.php</file>
+    <file path="./classes/components/exchange/i18n.php" size="5815" ext="php" hash="ada54e1f3a0ac4709d3b307be9e5ef59" name="i18n.php">/classes/components/exchange/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/exchange/list.view.xsl" size="17194" ext="xsl" hash="52a2afc72b86bbe67f4b3b27bb1c81a3" name="list.view.xsl">/styles/skins/mac/data/modules/exchange/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/exchange/form.modify.xsl" size="1795" ext="xsl" hash="500ac93fde526c11f69694c0ba6a3d29" name="form.modify.xsl">/styles/skins/mac/data/modules/exchange/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/exchange/list.view.xsl" size="3475" ext="xsl" hash="5712b7d82b8f03a5a3eef1721caab3c8" name="list.view.xsl">/styles/skins/modern/data/modules/exchange/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/exchange/form.modify.xsl" size="1799" ext="xsl" hash="7df2295591029589f4b5fbd973093485" name="form.modify.xsl">/styles/skins/modern/data/modules/exchange/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="807" guid="exchange-format-export" title="Форматы экспорта" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9170" name="sid" title="Идентификатор" required="required" important="important">
+            <type name="Строка" data-type="string"/>
+            <tip>Служит для связи с обработчиками, заполняется разработчиком импотрера</tip>
+          </field>
+          <tip>Настройки формата экспорта данных</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="840" guid="exchange-encodings" title="Кодировки обмена данными" parent-id="7" domain-id="0" guide="guide" public="public">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="804" guid="exchange-export" title="Экспорт данных" parent-id="0" domain-id="0" locked="locked">
+      <base module="exchange" method="export">Обмен данными: Экспорт</base>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9171" name="format" title="Формат экспорта" guide-id="807" required="required" important="important">
+            <type name="Выпадающий список" data-type="relation"/>
+            <tip>Формат, в который будут перобразованы данные из UMI.CMS</tip>
+          </field>
+          <field id="9172" name="elements" title="Разделы сайта, которые будут экспортированы" important="important">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+            <tip>Если формат экспорта поддерживает данную функцию, будут экспортированы только выбранные разделы</tip>
+          </field>
+          <field id="9382" name="excluded_elements" title="Разделы сайта, которые не будут экспортированы" filterable="filterable" important="important">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+            <tip>Если формат экспорта поддерживает данную функцию, выбранные разделы экспортированы не будут</tip>
+          </field>
+          <field id="9173" name="cache_time" title="Время кеширования результатов экспорта (в минутах)">
+            <type name="Число" data-type="int"/>
+            <tip>Если задано, то результат будет закеширован на указанное кол-во минут</tip>
+          </field>
+          <field id="9206" name="source_name" title="Идентификатор ресурса">
+            <type name="Строка" data-type="string"/>
+            <tip>При интеграции со сторонним сервисом, здесь следует указать имя пространства имен.</tip>
+          </field>
+          <field id="9464" name="encoding_export" title="Кодировка" guide-id="840">
+            <type name="Выпадающий список" data-type="relation"/>
+            <tip>Кодировка, в которой будут экспортированы данные</tip>
+          </field>
+          <tip>Общие настройки экспорта данных</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="806" guid="exchange-format-import" title="Форматы импорта" parent-id="0" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9170" name="sid" title="Идентификатор" required="required" important="important">
+            <type name="Строка" data-type="string"/>
+            <tip>Служит для связи с обработчиками, заполняется разработчиком импотрера</tip>
+          </field>
+          <tip>Настройки формата импорта данных</tip>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="805" guid="exchange-import" title="Импорт данных" parent-id="0" domain-id="0" locked="locked">
+      <base module="exchange" method="import">Обмен данными: Импорт</base>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9174" name="format" title="Формат данных" guide-id="806" required="required" important="important">
+            <type name="Выпадающий список" data-type="relation"/>
+            <tip>Формат импотрируемых данных</tip>
+          </field>
+          <field id="9175" name="file" title="Файл данных" required="required" important="important">
+            <type name="Файл" data-type="file"/>
+          </field>
+          <field id="9176" name="elements" title="Раздел сайта, в который будут импортированы данные" important="important">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+            <tip>Если формат импорта поддерживает данную функцию, данные будут импортированы в указанный раздел</tip>
+          </field>
+          <field id="9463" name="encoding_import" title="Кодировка" guide-id="840">
+            <type name="Выпадающий список" data-type="relation"/>
+            <tip>Кодировка импортируемых данных</tip>
+          </field>
+          <tip>Общие настройки импорта данных</tip>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="27462" guid="2ca45ca1c710cf65f451f098f4bf683082566200" name="Каталог товаров в формате СommerceML 2.0" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27462" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27462" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>catalogCommerceML</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27463" guid="681665ea8b72237d1677dfaf7339ef7a7ec40269" name="Список предложений в формате CommerceML 2.0" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27463" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27463" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>offersCommerceML</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27464" guid="8e9874cd7a1b20f4b00c95fd7126f2112101c2ac" name="Список заказов в формате CommerceML 2.0" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27464" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27464" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>ordersCommerceML</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27465" guid="ff6c38d4ab12cda6c035cf36a4afb829049fbf21" name="Каталог в формате Яндекс.Маркет (YML)" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27465" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27465" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>YML</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27466" guid="b8c554e9ce8127f2405c189857cfd6831dcc2f5d" name="Данные в формате umiDump 2.0" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27466" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27466" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>umiDump20</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27521" guid="de2d91f2111e74d1fab49ffed3220fc4b1d51d42" name="Данные в формате CSV" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27521" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27521" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>CSV</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27523" guid="ccc9bf34f683f8e4ecf2ffe2910f3d8cda2b6852" name="Перенос UMI.CMS (umiDump 2.0)" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27523" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27523" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>transfer</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27943" guid="exchange-export-commerceml" name="Перенос каталога в 1С (CommerceML)" type-id="807" type-guid="exchange-format-export" ownerId="14" locked="0" xlink:href="uobject://27943" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27943" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>commerceML</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27956" guid="exchange-encoding-windows-1251" name="Windows-1251" type-id="840" type-guid="exchange-encodings" ownerId="14" locked="0" xlink:href="uobject://27956" install-only="1"/>
+    <object id="27957" guid="exchange-encoding-utf-8" name="UTF-8" type-id="840" type-guid="exchange-encodings" ownerId="14" locked="0" xlink:href="uobject://27957" install-only="1"/>
+    <object id="27459" guid="3fb6d39f5279c04f1bfec5a7cc13783a45d00141" name="Данные в формате CommerceML 2.0" type-id="806" type-guid="exchange-format-import" ownerId="14" locked="0" xlink:href="uobject://27459" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27459" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>commerceML2</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27461" guid="2c4eff97ef278f12c4461309e84dd0627bd4a37b" name="Данные в формате umiDump 2.0" type-id="806" type-guid="exchange-format-import" ownerId="14" locked="0" xlink:href="uobject://27461" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27461" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>umiDump20</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27520" guid="23abbfa28d922d786d39218e3aa26719ad16ee47" name="Данные в формате CSV" type-id="806" type-guid="exchange-format-import" ownerId="14" locked="0" xlink:href="uobject://27520" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27520" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>CSV</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27522" guid="cdc4a1f4e0ee63b2359d3dec91efe33d2a296c92" name="Перенос UMI.CMS (umiDump 2.0)" type-id="806" type-guid="exchange-format-import" ownerId="14" locked="0" xlink:href="uobject://27522" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Свойства</title>
+          <property id="9170" object-id="27522" name="sid" type="string" is-important="1">
+            <title>Идентификатор</title>
+            <value>transfer</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="804" field-name="format">
+      <guide id="807"/>
+    </relation>
+    <relation type-id="804" field-name="encoding_export">
+      <guide id="840"/>
+    </relation>
+    <relation type-id="805" field-name="format">
+      <guide id="806"/>
+    </relation>
+    <relation type-id="805" field-name="encoding_import">
+      <guide id="840"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

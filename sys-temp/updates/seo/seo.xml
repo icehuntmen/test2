@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374764</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:44 +0300</rfc>
+      <utc>2018-06-07T15:32:44+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/seo" val="seo"/>
+    <key path="modules/seo/name" val="seo"/>
+    <key path="modules/seo/filename" val="modules/seo/class.php"/>
+    <key path="modules/seo/config" val="1" update="1"/>
+    <key path="modules/seo/default_method" val="show" update="1"/>
+    <key path="modules/seo/default_method_admin" val="webmaster" update="1"/>
+    <key path="modules/seo/megaindex-login" val="megaindex@umisoft.ru"/>
+    <key path="modules/seo/megaindex-password" val="et676e5rj"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/seo" name="seo">/classes/modules/seo</directory>
+    <directory path="./classes/components/seo" name="seo">/classes/components/seo</directory>
+    <directory path="./classes/components/seo/manifest" name="manifest">/classes/components/seo/manifest</directory>
+    <directory path="./classes/components/seo/manifest/actions" name="actions">/classes/components/seo/manifest/actions</directory>
+    <directory path="./classes/components/seo/classes" name="classes">/classes/components/seo/classes</directory>
+    <directory path="./classes/components/seo/classes/Yandex" name="Yandex">/classes/components/seo/classes/Yandex</directory>
+    <directory path="./classes/components/seo/classes/Yandex/ModuleApi" name="ModuleApi">/classes/components/seo/classes/Yandex/ModuleApi</directory>
+    <directory path="./classes/components/seo/classes/Yandex/WebMaster" name="WebMaster">/classes/components/seo/classes/Yandex/WebMaster</directory>
+    <directory path="./styles/skins/mac/data/modules/seo" name="seo">/styles/skins/mac/data/modules/seo</directory>
+    <directory path="./styles/skins/modern/data/modules/seo" name="seo">/styles/skins/modern/data/modules/seo</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/seo/__custom.php" size="82" ext="php" hash="1e632d2e2bd3abbb128d86cce289cb0c" name="__custom.php" only_install="true">/classes/modules/seo/__custom.php</file>
+    <file path="./classes/modules/seo/permissions.php" size="68" ext="php" hash="c1eaef03d3e180cf5ec4547c28555083" name="permissions.php">/classes/modules/seo/permissions.php</file>
+    <file path="./classes/modules/seo/lang.php" size="156" ext="php" hash="bef81a65aba8c590e643c7956f7f702d" name="lang.php">/classes/modules/seo/lang.php</file>
+    <file path="./classes/modules/seo/__custom_adm.php" size="105" ext="php" hash="90632cfda186492e127037e1a42b5877" name="__custom_adm.php" only_install="true">/classes/modules/seo/__custom_adm.php</file>
+    <file path="./classes/modules/seo/__yandex.php" size="11140" ext="php" hash="e699d69edd1557c0a8d4f494aa8fa47e" name="__yandex.php">/classes/modules/seo/__yandex.php</file>
+    <file path="./classes/modules/seo/__admin.php" size="12533" ext="php" hash="294cd97cbea3f8bd254bb56030e572da" name="__admin.php">/classes/modules/seo/__admin.php</file>
+    <file path="./classes/modules/seo/install.php" size="849" ext="php" hash="f11f86af6a100d609051e3bc7bb72e19" name="install.php">/classes/modules/seo/install.php</file>
+    <file path="./classes/modules/seo/i18n.en.php" size="11534" ext="php" hash="759b54eb9a3727d155fa96ef60556773" name="i18n.en.php" only_install="true">/classes/modules/seo/i18n.en.php</file>
+    <file path="./classes/modules/seo/.htaccess" size="0" ext="htaccess" hash="d41d8cd98f00b204e9800998ecf8427e" name=".htaccess">/classes/modules/seo/.htaccess</file>
+    <file path="./classes/modules/seo/class.php" size="987" ext="php" hash="052167fb0c3028def24bdee9b8c6751c" name="class.php">/classes/modules/seo/class.php</file>
+    <file path="./classes/modules/seo/i18n.php" size="16298" ext="php" hash="b41fecbfaa8748acc210e672e2999448" name="i18n.php">/classes/modules/seo/i18n.php</file>
+    <file path="./classes/components/seo/megaIndex.php" size="3673" ext="php" hash="9728ea6d54ab932d060749200b50de81" name="megaIndex.php">/classes/components/seo/megaIndex.php</file>
+    <file path="./classes/components/seo/autoload.php" size="450" ext="php" hash="4cb7983b6ab11d7f564a6230e5f6687c" name="autoload.php">/classes/components/seo/autoload.php</file>
+    <file path="./classes/components/seo/macros.php" size="1830" ext="php" hash="873f3e6b6a21d91a2b3bfc8e3abaa2b6" name="macros.php">/classes/components/seo/macros.php</file>
+    <file path="./classes/components/seo/permissions.php" size="663" ext="php" hash="2a36c617ea12fd93b3164865ce0dcc40" name="permissions.php">/classes/components/seo/permissions.php</file>
+    <file path="./classes/components/seo/customMacros.php" size="147" ext="php" hash="12e79c00a79d8ab88e27769b4e493c1f" name="customMacros.php" only_install="true">/classes/components/seo/customMacros.php</file>
+    <file path="./classes/components/seo/services.php" size="2967" ext="php" hash="66eafcd19f980cf157b005b89d186b01" name="services.php">/classes/components/seo/services.php</file>
+    <file path="./classes/components/seo/lang.php" size="180" ext="php" hash="bc9dd4758eb64043efae3c152d0dac2e" name="lang.php">/classes/components/seo/lang.php</file>
+    <file path="./classes/components/seo/manifest/install.xml" size="311" ext="xml" hash="d713a8df861141479e02ea634028fa28" name="install.xml">/classes/components/seo/manifest/install.xml</file>
+    <file path="./classes/components/seo/manifest/actions/DeleteIndex.php" size="932" ext="php" hash="95ba2608ee49c04b4be5da9ce0feb312" name="DeleteIndex.php">/classes/components/seo/manifest/actions/DeleteIndex.php</file>
+    <file path="./classes/components/seo/manifest/actions/SiteMapIndexing.php" size="2263" ext="php" hash="b9a0e0ef270228d281b4b51be03a7b22" name="SiteMapIndexing.php">/classes/components/seo/manifest/actions/SiteMapIndexing.php</file>
+    <file path="./classes/components/seo/manifest/update.xml" size="310" ext="xml" hash="75ea8d251ca1b87b5091030dfc5e4fd5" name="update.xml">/classes/components/seo/manifest/update.xml</file>
+    <file path="./classes/components/seo/customAdmin.php" size="194" ext="php" hash="413ba644f77fc378e513c13b0164299d" name="customAdmin.php" only_install="true">/classes/components/seo/customAdmin.php</file>
+    <file path="./classes/components/seo/classes/Registry.php" size="830" ext="php" hash="e430a468c97e3b2ac5562b99e906a6e4" name="Registry.php">/classes/components/seo/classes/Registry.php</file>
+    <file path="./classes/components/seo/classes/Yandex/ModuleApi/Admin.php" size="33178" ext="php" hash="42b68858cc70454aadd38eee2038d852" name="Admin.php">/classes/components/seo/classes/Yandex/ModuleApi/Admin.php</file>
+    <file path="./classes/components/seo/classes/Yandex/WebMaster/Client.php" size="13080" ext="php" hash="49680ce643fa41363795ec63c717e1e1" name="Client.php">/classes/components/seo/classes/Yandex/WebMaster/Client.php</file>
+    <file path="./classes/components/seo/classes/Yandex/WebMaster/iClient.php" size="15676" ext="php" hash="22b7dcb19d61c79558358d2bbc439931" name="iClient.php">/classes/components/seo/classes/Yandex/WebMaster/iClient.php</file>
+    <file path="./classes/components/seo/classes/iRegistry.php" size="308" ext="php" hash="240fb0819b8129fd59adb9ecf0bf93d2" name="iRegistry.php">/classes/components/seo/classes/iRegistry.php</file>
+    <file path="./classes/components/seo/handlers.php" size="69" ext="php" hash="d8390332e5eab88068b5d9fd59999fb5" name="handlers.php">/classes/components/seo/handlers.php</file>
+    <file path="./classes/components/seo/admin.php" size="17464" ext="php" hash="2473b78d0fda692c098727741a20d23b" name="admin.php">/classes/components/seo/admin.php</file>
+    <file path="./classes/components/seo/install.php" size="1551" ext="php" hash="76a9c286b45dad81f34627a493d6c55e" name="install.php">/classes/components/seo/install.php</file>
+    <file path="./classes/components/seo/includes.php" size="67" ext="php" hash="eccc6f7dda6a8c4de4816025bbf11355" name="includes.php">/classes/components/seo/includes.php</file>
+    <file path="./classes/components/seo/i18n.en.php" size="7730" ext="php" hash="8f67fedf27c17eab9d75b8de62f289fa" name="i18n.en.php" only_install="true">/classes/components/seo/i18n.en.php</file>
+    <file path="./classes/components/seo/class.php" size="3523" ext="php" hash="06d9bd68238308fffbc44685bd12741e" name="class.php">/classes/components/seo/class.php</file>
+    <file path="./classes/components/seo/i18n.php" size="10428" ext="php" hash="e9b50ed615d9d340f07e34b256f20a8e" name="i18n.php">/classes/components/seo/i18n.php</file>
+    <file path="./classes/components/seo/lang.en.php" size="178" ext="php" hash="0ee10dde886968730ba5e991b23dcc38" name="lang.en.php">/classes/components/seo/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.view.xsl" size="28992" ext="xsl" hash="bb866577eabeb97abfc6c099242917c2" name="settings.view.xsl">/styles/skins/mac/data/modules/seo/settings.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.modify.xsl" size="4009" ext="xsl" hash="3cac897c1e53c2fbb37efd778c50062f" name="settings.modify.xsl">/styles/skins/mac/data/modules/seo/settings.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/seo/list.view.xsl" size="5988" ext="xsl" hash="48fd6e56c0739178163c5b1847124a65" name="list.view.xsl">/styles/skins/modern/data/modules/seo/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/seo/settings.view.xsl" size="13072" ext="xsl" hash="0565deed8cbf57687ba0b6fad2e85b90" name="settings.view.xsl">/styles/skins/modern/data/modules/seo/settings.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/seo/form.modify.xsl" size="1894" ext="xsl" hash="cafd435c46665c1ea88ed1581deddbfd" name="form.modify.xsl">/styles/skins/modern/data/modules/seo/form.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/seo/settings.modify.xsl" size="3654" ext="xsl" hash="885d57b0f8c5447226e1f73000733bb0" name="settings.modify.xsl">/styles/skins/modern/data/modules/seo/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

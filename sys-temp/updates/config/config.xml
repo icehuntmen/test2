@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374758</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:38 +0300</rfc>
+      <utc>2018-06-07T15:32:38+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/config" val="config"/>
+    <key path="modules/config/name" val="config"/>
+    <key path="modules/config/filename" val="modules/config/class.php"/>
+    <key path="modules/config/config" val="0" update="1"/>
+    <key path="modules/config/default_method" val="test" update="1"/>
+    <key path="modules/config/default_method_admin" val="main" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/config" name="config">/classes/modules/config</directory>
+    <directory path="./classes/components/config" name="config">/classes/components/config</directory>
+    <directory path="./styles/skins/mac/data/modules/config" name="config">/styles/skins/mac/data/modules/config</directory>
+    <directory path="./styles/skins/modern/data/modules/config" name="config">/styles/skins/modern/data/modules/config</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/config/__custom.php" size="50" ext="php" hash="e2115974877094b97283f0593a350b86" name="__custom.php" only_install="true">/classes/modules/config/__custom.php</file>
+    <file path="./classes/modules/config/__mails.php" size="1156" ext="php" hash="6741c4ca06ad65b271379c10fd360d16" name="__mails.php">/classes/modules/config/__mails.php</file>
+    <file path="./classes/modules/config/__cache.php" size="5215" ext="php" hash="1df5971ae792d717b856da9709aab1fe" name="__cache.php">/classes/modules/config/__cache.php</file>
+    <file path="./classes/modules/config/permissions.php" size="35" ext="php" hash="d6e200ebb7f9ab8378c4f0fdb3172b73" name="permissions.php">/classes/modules/config/permissions.php</file>
+    <file path="./classes/modules/config/lang.php" size="1260" ext="php" hash="d9cf35e5670b19b400863437c1aa4e9e" name="lang.php">/classes/modules/config/lang.php</file>
+    <file path="./classes/modules/config/__langs.php" size="1257" ext="php" hash="bac8fecfde3c7c98df8165d3f02f4597" name="__langs.php">/classes/modules/config/__langs.php</file>
+    <file path="./classes/modules/config/__branching.php" size="2421" ext="php" hash="7713f8fce2f5a8ec2dabd433f81885cc" name="__branching.php">/classes/modules/config/__branching.php</file>
+    <file path="./classes/modules/config/__custom_adm.php" size="108" ext="php" hash="8aeb5b6a980f4b3c2a6de9b18b115223" name="__custom_adm.php" only_install="true">/classes/modules/config/__custom_adm.php</file>
+    <file path="./classes/modules/config/__admin.php" size="8379" ext="php" hash="a3f6d2ffa46805de4f2a7d61c6f91a89" name="__admin.php">/classes/modules/config/__admin.php</file>
+    <file path="./classes/modules/config/__domains.php" size="6009" ext="php" hash="9681b4c5b084b618279d1f087e823065" name="__domains.php">/classes/modules/config/__domains.php</file>
+    <file path="./classes/modules/config/__security.php" size="4428" ext="php" hash="23138b4315d71d3e372239da3a24252f" name="__security.php">/classes/modules/config/__security.php</file>
+    <file path="./classes/modules/config/events.php" size="234" ext="php" hash="87f2578d2659b79ddf1e81b7a188fbd1" name="events.php">/classes/modules/config/events.php</file>
+    <file path="./classes/modules/config/install.php" size="1244" ext="php" hash="8c76ed2dc33cf7cb3b2cd597148f2115" name="install.php">/classes/modules/config/install.php</file>
+    <file path="./classes/modules/config/__mess_events.php" size="2585" ext="php" hash="342a81f3797290cc440c8a657c5e3874" name="__mess_events.php">/classes/modules/config/__mess_events.php</file>
+    <file path="./classes/modules/config/timezones.php" size="23497" ext="php" hash="bd5d0dc106a6cd293baa2548e1ffa80d" name="timezones.php">/classes/modules/config/timezones.php</file>
+    <file path="./classes/modules/config/i18n.en.php" size="9225" ext="php" hash="076237739945aae114ff1ee68939ec08" name="i18n.en.php" only_install="true">/classes/modules/config/i18n.en.php</file>
+    <file path="./classes/modules/config/__events.php" size="282" ext="php" hash="8837625846964ee6dd1afb223d2efa1f" name="__events.php">/classes/modules/config/__events.php</file>
+    <file path="./classes/modules/config/__watermark.php" size="2756" ext="php" hash="e5fe49dc26ae065efeadfba58d60d8f2" name="__watermark.php">/classes/modules/config/__watermark.php</file>
+    <file path="./classes/modules/config/class.php" size="1797" ext="php" hash="f6ff23777786a89407bf2c36970b171e" name="class.php">/classes/modules/config/class.php</file>
+    <file path="./classes/modules/config/i18n.php" size="13496" ext="php" hash="ed21f734bfca3c4acbca74a838f6824c" name="i18n.php">/classes/modules/config/i18n.php</file>
+    <file path="./classes/components/config/permissions.php" size="183" ext="php" hash="84e60417f0add0db52397f6bd0873f42" name="permissions.php">/classes/components/config/permissions.php</file>
+    <file path="./classes/components/config/customMacros.php" size="153" ext="php" hash="3d1d1d980714af304f5ca037b8cf3a1b" name="customMacros.php" only_install="true">/classes/components/config/customMacros.php</file>
+    <file path="./classes/components/config/lang.php" size="1345" ext="php" hash="d6ffc743fc9fc3a43c59fe7db814241f" name="lang.php">/classes/components/config/lang.php</file>
+    <file path="./classes/components/config/customAdmin.php" size="204" ext="php" hash="79c3f0713e3eb44a2ee0cdd79cc6339b" name="customAdmin.php" only_install="true">/classes/components/config/customAdmin.php</file>
+    <file path="./classes/components/config/events.php" size="619" ext="php" hash="fca244937da4ffd0773951a5fee79933" name="events.php">/classes/components/config/events.php</file>
+    <file path="./classes/components/config/handlers.php" size="2993" ext="php" hash="cfd529b2fd5a6d37814196983724454e" name="handlers.php">/classes/components/config/handlers.php</file>
+    <file path="./classes/components/config/admin.php" size="32400" ext="php" hash="69b69a529a4035f74d625dc6ab487921" name="admin.php">/classes/components/config/admin.php</file>
+    <file path="./classes/components/config/install.php" size="1186" ext="php" hash="335b975740468502fa489b26f4873dab" name="install.php">/classes/components/config/install.php</file>
+    <file path="./classes/components/config/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/config/includes.php</file>
+    <file path="./classes/components/config/i18n.en.php" size="10771" ext="php" hash="d16eafbef4d1368acd149f660dbcadd8" name="i18n.en.php" only_install="true">/classes/components/config/i18n.en.php</file>
+    <file path="./classes/components/config/class.php" size="37965" ext="php" hash="85cc9cf515d7c69e32d1966eca7a3fe9" name="class.php">/classes/components/config/class.php</file>
+    <file path="./classes/components/config/i18n.php" size="15434" ext="php" hash="1b3f475e9060f223e436114d6a40cd86" name="i18n.php">/classes/components/config/i18n.php</file>
+    <file path="./classes/components/config/tests.php" size="6254" ext="php" hash="8a45fa8f85b992d43374d3ee22150da9" name="tests.php">/classes/components/config/tests.php</file>
+    <file path="./classes/components/config/lang.en.php" size="979" ext="php" hash="86aafed6e6320a0891244f34c7e086b6" name="lang.en.php">/classes/components/config/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/config/list.view.xsl" size="1584" ext="xsl" hash="6b7e5e74c28fd05e9b70fb7030d5ab76" name="list.view.xsl">/styles/skins/mac/data/modules/config/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/config/list.modify.xsl" size="9913" ext="xsl" hash="2030563b4b3eda9c0823a89f0b7420c0" name="list.modify.xsl">/styles/skins/mac/data/modules/config/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/config/settings.modify.xsl" size="8465" ext="xsl" hash="fb75990d4c57940f09a8fdd1d215d59d" name="settings.modify.xsl">/styles/skins/mac/data/modules/config/settings.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/config/list.view.xsl" size="8251" ext="xsl" hash="32de7658000bac9406e7154e3d85c6af" name="list.view.xsl">/styles/skins/modern/data/modules/config/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/config/ComponentInstaller.js" size="10418" ext="js" hash="39cd8906dbc9733597c73e0917eb92dd" name="ComponentInstaller.js">/styles/skins/modern/data/modules/config/ComponentInstaller.js</file>
+    <file path="./styles/skins/modern/data/modules/config/list.modify.xsl" size="13005" ext="xsl" hash="57dfd1c4bd1a22e181bc8ca82fd47557" name="list.modify.xsl">/styles/skins/modern/data/modules/config/list.modify.xsl</file>
+    <file path="./styles/skins/modern/data/modules/config/captcha.js" size="916" ext="js" hash="076326d981c945ccbc5765fb4db52f2c" name="captcha.js">/styles/skins/modern/data/modules/config/captcha.js</file>
+    <file path="./styles/skins/modern/data/modules/config/settings.modify.xsl" size="17271" ext="xsl" hash="230eaab8e85afec1b07670e7177c35a2" name="settings.modify.xsl">/styles/skins/modern/data/modules/config/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>

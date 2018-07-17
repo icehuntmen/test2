@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1528374760</timestamp>
+      <rfc>Thu, 07 Jun 2018 15:32:40 +0300</rfc>
+      <utc>2018-06-07T15:32:40+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/catalog" val="catalog"/>
+    <key path="modules/catalog/name" val="catalog"/>
+    <key path="modules/catalog/title" val="Каталог"/>
+    <key path="modules/catalog/filename" val="modules/catalog/class.php"/>
+    <key path="modules/catalog/config" val="1" update="1"/>
+    <key path="modules/catalog/default_method" val="category" update="1"/>
+    <key path="modules/catalog/default_method_admin" val="tree" update="1"/>
+    <key path="modules/catalog/per_page" val="25"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/catalog" name="catalog">/classes/modules/catalog</directory>
+    <directory path="./classes/components/catalog" name="catalog">/classes/components/catalog</directory>
+    <directory path="./classes/components/catalog/manifest" name="manifest">/classes/components/catalog/manifest</directory>
+    <directory path="./classes/components/catalog/manifest/actions" name="actions">/classes/components/catalog/manifest/actions</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog" name="catalog">/styles/skins/mac/data/modules/catalog</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters" name="filters">/styles/skins/mac/data/modules/catalog/filters</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay" name="loadingoverlay">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img" name="img">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/js" name="js">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/js</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/bootstrap" name="bootstrap">/styles/skins/mac/data/modules/catalog/filters/bootstrap</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/css" name="css">/styles/skins/mac/data/modules/catalog/filters/bootstrap/css</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/js" name="js">/styles/skins/mac/data/modules/catalog/filters/bootstrap/js</directory>
+    <directory path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts" name="fonts">/styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog" name="catalog">/styles/skins/modern/data/modules/catalog</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters" name="filters">/styles/skins/modern/data/modules/catalog/filters</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay" name="loadingoverlay">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img" name="img">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js" name="js">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap" name="bootstrap">/styles/skins/modern/data/modules/catalog/filters/bootstrap</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/css" name="css">/styles/skins/modern/data/modules/catalog/filters/bootstrap/css</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/js" name="js">/styles/skins/modern/data/modules/catalog/filters/bootstrap/js</directory>
+    <directory path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts" name="fonts">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/catalog/__custom.php" size="86" ext="php" hash="9341cadec4a50903f94c887c09a14586" name="__custom.php" only_install="true">/classes/modules/catalog/__custom.php</file>
+    <file path="./classes/modules/catalog/__filter.php" size="34236" ext="php" hash="68d8e671c18064d0d48237534ccd38cf" name="__filter.php">/classes/modules/catalog/__filter.php</file>
+    <file path="./classes/modules/catalog/__filter_events_handlers.php" size="17785" ext="php" hash="1244cd0bc1a9228b3525c8da7bbdc57d" name="__filter_events_handlers.php">/classes/modules/catalog/__filter_events_handlers.php</file>
+    <file path="./classes/modules/catalog/permissions.php" size="1055" ext="php" hash="fade8611b82ef91181eb5772856b68db" name="permissions.php">/classes/modules/catalog/permissions.php</file>
+    <file path="./classes/modules/catalog/lang.php" size="3099" ext="php" hash="5c832ac34c47681f16be71076a685ba8" name="lang.php">/classes/modules/catalog/lang.php</file>
+    <file path="./classes/modules/catalog/__custom_adm.php" size="107" ext="php" hash="ae80876fac1b20d58b569436ba913678" name="__custom_adm.php" only_install="true">/classes/modules/catalog/__custom_adm.php</file>
+    <file path="./classes/modules/catalog/__admin.php" size="8268" ext="php" hash="0f35833c3686b26a913549d749d2ad06" name="__admin.php">/classes/modules/catalog/__admin.php</file>
+    <file path="./classes/modules/catalog/__admin_filters.php" size="9136" ext="php" hash="664527646f923b83ef33ce2cb6fe85f5" name="__admin_filters.php">/classes/modules/catalog/__admin_filters.php</file>
+    <file path="./classes/modules/catalog/events.php" size="1557" ext="php" hash="45b84f24e61c29ea3a54847491ee38d4" name="events.php">/classes/modules/catalog/events.php</file>
+    <file path="./classes/modules/catalog/install.php" size="3086" ext="php" hash="dd98a5520cbd6d9cae9fb29856d2aaf3" name="install.php">/classes/modules/catalog/install.php</file>
+    <file path="./classes/modules/catalog/__search.php" size="2970" ext="php" hash="b0f0d8f3fcb3d6667ae9854f05c1b7b6" name="__search.php">/classes/modules/catalog/__search.php</file>
+    <file path="./classes/modules/catalog/permissions.custom.php" size="221" ext="php" hash="1b9566ec0cb1ae3ec892f70d120104d0" name="permissions.custom.php" only_install="true">/classes/modules/catalog/permissions.custom.php</file>
+    <file path="./classes/modules/catalog/i18n.en.php" size="2114" ext="php" hash="b39b29766111011317c0f5a90494081d" name="i18n.en.php" only_install="true">/classes/modules/catalog/i18n.en.php</file>
+    <file path="./classes/modules/catalog/class.php" size="19250" ext="php" hash="6ac0cced278de10f05da04ce2c111d0b" name="class.php">/classes/modules/catalog/class.php</file>
+    <file path="./classes/modules/catalog/i18n.php" size="3255" ext="php" hash="11b12447e8d81f9ba7c32150be25a617" name="i18n.php">/classes/modules/catalog/i18n.php</file>
+    <file path="./classes/components/catalog/macros.php" size="29238" ext="php" hash="5ba8e244c5f13cecca83c40e4bead998" name="macros.php">/classes/components/catalog/macros.php</file>
+    <file path="./classes/components/catalog/permissions.php" size="707" ext="php" hash="ac59ba11e97f8d64558785d70c83a045" name="permissions.php">/classes/components/catalog/permissions.php</file>
+    <file path="./classes/components/catalog/customMacros.php" size="200" ext="php" hash="310bc07db78e4e43d0e5b5b318d4669b" name="customMacros.php" only_install="true">/classes/components/catalog/customMacros.php</file>
+    <file path="./classes/components/catalog/lang.php" size="2409" ext="php" hash="86d45c6f907984958d22d87baef14dd6" name="lang.php">/classes/components/catalog/lang.php</file>
+    <file path="./classes/components/catalog/manifest/install.xml" size="208" ext="xml" hash="6dda2d2e7ef74d8cfc0845d42629254c" name="install.xml">/classes/components/catalog/manifest/install.xml</file>
+    <file path="./classes/components/catalog/manifest/actions/FilterIndexing.php" size="3735" ext="php" hash="49c63111cb6f8f52a807315dd2ccd7bb" name="FilterIndexing.php">/classes/components/catalog/manifest/actions/FilterIndexing.php</file>
+    <file path="./classes/components/catalog/customAdmin.php" size="199" ext="php" hash="e17572e46dc70c561c8a2e198d917ed4" name="customAdmin.php" only_install="true">/classes/components/catalog/customAdmin.php</file>
+    <file path="./classes/components/catalog/events.php" size="1718" ext="php" hash="4e1a06cb475833b39e874bcd5b4b1af9" name="events.php">/classes/components/catalog/events.php</file>
+    <file path="./classes/components/catalog/handlers.php" size="14121" ext="php" hash="04400dda1818789336d88a16c100125c" name="handlers.php">/classes/components/catalog/handlers.php</file>
+    <file path="./classes/components/catalog/admin.php" size="17222" ext="php" hash="f3a0b8def4c3440b64c02e679d8cda07" name="admin.php">/classes/components/catalog/admin.php</file>
+    <file path="./classes/components/catalog/install.php" size="1126" ext="php" hash="85bae7f8ed14036d949c3e2a2fbda5cf" name="install.php">/classes/components/catalog/install.php</file>
+    <file path="./classes/components/catalog/includes.php" size="68" ext="php" hash="f27133969f4535a9528ed119b0fb7d1d" name="includes.php">/classes/components/catalog/includes.php</file>
+    <file path="./classes/components/catalog/i18n.en.php" size="2223" ext="php" hash="71f83212f59601e76e83e1d06f363d80" name="i18n.en.php" only_install="true">/classes/components/catalog/i18n.en.php</file>
+    <file path="./classes/components/catalog/class.php" size="22633" ext="php" hash="c545737a681a070df6d909679ffd1351" name="class.php">/classes/components/catalog/class.php</file>
+    <file path="./classes/components/catalog/i18n.php" size="3358" ext="php" hash="fbef1d8e8f036a1d3cfbe296f76401b2" name="i18n.php">/classes/components/catalog/i18n.php</file>
+    <file path="./classes/components/catalog/lang.en.php" size="1889" ext="php" hash="a61949e85bf69d2e255dacc4f9d31ed6" name="lang.en.php">/classes/components/catalog/lang.en.php</file>
+    <file path="./styles/skins/mac/data/modules/catalog/list.view.xsl" size="3858" ext="xsl" hash="8bd259591fb3e2108374e6a8da806f0e" name="list.view.xsl">/styles/skins/mac/data/modules/catalog/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/482.GIF" size="7681" ext="gif" hash="455519bd02f9c959009e2478ad4468ad" name="482.GIF">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/482.GIF</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/loading.gif" size="10741" ext="gif" hash="1207fed98ccd3f68e93da78f27eff358" name="loading.gif">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/loading.gif</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_blue_128.gif" size="10916" ext="gif" hash="8d55dcc7865fec93ec83de42163fd40f" name="ajax_loader_blue_128.gif">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_blue_128.gif</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/giphy.gif" size="310431" ext="gif" hash="d554ff05c6f0fd9cead2c67731f14ac3" name="giphy.gif">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/giphy.gif</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/default.gif" size="72743" ext="gif" hash="a2b84303c3acd86b2a56c91a71d94617" name="default.gif">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/default.gif</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_gray_128.gif" size="9793" ext="gif" hash="5a2947183e2989a31c9a88d69892cab2" name="ajax_loader_gray_128.gif">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_gray_128.gif</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/loadingoverlay/js/loadingoverlay.min.js" size="2354" ext="js" hash="579bba6d50598ffa666d62824d822c6d" name="loadingoverlay.min.js">/styles/skins/mac/data/modules/catalog/filters/loadingoverlay/js/loadingoverlay.min.js</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/level.dialog.html" size="2659" ext="html" hash="8927d6f6b0ae0e4c9b19b4f28b854d02" name="level.dialog.html">/styles/skins/mac/data/modules/catalog/filters/level.dialog.html</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/admin.indexing.js" size="27139" ext="js" hash="49e323308d4d72ad28c7878fe4f40b1b" name="admin.indexing.js">/styles/skins/mac/data/modules/catalog/filters/admin.indexing.js</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/jquery.tmpl.js" size="25023" ext="js" hash="72f8825dbd55717681bcd205ec737f11" name="jquery.tmpl.js">/styles/skins/mac/data/modules/catalog/filters/jquery.tmpl.js</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/delete.button.html" size="93" ext="html" hash="f4cb6b3bb5aada4ae77221658c39c20d" name="delete.button.html">/styles/skins/mac/data/modules/catalog/filters/delete.button.html</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/index.button.html" size="40" ext="html" hash="756b51da37ee15ce8329b1eb5676e15c" name="index.button.html">/styles/skins/mac/data/modules/catalog/filters/index.button.html</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/tree.html" size="13472" ext="html" hash="f88784aec5f541badc3deb3943029e67" name="tree.html">/styles/skins/mac/data/modules/catalog/filters/tree.html</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/indexing.html" size="11764" ext="html" hash="949a0664c32ef9f69f1892db6983f58c" name="indexing.html">/styles/skins/mac/data/modules/catalog/filters/indexing.html</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/css/bootstrap-theme.min.css" size="23357" ext="css" hash="bf3499da1c31113720e9e395691730ba" name="bootstrap-theme.min.css">/styles/skins/mac/data/modules/catalog/filters/bootstrap/css/bootstrap-theme.min.css</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/css/bootstrap.min.css" size="122540" ext="css" hash="5d5357cb3704e1f43a1f5bfed2aebf42" name="bootstrap.min.css">/styles/skins/mac/data/modules/catalog/filters/bootstrap/css/bootstrap.min.css</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/js/jquery-2.1.4.min.js" size="84345" ext="js" hash="f9c7afd05729f10f55b689f36bb20172" name="jquery-2.1.4.min.js">/styles/skins/mac/data/modules/catalog/filters/bootstrap/js/jquery-2.1.4.min.js</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/js/bootstrap.min.js" size="36816" ext="js" hash="4becdc9104623e891fbb9d38bba01be4" name="bootstrap.min.js">/styles/skins/mac/data/modules/catalog/filters/bootstrap/js/bootstrap.min.js</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.ttf" size="45404" ext="ttf" hash="e18bbf611f2a2e43afc071aa2f4e1512" name="glyphicons-halflings-regular.ttf">/styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.ttf</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff" size="23424" ext="woff" hash="fa2772327f55d8198301fdb8bcfc8158" name="glyphicons-halflings-regular.woff">/styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.eot" size="20127" ext="eot" hash="f4769f9bdb7466be65088239c12046d1" name="glyphicons-halflings-regular.eot">/styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.eot</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff2" size="18028" ext="woff2" hash="448c34a56d699c29117adc64c43affeb" name="glyphicons-halflings-regular.woff2">/styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff2</file>
+    <file path="./styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.svg" size="108738" ext="svg" hash="89889688147bd7575d6327160d64e760" name="glyphicons-halflings-regular.svg">/styles/skins/mac/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.svg</file>
+    <file path="./styles/skins/modern/data/modules/catalog/list.view.xsl" size="4834" ext="xsl" hash="b404adbe26e5b60c0f79e3987d8b082e" name="list.view.xsl">/styles/skins/modern/data/modules/catalog/list.view.xsl</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/482.GIF" size="7681" ext="gif" hash="455519bd02f9c959009e2478ad4468ad" name="482.GIF">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/482.GIF</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/loading.gif" size="10741" ext="gif" hash="1207fed98ccd3f68e93da78f27eff358" name="loading.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/loading.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_blue_128.gif" size="10916" ext="gif" hash="8d55dcc7865fec93ec83de42163fd40f" name="ajax_loader_blue_128.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_blue_128.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/giphy.gif" size="310431" ext="gif" hash="d554ff05c6f0fd9cead2c67731f14ac3" name="giphy.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/giphy.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/default.gif" size="72743" ext="gif" hash="a2b84303c3acd86b2a56c91a71d94617" name="default.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/default.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_gray_128.gif" size="9793" ext="gif" hash="5a2947183e2989a31c9a88d69892cab2" name="ajax_loader_gray_128.gif">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/img/ajax_loader_gray_128.gif</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js/loadingoverlay.min.js" size="2354" ext="js" hash="579bba6d50598ffa666d62824d822c6d" name="loadingoverlay.min.js">/styles/skins/modern/data/modules/catalog/filters/loadingoverlay/js/loadingoverlay.min.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/level.dialog.html" size="2594" ext="html" hash="eb7f86146ef4ad92ceb83992bb2b5d32" name="level.dialog.html">/styles/skins/modern/data/modules/catalog/filters/level.dialog.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/admin.indexing.js" size="22062" ext="js" hash="42376fa05d68708990489bc26d40b4be" name="admin.indexing.js">/styles/skins/modern/data/modules/catalog/filters/admin.indexing.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/delete.button.html" size="99" ext="html" hash="14de6b7cf93e551db896eed622fc7037" name="delete.button.html">/styles/skins/modern/data/modules/catalog/filters/delete.button.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/index.button.html" size="40" ext="html" hash="756b51da37ee15ce8329b1eb5676e15c" name="index.button.html">/styles/skins/modern/data/modules/catalog/filters/index.button.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/tree.html" size="14431" ext="html" hash="02fe8624abc948f121c24de25c037af3" name="tree.html">/styles/skins/modern/data/modules/catalog/filters/tree.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/indexing.html" size="12032" ext="html" hash="77b1bcc5bddca616aed628aa7b94a7f5" name="indexing.html">/styles/skins/modern/data/modules/catalog/filters/indexing.html</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap-theme.min.css" size="23357" ext="css" hash="bf3499da1c31113720e9e395691730ba" name="bootstrap-theme.min.css">/styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap-theme.min.css</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap.min.css" size="122540" ext="css" hash="5d5357cb3704e1f43a1f5bfed2aebf42" name="bootstrap.min.css">/styles/skins/modern/data/modules/catalog/filters/bootstrap/css/bootstrap.min.css</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/js/jquery-2.1.4.min.js" size="84345" ext="js" hash="f9c7afd05729f10f55b689f36bb20172" name="jquery-2.1.4.min.js">/styles/skins/modern/data/modules/catalog/filters/bootstrap/js/jquery-2.1.4.min.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/js/bootstrap.min.js" size="36816" ext="js" hash="4becdc9104623e891fbb9d38bba01be4" name="bootstrap.min.js">/styles/skins/modern/data/modules/catalog/filters/bootstrap/js/bootstrap.min.js</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.ttf" size="45404" ext="ttf" hash="e18bbf611f2a2e43afc071aa2f4e1512" name="glyphicons-halflings-regular.ttf">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.ttf</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff" size="23424" ext="woff" hash="fa2772327f55d8198301fdb8bcfc8158" name="glyphicons-halflings-regular.woff">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.eot" size="20127" ext="eot" hash="f4769f9bdb7466be65088239c12046d1" name="glyphicons-halflings-regular.eot">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.eot</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff2" size="18028" ext="woff2" hash="448c34a56d699c29117adc64c43affeb" name="glyphicons-halflings-regular.woff2">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.woff2</file>
+    <file path="./styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.svg" size="108738" ext="svg" hash="89889688147bd7575d6327160d64e760" name="glyphicons-halflings-regular.svg">/styles/skins/modern/data/modules/catalog/filters/bootstrap/fonts/glyphicons-halflings-regular.svg</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="Статус страницы" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="Свойства статуса страницы" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="id статуса" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="Раздел сайта" parent-id="0" domain-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta description" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы</tip>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="820" guid="social_categories_vkontakte" title="Категории товаров Вконтакте" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="params" title="Дополнительно" visible="visible" active="active">
+          <field id="9345" name="social_id" title="ID категории в Вконтакте" visible="visible" locked="locked" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="9" guid="catalog-category" title="Раздел каталога" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="catalog" method="category">Разделы каталога</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta description" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <tip>Основные настройки страницы и её расположения в структуре каталога</tip>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="dopolnitelno" title="Дополнительно" visible="visible" active="active">
+          <field id="8900" name="descr" title="Описание" visible="visible" locked="locked" indexable="indexable" important="important">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="9341" name="social_category_vkontakte" title="Категория ВКонтакте" visible="visible" locked="locked" guide-id="820">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Управление описаниями раздела каталога</tip>
+        </group>
+        <group name="rate_voters" title="Количество проголосовавших" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="filter_index" title="Индекс фильтров" locked="locked" active="active" visible="0">
+          <field id="9455" name="index_source" title="Источник индекса" visible="visible" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9457" name="index_state" title="Индексация" visible="visible" system="system">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9458" name="index_date" title="Дата индексации" visible="visible" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9459" name="index_choose" title="Выбран для индексации" visible="visible" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="9460" name="index_level" title="Установленный уровень вложенности" visible="visible" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="844" guid="tax-rate-guide" title="Ставки НДС" parent-id="7" domain-id="0" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Общие параметры" visible="visible" locked="locked" active="active">
+          <field id="9510" name="yandex_id" title="Идентификатор для Яндекс.Касса" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9513" name="robokassa_id" title="Идентификатор для Robokassa" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9523" name="payonline_id" title="Идентификатор для PayOnline" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9520" name="payanyway_id" title="Идентификатор для PayAnyWay" visible="visible" locked="locked" required="required" important="important" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="754" guid="emarket-store" title="Склад" parent-id="7" domain-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="store">Склад</base>
+      <fieldgroups>
+        <group name="store_props" title="Свойства склада" visible="visible" active="active">
+          <field id="9194" name="primary" title="Основной" visible="visible" important="important">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+            <tip>Основной склад, с которого будут списываться товары при покупке, и с которым будет синхронизироваться 1C</tip>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="11" guid="catalog-object" title="Объект каталога" parent-id="{root-pages-type}" domain-id="0" locked="locked">
+      <base module="catalog" method="object">Объекты каталога</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле title" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле h1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable" important="important">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta keywords" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta description" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="9416" name="date_create_object" title="Дата создания объекта" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <tip>Основные настройки товара</tip>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <tip>Настройки отображения страницы и её поисковой индексации</tip>
+        </group>
+        <group name="cenovye_svojstva" title="Ценовые свойства" visible="visible" active="active">
+          <field id="9511" name="tax_rate_id" title="Ставка НДС" visible="visible" locked="locked" guide-id="844" important="important">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8918" name="price" title="Цена" visible="visible" locked="locked" filterable="filterable" important="important">
+            <type name="Цена" data-type="price"/>
+          </field>
+          <tip>Ценовые свойства товара</tip>
+        </group>
+        <group name="catalog_option_props" title="Опционные свойства" visible="visible" active="active"/>
+        <group name="catalog_stores_props" title="Склады" visible="visible" active="active">
+          <field id="9095" name="stores_state" title="Состояние на складе" visible="visible" guide-id="754" important="important">
+            <type name="Составное" data-type="optioned" multiple="multiple"/>
+          </field>
+          <field id="9196" name="reserved" title="Зарезервировано" system="system">
+            <type name="Число" data-type="int"/>
+            <tip>Количество зарезервированных товаров</tip>
+          </field>
+          <field id="9369" name="common_quantity" title="Общее количество на складах" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <tip>Данные о наличии товара на складах</tip>
+        </group>
+        <group name="rate_voters" title="Количество проголосовавших" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <tip>Управление статусом публикации</tip>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="27085" guid="25ec3f9da5444fe6a125910137ec28200d4eaaa8" name="Опубликован" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27085" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27085" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_publish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27086" guid="8a6f804b3690f0592a3f17ed980a9df5f16bacd8" name="Снят с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27086" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27086" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_unpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27087" guid="f4df5d14f5a1aeeebfe3db75b73e57fef8bcc4f2" name="Готовится к снятию с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14" locked="0" xlink:href="uobject://27087" install-only="1">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" object-id="27087" name="publish_status_id" type="string" is-important="0">
+            <title>id статуса</title>
+            <value>page_status_preunpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27901" guid="social_categories-27901" name="Игрушки и сувениры" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27901" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27901" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>14</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27913" guid="social_categories-27913" name="--" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27913" install-only="1"/>
+    <object id="27912" guid="social_categories-27912" name="Посуда и товары для дома" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27912" install-only="1"/>
+    <object id="27911" guid="social_categories-27911" name="Сумки и аксессуары" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27911" install-only="1"/>
+    <object id="27910" guid="social_categories-27910" name="Парфюмерия" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27910" install-only="1"/>
+    <object id="27909" guid="social_categories-27909" name="Оптика" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27909" install-only="1"/>
+    <object id="27908" guid="social_categories-27908" name="Товары для детей" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27908" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27908" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>21</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27907" guid="social_categories-27907" name="Швейные принадлежности" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27907" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27907" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>20</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27906" guid="social_categories-27906" name="Канцелярские товары" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27906" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27906" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>19</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27905" guid="social_categories-27905" name="Программы и игры" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27905" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27905" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>18</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27904" guid="social_categories-27904" name="Видео" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27904" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27904" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>17</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27903" guid="social_categories-27903" name="Аудио" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27903" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27903" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>16</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27902" guid="social_categories-27902" name="Продукты питания" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27902" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27902" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>15</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27889" guid="social_categories-27889" name="Другое" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27889" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27889" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>1</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27900" guid="social_categories-27900" name="Косметика" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27900" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27900" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>13</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27899" guid="social_categories-27899" name="Цветы" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27899" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27899" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>12</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27898" guid="social_categories-27898" name="Музыкальные инструменты" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27898" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27898" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>11</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27897" guid="social_categories-27897" name="Спортивный инвентарь" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27897" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27897" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>10</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27896" guid="social_categories-27896" name="Одежда и обувь" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27896" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27896" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>9</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27895" guid="social_categories-27895" name="Мебель" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27895" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27895" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>8</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27894" guid="social_categories-27894" name="Книги" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27894" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27894" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>7</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27893" guid="social_categories-27893" name="Компьютеры" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27893" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27893" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>5</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27892" guid="social_categories-27892" name="Фото- и видеокамеры" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27892" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27892" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>4</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27891" guid="social_categories-27891" name="Мобильные телефоны" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27891" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27891" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>3</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27890" guid="social_categories-27890" name="Электроника" type-id="820" type-guid="social_categories_vkontakte" ownerId="14" locked="1" xlink:href="uobject://27890" install-only="1">
+      <properties>
+        <group name="params">
+          <title>Дополнительно</title>
+          <property id="9345" object-id="27890" name="social_id" type="int" is-important="0">
+            <title>ID категории в Вконтакте</title>
+            <value>2</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27961" guid="tax-rate-27961" name="Без НДС" type-id="844" type-guid="tax-rate-guide" ownerId="14" locked="1" xlink:href="uobject://27961" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Общие параметры</title>
+          <property id="9510" object-id="27961" name="yandex_id" type="int" is-important="1">
+            <title>Идентификатор для Яндекс.Касса</title>
+            <value>1</value>
+          </property>
+          <property id="9513" object-id="27961" name="robokassa_id" type="string" is-important="1">
+            <title>Идентификатор для Robokassa</title>
+            <value>none</value>
+          </property>
+          <property id="9523" object-id="27961" name="payonline_id" type="string" is-important="1">
+            <title>Идентификатор для PayOnline</title>
+            <value>none</value>
+          </property>
+          <property id="9520" object-id="27961" name="payanyway_id" type="int" is-important="1">
+            <title>Идентификатор для PayAnyWay</title>
+            <value>1105</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27962" guid="tax-rate-27962" name="НДС по ставке 0%" type-id="844" type-guid="tax-rate-guide" ownerId="14" locked="1" xlink:href="uobject://27962" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Общие параметры</title>
+          <property id="9510" object-id="27962" name="yandex_id" type="int" is-important="1">
+            <title>Идентификатор для Яндекс.Касса</title>
+            <value>2</value>
+          </property>
+          <property id="9513" object-id="27962" name="robokassa_id" type="string" is-important="1">
+            <title>Идентификатор для Robokassa</title>
+            <value>vat0</value>
+          </property>
+          <property id="9523" object-id="27962" name="payonline_id" type="string" is-important="1">
+            <title>Идентификатор для PayOnline</title>
+            <value>vat0</value>
+          </property>
+          <property id="9520" object-id="27962" name="payanyway_id" type="int" is-important="1">
+            <title>Идентификатор для PayAnyWay</title>
+            <value>1104</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27963" guid="tax-rate-27963" name="НДС по ставке 10%" type-id="844" type-guid="tax-rate-guide" ownerId="14" locked="1" xlink:href="uobject://27963" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Общие параметры</title>
+          <property id="9510" object-id="27963" name="yandex_id" type="int" is-important="1">
+            <title>Идентификатор для Яндекс.Касса</title>
+            <value>3</value>
+          </property>
+          <property id="9513" object-id="27963" name="robokassa_id" type="string" is-important="1">
+            <title>Идентификатор для Robokassa</title>
+            <value>vat10</value>
+          </property>
+          <property id="9523" object-id="27963" name="payonline_id" type="string" is-important="1">
+            <title>Идентификатор для PayOnline</title>
+            <value>vat10</value>
+          </property>
+          <property id="9520" object-id="27963" name="payanyway_id" type="int" is-important="1">
+            <title>Идентификатор для PayAnyWay</title>
+            <value>1103</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27964" guid="tax-rate-27964" name="НДС по ставке 18%" type-id="844" type-guid="tax-rate-guide" ownerId="14" locked="1" xlink:href="uobject://27964" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Общие параметры</title>
+          <property id="9510" object-id="27964" name="yandex_id" type="int" is-important="1">
+            <title>Идентификатор для Яндекс.Касса</title>
+            <value>4</value>
+          </property>
+          <property id="9513" object-id="27964" name="robokassa_id" type="string" is-important="1">
+            <title>Идентификатор для Robokassa</title>
+            <value>vat18</value>
+          </property>
+          <property id="9523" object-id="27964" name="payonline_id" type="string" is-important="1">
+            <title>Идентификатор для PayOnline</title>
+            <value>vat18</value>
+          </property>
+          <property id="9520" object-id="27964" name="payanyway_id" type="int" is-important="1">
+            <title>Идентификатор для PayAnyWay</title>
+            <value>1102</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27965" guid="tax-rate-27965" name="НДС по расчетной ставке 10/110" type-id="844" type-guid="tax-rate-guide" ownerId="14" locked="1" xlink:href="uobject://27965" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Общие параметры</title>
+          <property id="9510" object-id="27965" name="yandex_id" type="int" is-important="1">
+            <title>Идентификатор для Яндекс.Касса</title>
+            <value>5</value>
+          </property>
+          <property id="9513" object-id="27965" name="robokassa_id" type="string" is-important="1">
+            <title>Идентификатор для Robokassa</title>
+            <value>vat110</value>
+          </property>
+          <property id="9523" object-id="27965" name="payonline_id" type="string" is-important="1">
+            <title>Идентификатор для PayOnline</title>
+            <value>vat110</value>
+          </property>
+          <property id="9520" object-id="27965" name="payanyway_id" type="int" is-important="1">
+            <title>Идентификатор для PayAnyWay</title>
+            <value>1107</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27966" guid="tax-rate-27966" name="НДС  по расчетной ставке 18/118" type-id="844" type-guid="tax-rate-guide" ownerId="14" locked="1" xlink:href="uobject://27966" install-only="1">
+      <properties>
+        <group name="common">
+          <title>Общие параметры</title>
+          <property id="9510" object-id="27966" name="yandex_id" type="int" is-important="1">
+            <title>Идентификатор для Яндекс.Касса</title>
+            <value>6</value>
+          </property>
+          <property id="9513" object-id="27966" name="robokassa_id" type="string" is-important="1">
+            <title>Идентификатор для Robokassa</title>
+            <value>vat118</value>
+          </property>
+          <property id="9523" object-id="27966" name="payonline_id" type="string" is-important="1">
+            <title>Идентификатор для PayOnline</title>
+            <value>vat118</value>
+          </property>
+          <property id="9520" object-id="27966" name="payanyway_id" type="int" is-important="1">
+            <title>Идентификатор для PayAnyWay</title>
+            <value>1106</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27147" guid="emarket-store-27147" name="Основной склад" type-id="754" type-guid="emarket-store" ownerId="14" locked="0" xlink:href="uobject://27147" install-only="1">
+      <properties>
+        <group name="store_props">
+          <title>Свойства склада</title>
+          <property id="9194" object-id="27147" name="primary" type="boolean" is-important="1">
+            <title>Основной</title>
+            <value>1</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="9" field-name="social_category_vkontakte">
+      <guide id="820"/>
+    </relation>
+    <relation type-id="9" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="11" field-name="tax_rate_id">
+      <guide id="844"/>
+    </relation>
+    <relation type-id="11" field-name="stores_state">
+      <guide id="754"/>
+    </relation>
+    <relation type-id="11" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+  <entities/>
+</umidump>
