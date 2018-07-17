@@ -71,10 +71,6 @@
 
 
 
-
-
-
-
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                                      id="slide-964-layer-48"
@@ -98,7 +94,7 @@
                                      style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, В ТЕБЕ ТЬМА </div>
 
                                 <!-- LAYER NR. 8 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
+                                <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
                                      id="slide-964-layer-46"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
@@ -118,7 +114,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(0,0,0);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </div>
+                                     style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(0,0,0);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
 
 
 
@@ -242,7 +238,7 @@
                                      style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, В ТЕБЕ СВЕТ </div>
 
                                 <!-- LAYER NR. 14 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
+                                <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
                                      id="slide-964-layer-44"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
@@ -262,7 +258,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(101,101,101);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </div>
+                                     style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(101,101,101);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
                             </li>
                             <!-- SLIDE  -->
 
