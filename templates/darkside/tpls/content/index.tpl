@@ -159,7 +159,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(0,255,255,1);font-family:Poppins;letter-spacing:-10px;">
-		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">GRAVITY<br/>DESIGN </div></div>
+		<div class="rs-looped rs-wave"  data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">DESTINY 2</div></div>
 
 				<!-- LAYER NR. 5 -->
 				<div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
