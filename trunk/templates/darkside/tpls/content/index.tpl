@@ -239,7 +239,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">Get the Before / After Add-On for Slider Revolution free </div>
+                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ В ТЕБЕ ТЬМА </div>
 
                                 <!-- LAYER NR. 14 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -262,7 +262,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(101,101,101);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </div>
+                                     style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(101,101,101);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </div>
                             </li>
                             <!-- SLIDE  -->
 
