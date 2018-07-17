@@ -126,7 +126,7 @@
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-28"
-                                     data-x="['center','center','center','center']" data-hoffset="['6','0','0','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
                                      data-width="none"
                                      data-height="none"
@@ -148,7 +148,7 @@
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-45"
-                                     data-x="['center','center','center','center']" data-hoffset="['6','0','0','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
                                      data-width="none"
                                      data-height="none"
