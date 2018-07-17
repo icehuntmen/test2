@@ -226,7 +226,7 @@
 					data-paddingleft="[0,0,0,0]"
 
 					style="z-index: 11;">
-		<div class="rs-looped rs-wave"  data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%"><img src="/assets/images/posters.png" alt="" data-ww="['820px','718px','615px','410px']" data-hh="['400px','350px','300px','200px']" width="1025" height="500" data-no-retina> </div></div>
+		<div class="rs-looped rs-wave"  data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%"><img src="/assets/images/posters.png" alt=""  width="405" height="611" data-no-retina> </div></div>
 
 				<!-- LAYER NR. 8 -->
 				<a class="tp-caption   tp-resizeme" 
