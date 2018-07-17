@@ -173,7 +173,7 @@
                                      data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
                                      data-fontsize="['120','120','120','60']"
                                      data-lineheight="['120','120','120','60']"
-                                     data-letterspacing="['50','50','50','30']"
+                                     data-letterspacing="['0','0','0','0']"
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
@@ -190,7 +190,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 17; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -199,7 +199,7 @@
                                      data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
                                      data-fontsize="['120','120','120','60']"
                                      data-lineheight="['120','120','120','60']"
-                                     data-letterspacing="['50','50','50','30']"
+                                     data-letterspacing="['0','0','0','0']"
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
