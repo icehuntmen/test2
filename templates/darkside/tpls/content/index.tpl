@@ -192,7 +192,7 @@
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
-                                     id="slide-964-layer-9"
+                                     id="slide-964-layer-10"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
                                      data-fontsize="['120','120','120','60']"
@@ -215,6 +215,31 @@
                                      data-blendmode="overlay"
 
                                      style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+
+                                <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
+                                     id="slide-964-layer-11"
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','0']"
+                                     data-fontsize="['80','80','80','60']"
+                                     data-lineheight="['80','80','80','60']"
+                                     data-letterspacing="['0','0','0','0']"
+                                     data-width="none"
+                                     data-height="none"
+                                     data-whitespace="nowrap"
+
+                                     data-type="text"
+                                     data-beforeafter="before"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['center','center','center','center']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[50,50,50,50]"
+                                     data-blendmode="overlay"
+
+                                     style="z-index: 17; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
