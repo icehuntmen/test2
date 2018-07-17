@@ -68,27 +68,6 @@
                                 <img src="/assets/images/transparent.png" data-bgcolor='linear-gradient(90deg, rgba(203,186,204,1) 0%, rgba(36,57,73,1) 100%)' style='background:linear-gradient(90deg, rgba(203,186,204,1) 0%, rgba(36,57,73,1) 100%)' alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
 
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-964-layer-37"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-280','-280','-280','-280']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="image"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"y:top;rX:-180deg;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 5;"><img src="/assets/images/object_macscreen_1-2.png" alt="" data-ww="['1000px','1000px','1000px','500px']" data-hh="['1000px','1000px','1000px','500']" width="2000" height="2000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -114,27 +93,7 @@
 
 
 
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
-                                     id="slide-964-layer-22"
-                                     data-x="['center','center','center','center']" data-hoffset="['307','307','307','131']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-59','-59','-59','-103']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
 
-                                     data-type="image"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":800,"speed":2000,"frame":"0","from":"x:200px;y:bottom;rZ:-180deg;sX:1;sY:1;","to":"o:1;rZ:-20;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 8;"><img src="/assets/images/object_macmouse_1.png" alt="" data-ww="['250px','250px','250px','125px']" data-hh="['250px','250px','250px','125px']" width="1000" height="1000" data-no-retina> </div>
 
                                 <!-- LAYER NR. 5 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-2"
@@ -229,49 +188,7 @@
 
                                      style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(101,101,101);cursor:pointer;">MAKE A CHOICE </div>
 
-                                <!-- LAYER NR. 9 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-964-layer-38"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-280','-280','-280','-280']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
 
-                                     data-type="image"
-                                     data-beforeafter="after"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:top;rX:-180deg;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 13;"><img src="/assets/images/object_macscreen_2.png" alt="" data-ww="['1000px','1000px','1000px','500px']" data-hh="['1000px','1000px','1000px','500']" width="2000" height="2000" data-no-retina> </div>
-
-                                <!-- LAYER NR. 10 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
-                                     id="slide-964-layer-42"
-                                     data-x="['center','center','center','center']" data-hoffset="['545','545','545','181']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-203','-203','-203','-178']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-
-                                     data-type="image"
-                                     data-beforeafter="after"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"x:right;y:-500px;rZ:-180deg;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-
-                                     style="z-index: 14;"><img src="/assets/images/object_coffee_1.png" alt="" data-ww="['375px','375px','375px','170px']" data-hh="['375px','375px','375px','170px']" width="1500" height="1500" data-no-retina> </div>
 
 
                                 <!-- LAYER NR. 3 -->
