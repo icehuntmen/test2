@@ -90,27 +90,7 @@
                                      style="z-index: 9;"> </div>
 
 
-                                <!-- LAYER NR. 7 -->
-                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-                                     id="slide-964-layer-10"
-                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','100']"
-                                     data-width="['960','960','960','320']"
-                                     data-height="none"
-                                     data-whitespace="normal"
 
-                                     data-type="text"
-                                     data-beforeafter="before"
-                                     data-responsive_offset="on"
-
-                                     data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                     data-textAlign="['center','center','center','center']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[5,5,5,5]"
-
-                                     style="z-index: 10; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ ТЬМЫ </div>
 
                                 <!-- LAYER NR. 8 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -208,7 +188,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 14; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 24; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -234,7 +214,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 15; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 25; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-16"
@@ -259,7 +239,29 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
+                                     style="z-index: 26; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
+
+                                <!-- LAYER NR. 7 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
+                                     id="slide-964-layer-10"
+                                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','100']"
+                                     data-width="['960','960','960','320']"
+                                     data-height="none"
+                                     data-whitespace="normal"
+
+                                     data-type="text"
+                                     data-beforeafter="before"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['center','center','center','center']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[5,5,5,5]"
+
+                                     style="z-index: 10; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ ТЬМЫ </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
@@ -282,6 +284,8 @@
                                      data-paddingleft="[5,5,5,5]"
 
                                      style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ СВЕТА </div>
+
+
 
                                 <!-- LAYER NR. 14 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
