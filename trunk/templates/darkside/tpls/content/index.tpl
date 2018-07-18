@@ -243,9 +243,9 @@
 
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-                                     id="slide-964-layer-10"
+                                     id="slide-964-layer-40"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','100']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['225','220','220','100']"
                                      data-width="['960','960','960','320']"
                                      data-height="none"
                                      data-whitespace="normal"
@@ -265,9 +265,9 @@
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-                                     id="slide-964-layer-17"
+                                     id="slide-964-layer-41"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','100']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['225','220','220','100']"
                                      data-width="['960','960','960','320']"
                                      data-height="none"
                                      data-whitespace="normal"
