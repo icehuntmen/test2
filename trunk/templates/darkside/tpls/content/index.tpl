@@ -368,7 +368,7 @@
                                         size: {value: 2, random: true, min: 0.5, anim: {enable: false, speed: 40, size_min: 1, sync: false}},
                                         line_linked: {enable: false, distance: 150, color: "#ffffff", opacity: 0.4, width: 1},
                                         move: {enable: true, speed: 1, direction: "none", random: true, min_speed: 1, straight: false, out_mode: "out"}},
-                                    interactivity;: {
+                                    interactivity: {;
                                         {{false, mode;: "repulse"}, {false, mode;: "repulse"}},
                                         {{400, line_linked;: {0.5}}, {400, size;: 40, opacity;: 0.4}, {200}}
                                     }
