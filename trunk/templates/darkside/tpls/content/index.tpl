@@ -114,7 +114,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 11; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(0,0,0);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
+                                     style="z-index: 11; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(0,0,0);cursor:pointer;">ВЫБЕРИ СТОРОНУ </a>
 
 
 
@@ -309,7 +309,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 5px;font-family:Arial;background-color:rgb(255,255,255);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
+                                     style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 5px;font-family:Arial;background-color:rgb(255,255,255);cursor:pointer;">ВЫБЕРИ СТОРОНУ </a>
                             </li>
                             <!-- SLIDE  -->
 
