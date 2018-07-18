@@ -166,7 +166,7 @@
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-13"
-                                     data-x="['center','center','center','center']" data-hoffset="['-200','0','0','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['-240','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
                                      data-height="none"
                                      data-whitespace="nowrap"
@@ -182,7 +182,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 13;"><img src="/assets/images/posters_warlock_w.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 11;"><img src="/assets/images/posters_warlock_w.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 
                                 <!-- LAYER NR. 12 -->
@@ -369,46 +369,46 @@
                                         size: {value: 2, random: true, min: 0.5, anim: {enable: false, speed: 40, size_min: 1, sync: false}},
                                         line_linked: {enable: false, distance: 150, color: "#ffffff", opacity: 0.4, width: 1},
                                         move: {enable: true, speed: 1, direction: "none", random: true, min_speed: 1, straight: false, out_mode: "out"}},
-                                    interactivity: {
+                                    interactivity;: {
                                         events: {onhover: {enable: false, mode: "repulse"}, onclick: {enable: false, mode: "repulse"}},
                                         modes: {grab: {distance: 400, line_linked: {opacity: 0.5}}, bubble: {distance: 400, size: 40, opacity: 0.4}, repulse: {distance: 200}}
                                     }
                                 },
 
-                                responsiveLevels:[1240,1240,1240,480],
-                                visibilityLevels:[1240,1240,1240,480],
-                                gridwidth:[1200,1200,1200,480],
-                                gridheight:[800,800,800,700],
-                                lazyType:"none",
-                                parallax: {
-                                    type:"mouse+scroll",
-                                    origo:"slidercenter",
-                                    speed:400,
-                                    speedbg:0,
-                                    speedls:0,
-                                    levels:[1,2,3,4,5,6,7,8,12,16,47,48,49,50,51,55],
+                                [1240,1240,1240,480],
+                                visibilityLevels;:[1240,1240,1240,480],
+                                gridwidth;:[1200,1200,1200,480],
+                                gridheight;:[800,800,800,700],
+                                lazyType;:"none",
+                                parallax;: {
+                                    "mouse+scroll",
+                                    origo;:"slidercenter",
+                                    speed;:400,
+                                    speedbg;:0,
+                                    speedls;:0,
+                                    levels;:[1,2,3,4,5,6,7,8,12,16,47,48,49,50,51,55],
                                 },
-                                shadow:0,
-                                spinner:"off",
-                                stopLoop:"on",
-                                stopAfterLoops:0,
-                                stopAtSlide:1,
-                                shuffle:"off",
-                                autoHeight:"off",
-                                fullScreenAutoWidth:"off",
-                                fullScreenAlignForce:"off",
-                                fullScreenOffsetContainer: "",
-                                fullScreenOffset: "",
-                                disableProgressBar:"on",
-                                hideThumbsOnMobile:"off",
-                                hideSliderAtLimit:0,
-                                hideCaptionAtLimit:0,
-                                hideAllCaptionAtLilmit:0,
-                                debugMode:false,
-                                fallbacks: {
-                                    simplifyAll:"off",
-                                    nextSlideOnWindowFocus:"off",
-                                    disableFocusListener:false,
+                                0,
+                                spinner;:"off",
+                                stopLoop;:"on",
+                                stopAfterLoops;:0,
+                                stopAtSlide;:1,
+                                shuffle;:"off",
+                                autoHeight;:"off",
+                                fullScreenAutoWidth;:"off",
+                                fullScreenAlignForce;:"off",
+                                fullScreenOffsetContainer;: "",
+                                fullScreenOffset;: "",
+                                disableProgressBar;:"on",
+                                hideThumbsOnMobile;:"off",
+                                hideSliderAtLimit;:0,
+                                hideCaptionAtLimit;:0,
+                                hideAllCaptionAtLilmit;:0,
+                                debugMode;:false,
+                                fallbacks;: {
+                                    "off",
+                                    nextSlideOnWindowFocus;:"off",
+                                    disableFocusListener;:false,
                                 }
                             });
                             var ua = window.navigator.userAgent;
@@ -454,8 +454,8 @@
 
 
 
-                    });	/*ready*/
-                </script>
+                    })    /*ready*/
+				</script>
 
 
 
