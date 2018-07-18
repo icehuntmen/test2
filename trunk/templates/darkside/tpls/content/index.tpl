@@ -171,7 +171,6 @@
                                      data-height="none"
                                      data-whitespace="nowrap"
 
-
                                      data-type="image"
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
