@@ -196,7 +196,6 @@
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
-
                                      data-type="text"
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
