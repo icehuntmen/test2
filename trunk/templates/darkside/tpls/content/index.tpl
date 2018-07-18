@@ -261,7 +261,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 10; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ ТЬМЫ </div>
+                                     style="z-index: 10; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНА ТЬМЫ </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
@@ -283,7 +283,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ СВЕТА </div>
+                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНА СВЕТА </div>
 
 
 
