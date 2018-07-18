@@ -185,6 +185,28 @@
 
                                      style="z-index: 13;"><img src="/assets/images/posters_w.png" alt=""  width="405" height="611" data-no-retina> </div>
 
+                                <!-- LAYER NR. 11 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
+                                     id="slide-964-layer-33"
+                                     data-x="['left','center','center','center']" data-hoffset="['3','0','0','0']"
+                                     data-y="['bottom','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
+                                     data-width="none"
+                                     data-height="none"
+                                     data-whitespace="nowrap"
+
+                                     data-type="image"
+                                     data-beforeafter="after"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:0deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['inherit','inherit','inherit','inherit']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+
+                                     style="z-index: 13;"><img src="/assets/images/320Destiny2.png" alt=""  width="320" height="173" data-no-retina> </div>
+
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-14"
