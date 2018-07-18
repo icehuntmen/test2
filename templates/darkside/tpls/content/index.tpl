@@ -171,6 +171,7 @@
                                      data-height="none"
                                      data-whitespace="nowrap"
 
+
                                      data-type="image"
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
@@ -369,8 +370,8 @@
                                         line_linked: {enable: false, distance: 150, color: "#ffffff", opacity: 0.4, width: 1},
                                         move: {enable: true, speed: 1, direction: "none", random: true, min_speed: 1, straight: false, out_mode: "out"}},
                                     interactivity;: {
-                                        events: {onhover: {enable: false, mode: "repulse"}, onclick: {enable: false, mode: "repulse"}},
-                                        modes: {grab: {distance: 400, line_linked: {opacity: 0.5}}, bubble: {distance: 400, size: 40, opacity: 0.4}, repulse: {distance: 200}}
+                                        {{false, mode;: "repulse"}, {false, mode;: "repulse"}},
+                                        {{400, line_linked;: {0.5}}, {400, size;: 40, opacity;: 0.4}, {200}}
                                     }
                                 },
 
@@ -409,7 +410,7 @@
                                     nextSlideOnWindowFocus;:"off",
                                     disableFocusListener;:false,
                                 }
-                            });
+                        })
                             var ua = window.navigator.userAgent;
                             var msie = ua.indexOf("MSIE ");
 
