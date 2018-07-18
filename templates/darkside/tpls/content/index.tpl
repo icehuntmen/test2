@@ -67,7 +67,28 @@
                                 <!-- MAIN IMAGE -->
                                 <img src="/assets/images/stranger_dark.jpg"  alt=""   data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
-                                <!-- LAYERS -->
+                                <!-- LAYER NR. 15 -->
+                                <div class="tp-caption   fullscreenvideo  tp-blendvideo disabled_lc tp-videolayer"
+                                     id="slide-965-layer-15"
+                                     data-x="0"
+                                     data-y="0"
+                                     data-whitespace="normal"
+
+                                     data-type="video"
+                                     data-beforeafter="before"
+                                     data-basealign="slide"
+                                     data-responsive_offset="off"
+                                     data-responsive="off"
+                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-videocontrols="none" data-videowidth="100%" data-videoheight="100%" data-videoposter="/assets/images/tp_vid_clouds-1.jpg" data-videomp4="/assets/videos/tp_vid_clouds-2.mp4" data-noposteronmobile="off" data-videopreload="auto" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+                                     data-blendmode="overlay"
+                                     data-autoplay="on"
+                                     data-volume="mute"
+                                     style="z-index: 5;"> </div>
 
 
 
@@ -91,7 +112,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, В ТЕБЕ ТЬМА </div>
+                                     style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ ТЬМЫ </div>
 
                                 <!-- LAYER NR. 8 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -261,7 +282,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, В ТЕБЕ СВЕТ </div>
+                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ СВЕТА </div>
 
                                 <!-- LAYER NR. 14 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
