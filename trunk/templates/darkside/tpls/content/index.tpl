@@ -67,28 +67,7 @@
                                 <!-- MAIN IMAGE -->
                                 <img src="/assets/images/stranger_dark.jpg"  alt=""   data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
-                                <!-- LAYER NR. 15 -->
-                                <div class="tp-caption   fullscreenvideo  tp-blendvideo disabled_lc tp-videolayer"
-                                     id="slide-965-layer-15"
-                                     data-x="0"
-                                     data-y="0"
-                                     data-whitespace="normal"
 
-                                     data-type="video"
-                                     data-beforeafter="before"
-                                     data-basealign="slide"
-                                     data-responsive_offset="off"
-                                     data-responsive="off"
-                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                     data-videocontrols="none" data-videowidth="100%" data-videoheight="100%" data-videoposter="/assets/images/tp_vid_clouds-1.jpg" data-videomp4="/assets/videos/tp_vid_clouds-2.mp4" data-noposteronmobile="off" data-videopreload="auto" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
-                                     data-paddingtop="[0,0,0,0]"
-                                     data-paddingright="[0,0,0,0]"
-                                     data-paddingbottom="[0,0,0,0]"
-                                     data-paddingleft="[0,0,0,0]"
-                                     data-blendmode="overlay"
-                                     data-autoplay="on"
-                                     data-volume="mute"
-                                     style="z-index: 5;"> </div>
 
 
 
@@ -112,7 +91,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ ТЬМЫ </div>
+                                     style="z-index: 10; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНУ ТЬМЫ </div>
 
                                 <!-- LAYER NR. 8 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -136,7 +115,7 @@
                                      data-paddingleft="[45,45,45,45]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(0,0,0);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
+                                     style="z-index: 11; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #ffffff; letter-spacing: 5px;font-family:Arial;background-color:rgb(0,0,0);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
 
 
 
@@ -161,7 +140,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 7;"><img src="/assets/images/posters_d.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 12;"><img src="/assets/images/posters_d.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -183,7 +162,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 15;"><img src="/assets/images/posters_w.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 13;"><img src="/assets/images/posters_w.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -209,7 +188,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 14; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -235,7 +214,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 15; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-11"
@@ -260,7 +239,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 17; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
+                                     style="z-index: 16; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
@@ -309,7 +288,28 @@
                                      style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 5px;font-family:Arial;background-color:rgb(255,255,255);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
                             </li>
                             <!-- SLIDE  -->
+                            <!-- LAYER NR. 15 -->
+                            <div class="tp-caption   fullscreenvideo  tp-blendvideo disabled_lc tp-videolayer"
+                                 id="slide-965-layer-15"
+                                 data-x="0"
+                                 data-y="0"
+                                 data-whitespace="normal"
 
+                                 data-type="video"
+                                 data-beforeafter="before"
+                                 data-basealign="slide"
+                                 data-responsive_offset="off"
+                                 data-responsive="off"
+                                 data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                 data-videocontrols="none" data-videowidth="100%" data-videoheight="100%" data-videoposter="/assets/images/tp_vid_clouds-1.jpg" data-videomp4="/assets/videos/tp_vid_clouds-2.mp4" data-noposteronmobile="off" data-videopreload="auto" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
+                                 data-paddingtop="[0,0,0,0]"
+                                 data-paddingright="[0,0,0,0]"
+                                 data-paddingbottom="[0,0,0,0]"
+                                 data-paddingleft="[0,0,0,0]"
+                                 data-blendmode="overlay"
+                                 data-autoplay="on"
+                                 data-volume="mute"
+                                 style="z-index: 19;"> </div>
 
 
                         </ul>
