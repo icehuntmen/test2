@@ -218,7 +218,7 @@
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-16"
-                                     data-x="['center','center','center','center']" data-hoffset="['260','260','260','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['-260','260','260','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['185','185','185','0']"
                                      data-fontsize="['60','60','60','60']"
                                      data-lineheight="['60','60','60','60']"
