@@ -266,7 +266,7 @@
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                                      id="slide-964-layer-41"
-                                     data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['5','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['230','220','220','100']"
                                      data-width="['960','960','960','320']"
                                      data-height="none"
