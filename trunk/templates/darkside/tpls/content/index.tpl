@@ -68,12 +68,33 @@
                                 <img src="/assets/images/stranger_dark.jpg"  alt=""   data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
 
+                                <!-- LAYER NR. 15 -->
+                                <div class="tp-caption   fullscreenvideo  tp-blendvideo disabled_lc tp-videolayer"
+                                     id="slide-965-layer-9"
+                                     data-x="0"
+                                     data-y="0"
+                                     data-whitespace="normal"
 
+                                     data-type="video"
+                                     data-beforeafter="before"
+                                     data-basealign="slide"
+                                     data-responsive_offset="off"
+                                     data-responsive="off"
+                                     data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-videocontrols="none" data-videowidth="100%" data-videoheight="100%" data-videoposter="/assets/images/tp_vid_clouds-1.jpg" data-videomp4="/assets/videos/tp_vid_clouds-2.mp4" data-noposteronmobile="off" data-videopreload="auto" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+                                     data-blendmode="overlay"
+                                     data-autoplay="on"
+                                     data-volume="mute"
+                                     style="z-index: 9;"> </div>
 
 
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-                                     id="slide-964-layer-48"
+                                     id="slide-964-layer-10"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','100']"
                                      data-width="['960','960','960','320']"
@@ -95,7 +116,7 @@
 
                                 <!-- LAYER NR. 8 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
-                                     id="slide-964-layer-46"
+                                     id="slide-964-layer-11"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
                                      data-width="none"
@@ -122,7 +143,7 @@
 
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-964-layer-28"
+                                     id="slide-964-layer-12"
                                      data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
                                      data-width="none"
@@ -144,7 +165,7 @@
 
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
-                                     id="slide-964-layer-45"
+                                     id="slide-964-layer-13"
                                      data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
                                      data-width="none"
@@ -166,7 +187,7 @@
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
-                                     id="slide-964-layer-9"
+                                     id="slide-964-layer-14"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
                                      data-fontsize="['120','120','120','60']"
@@ -192,7 +213,7 @@
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
-                                     id="slide-964-layer-10"
+                                     id="slide-964-layer-15"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
                                      data-fontsize="['120','120','120','60']"
@@ -217,7 +238,7 @@
                                      style="z-index: 15; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
-                                     id="slide-964-layer-11"
+                                     id="slide-964-layer-16"
                                      data-x="['center','center','center','center']" data-hoffset="['260','260','260','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['185','185','185','0']"
                                      data-fontsize="['60','60','60','60']"
@@ -243,7 +264,7 @@
 
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
-                                     id="slide-964-layer-49"
+                                     id="slide-964-layer-17"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['220','220','220','100']"
                                      data-width="['960','960','960','320']"
@@ -265,7 +286,7 @@
 
                                 <!-- LAYER NR. 14 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
-                                     id="slide-964-layer-44"
+                                     id="slide-964-layer-18"
                                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                      data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
                                      data-width="none"
@@ -288,28 +309,7 @@
                                      style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 5px;font-family:Arial;background-color:rgb(255,255,255);cursor:pointer;">ВЫБЕРИ СТОРОНУ СТРАЖ </a>
                             </li>
                             <!-- SLIDE  -->
-                            <!-- LAYER NR. 15 -->
-                            <div class="tp-caption   fullscreenvideo  tp-blendvideo disabled_lc tp-videolayer"
-                                 id="slide-965-layer-15"
-                                 data-x="0"
-                                 data-y="0"
-                                 data-whitespace="normal"
 
-                                 data-type="video"
-                                 data-beforeafter="before"
-                                 data-basealign="slide"
-                                 data-responsive_offset="off"
-                                 data-responsive="off"
-                                 data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                 data-videocontrols="none" data-videowidth="100%" data-videoheight="100%" data-videoposter="/assets/images/tp_vid_clouds-1.jpg" data-videomp4="/assets/videos/tp_vid_clouds-2.mp4" data-noposteronmobile="off" data-videopreload="auto" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9"			data-textAlign="['inherit','inherit','inherit','inherit']"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-paddingright="[0,0,0,0]"
-                                 data-paddingbottom="[0,0,0,0]"
-                                 data-paddingleft="[0,0,0,0]"
-                                 data-blendmode="overlay"
-                                 data-autoplay="on"
-                                 data-volume="mute"
-                                 style="z-index: 19;"> </div>
 
 
                         </ul>
