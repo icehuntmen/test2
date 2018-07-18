@@ -51,12 +51,7 @@
 	
 	<body>
 		
-		<!-- HEADER -->
-        <section class="overlay">
-            <img src="/assets/images/320Destiny2.png" alt="">
-            
-        </section>
-		
+
 		<!-- SLIDER EXAMPLE -->
         <section class="content-slide">
             <article class="content">
