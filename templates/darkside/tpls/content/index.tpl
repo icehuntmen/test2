@@ -188,8 +188,8 @@
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-33"
-                                     data-x="['left','center','center','center']" data-hoffset="['3','0','0','0']"
-                                     data-y="['bottom','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
+                                     data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
