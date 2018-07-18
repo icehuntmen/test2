@@ -61,9 +61,9 @@
                     <!-- START REVOLUTION SLIDER 5.4.3.3 fullscreen mode -->
                     <div id="rev_slider_346_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.3.3">
                         <ul>	<!-- SLIDE  -->
-                            <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://server.local/revslider/wp-content/uploads/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""   data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"","bgType":"image","bgImage":"http:\/\/test2.mauris.site\/assets\/images\/stranger_dark.jpg","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false,"bounceArrows":"infinite","bounceType":"repel","bounceAmount":"5","bounceSpeed":"1500","bounceEasing":"ease-in-out","bounceDelay":"750","shiftOffset":"10","shiftTiming":"300","shiftEasing":"ease","shiftDelay":"250"}'>
+                            <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="http://server.local/revslider/wp-content/uploads/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""   data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"","bgType":"image","bgImage":"http:\/\/test2.mauris.site\/assets\/images\/stranger_white.jpg","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false,"bounceArrows":"infinite","bounceType":"repel","bounceAmount":"5","bounceSpeed":"1500","bounceEasing":"ease-in-out","bounceDelay":"750","shiftOffset":"10","shiftTiming":"300","shiftEasing":"ease","shiftDelay":"250"}'>
                                 <!-- MAIN IMAGE -->
-                                <img src="/assets/images/stranger_white.jpg"  alt=""   data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <img src="/assets/images/stranger_dark.jpg"  alt=""   data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Power4.easeOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="30" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
 
                                 <!-- LAYER NR. 15 -->
@@ -74,7 +74,7 @@
                                      data-whitespace="normal"
 
                                      data-type="video"
-                                     data-beforeafter="after"
+                                     data-beforeafter="before"
                                      data-basealign="slide"
                                      data-responsive_offset="off"
                                      data-responsive="off"
@@ -102,7 +102,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="text"
-                                     data-beforeafter="after"
+                                     data-beforeafter="before"
                                      data-responsive_offset="on"
                                      href="https://www.bungie.net/ru/ClanV2?groupid=3118487"
                                      target="_blank"
@@ -129,7 +129,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="image"
-                                     data-beforeafter="after"
+                                     data-beforeafter="before"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:0deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
@@ -151,7 +151,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="image"
-                                     data-beforeafter="before"
+                                     data-beforeafter="after"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:0deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
@@ -177,7 +177,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="text"
-                                     data-beforeafter="before"
+                                     data-beforeafter="after"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -203,7 +203,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="text"
-                                     data-beforeafter="after"
+                                     data-beforeafter="before"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -228,7 +228,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="text"
-                                     data-beforeafter="after"
+                                     data-beforeafter="before"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -251,7 +251,7 @@
                                      data-whitespace="normal"
 
                                      data-type="text"
-                                     data-beforeafter="after"
+                                     data-beforeafter="before"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -273,7 +273,7 @@
                                      data-whitespace="normal"
 
                                      data-type="text"
-                                     data-beforeafter="before"
+                                     data-beforeafter="after"
                                      data-responsive_offset="on"
 
                                      data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -297,7 +297,7 @@
                                      data-whitespace="nowrap"
 
                                      data-type="text"
-                                     data-beforeafter="before"
+                                     data-beforeafter="after"
                                      data-responsive_offset="on"
                                      href="https://www.bungie.net/ru/ClanV2?groupid=2840867"
                                      target="_blank"
