@@ -168,7 +168,6 @@
                                      id="slide-964-layer-13"
                                      data-x="['center','center','center','center']" data-hoffset="['3','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['-270','-70','-70','-170']"
-                                     data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
 
