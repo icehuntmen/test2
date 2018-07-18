@@ -205,7 +205,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 13;"><img src="/assets/images/320Destiny2.png" alt=""  width="320" height="173" data-no-retina> </div>
+                                     style="z-index: 13;"><img src="/assets/images/320Destiny2.png" alt=""  width="178"  data-no-retina> </div>
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
