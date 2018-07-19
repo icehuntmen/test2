@@ -68,7 +68,7 @@ Main Components
   left: 0;
   height: 25vh;
   width: 100%;
-  background-image: url("../img/img-1-small.jpg");
+  background-image: url("/templates/darkside/images/img-1-small.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -78,35 +78,35 @@ Main Components
 }
 .projects-container .cd-single-project::before {
   /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-  content: 'img/img-1-small.jpg';
+  content: '/templates/darkside/images/img-1-small.jpg';
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
   top: 25vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
-  background-image: url("../img/img-2-small.jpg");
+  background-image: url("/templates/darkside/images/img-2-small.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
-  content: 'img/img-2-small.jpg';
+  content: '/templates/darkside/images/img-2-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(3) {
   top: 50vh;
 }
 .projects-container .cd-single-project:nth-of-type(3)::after {
-  background-image: url("../img/img-3-small.jpg");
+  background-image: url("/templates/darkside/images/img-3-small.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
-  content: 'img/img-3-small.jpg';
+  content: '/templates/darkside/images/img-3-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(4) {
   top: 75vh;
 }
 .projects-container .cd-single-project:nth-of-type(4)::after {
-  background-image: url("../img/img-4-small.jpg");
+  background-image: url("/templates/darkside/images/img-4-small.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(4)::before {
-  content: 'img/img-4-small.jpg';
+  content: '/templates/darkside/images/img-4-small.jpg';
 }
 .projects-container .cd-single-project.is-loaded {
   /* move items in the viewport when background images have been loaded */
@@ -148,40 +148,40 @@ Main Components
     transition: width 0s;
   }
   .projects-container .cd-single-project:first-of-type::before {
-    content: 'img/img-1-large.jpg';
+    content: '/templates/darkside/images/img-1-large.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
-    background-image: url("../img/img-1-large.jpg");
+    background-image: url("/templates/darkside/images/img-1-large.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
     left: 25vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
-    content: 'img/img-2-large.jpg';
+    content: '/templates/darkside/images/img-2-large.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(2)::after {
-    background-image: url("../img/img-2-large.jpg");
+    background-image: url("/templates/darkside/images/img-2-large.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
     left: 50vw;
   }
   .projects-container .cd-single-project:nth-of-type(3)::before {
-    content: 'img/img-3-large.jpg';
+    content: '/templates/darkside/images/img-3-large.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(3)::after {
-    background-image: url("../img/img-3-large.jpg");
+    background-image: url("/templates/darkside/images/img-3-large.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(4) {
     top: 0;
     left: 75vw;
   }
   .projects-container .cd-single-project:nth-of-type(4)::before {
-    content: 'img/img-4-large.jpg';
+    content: '/templates/darkside/images/img-4-large.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(4)::after {
-    background-image: url("../img/img-4-large.jpg");
+    background-image: url("/templates/darkside/images/img-4-large.jpg");
   }
   .projects-container .cd-single-project::after {
     height: 100vh;
@@ -355,7 +355,7 @@ Main Components
   position: fixed;
   top: 30px;
   right: 5%;
-  background: url("../img/cd-icon-close-mobile.svg") no-repeat center center;
+  background: url("/templates/darkside/images/cd-icon-close-mobile.svg") no-repeat center center;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -364,7 +364,7 @@ Main Components
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-close {
-    background-image: url("../img/cd-icon-close-desktop.svg");
+    background-image: url("/templates/darkside/images/cd-icon-close-desktop.svg");
   }
 }
 
@@ -377,11 +377,11 @@ Main Components
   -ms-transform: translateX(-50%) scale(0);
   -o-transform: translateX(-50%) scale(0);
   transform: translateX(-50%) scale(0);
-  background: url("../img/cd-icon-arrow-mobile.svg") no-repeat center center;
+  background: url("/templates/darkside/images/cd-icon-arrow-mobile.svg") no-repeat center center;
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-scroll {
-    background-image: url("../img/cd-icon-arrow-desktop.svg");
+    background-image: url("/templates/darkside/images/cd-icon-arrow-desktop.svg");
   }
 }
 
