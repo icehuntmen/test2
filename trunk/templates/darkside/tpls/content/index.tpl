@@ -226,7 +226,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 12;"><img src="/assets/images/posters_warlock_w.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 12;"><img src="/assets/images/posters_dw.png" alt=""  width="405" height="611" data-no-retina> </div>
 
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
