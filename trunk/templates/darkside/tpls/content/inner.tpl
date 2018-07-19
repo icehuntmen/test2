@@ -144,5 +144,17 @@
 </nav> <!-- .cd-primary-nav -->
 <script src="/templates/darkside/js/jquery-2.1.1.js"></script>
 <script src="/templates/darkside/js/main.js"></script> <!-- Resource jQuery -->
+<script>
+    var elem = document.getElementById("myVideo");
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+        elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+        elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+        elem.msRequestFullscreen();
+    }
+</script>
 </body>
 </html>
