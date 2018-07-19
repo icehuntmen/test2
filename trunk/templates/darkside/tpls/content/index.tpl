@@ -352,8 +352,8 @@
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                                      id="slide-964-layer-44"
-                                     data-x="['center','center','center','center']" data-hoffset="['-400','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','220','220','100']"
+                                     data-x="['center','center','center','center']" data-hoffset="['-430','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['100','220','220','100']"
                                      data-width="['960','960','960','320']"
                                      data-height="none"
                                      data-whitespace="normal"
