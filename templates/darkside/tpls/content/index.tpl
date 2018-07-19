@@ -352,7 +352,7 @@
                                 <!-- LAYER NR. 13 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                                      id="slide-964-layer-44"
-                                     data-x="['center','center','center','center']" data-hoffset="['5','0','0','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['300','0','0','0']"
                                      data-y="['middle','middle','middle','middle']" data-voffset="['0','220','220','100']"
                                      data-width="['960','960','960','320']"
                                      data-height="none"
@@ -369,7 +369,7 @@
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[5,5,5,5]"
 
-                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">CLAN </div>
+                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 14px; font-weight: 700; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family: 'DejaVu Sans';text-transform:uppercase;">CLAN </div>
 
                                 <!-- LAYER NR. 14 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
