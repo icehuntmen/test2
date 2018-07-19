@@ -94,16 +94,38 @@ label   {
 }
 
 
-
-.logo  {   
-    background-image:url(../images/logo.png);
-    display:block;
-    width:211px;  height: 38px;margin-top:10px;
-	margin-left: 30px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: left center;
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans ExtraLight'), local('DejaVuSans-ExtraLight'), url('http://hb.bizmrg.com/fonts/djsans/200.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/djsans/200.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
 }
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans'), local('DejaVuSans'), url('http://hb.bizmrg.com/fonts/djsans/400.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/djsans/400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans Oblique'), local('DejaVuSans-Oblique'), url('http://hb.bizmrg.com/fonts/djsans/400i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/djsans/400i.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans Bold'), local('DejaVuSans-Bold'), url('http://hb.bizmrg.com/fonts/djsans/700.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/djsans/700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: local('DejaVu Sans Bold Oblique'), local('DejaVuSans-BoldOblique'), url('http://hb.bizmrg.com/fonts/djsans/700i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/djsans/700i.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
 .button  {   
     background:#fff600;     
     color:#000; 
@@ -339,7 +361,7 @@ footer a:hover  {   color:#fff;}
  .bottom-history {  display:block;float:none !important; width:100% !important; max-width:none !important;}
 }
 
-}
+
 
 
 /* Social Icons */
@@ -375,8 +397,6 @@ footer a:hover  {   color:#fff;}
     position: absolute;
     z-index: 4000;
 }
-
-
 
 
 

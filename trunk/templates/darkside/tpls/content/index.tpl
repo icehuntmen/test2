@@ -132,7 +132,7 @@
                                      data-beforeafter="after"
                                      data-responsive_offset="on"
 
-                                     data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:0deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-frames='[{"delay":500,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                                      data-textAlign="['inherit','inherit','inherit','inherit']"
                                      data-paddingtop="[0,0,0,0]"
                                      data-paddingright="[0,0,0,0]"
@@ -154,7 +154,7 @@
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
 
-                                     data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:0deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-frames='[{"delay":500,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                                      data-textAlign="['inherit','inherit','inherit','inherit']"
                                      data-paddingtop="[0,0,0,0]"
                                      data-paddingright="[0,0,0,0]"
@@ -166,8 +166,30 @@
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-13"
-                                     data-x="['center','center','center','center']" data-hoffset="['-240','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
+                                     data-x="['center','center','center','center']" data-hoffset="['-320','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-30','-70','-70','-170']"
+                                     data-height="none"
+                                     data-whitespace="nowrap"
+
+                                     data-type="image"
+                                     data-beforeafter="after"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":1200,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['inherit','inherit','inherit','inherit']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+
+                                     style="z-index: 12;"><img src="/assets/images/posters_warlock_w.png" alt=""  width="405" height="611" data-no-retina> </div>
+
+
+                                <!-- LAYER NR. 11 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
+                                     id="slide-964-layer-13"
+                                     data-x="['center','center','center','center']" data-hoffset="['-320','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-30','-70','-70','-170']"
                                      data-height="none"
                                      data-whitespace="nowrap"
 
@@ -175,16 +197,15 @@
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
 
-                                     data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:-200px;y:bottom;rZ:0deg;sX:1;sY:1;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                     data-frames='[{"delay":1200,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                                      data-textAlign="['inherit','inherit','inherit','inherit']"
                                      data-paddingtop="[0,0,0,0]"
                                      data-paddingright="[0,0,0,0]"
                                      data-paddingbottom="[0,0,0,0]"
                                      data-paddingleft="[0,0,0,0]"
 
-                                     style="z-index: 11;"><img src="/assets/images/posters_warlock_w.png" alt=""  width="405" height="611" data-no-retina> </div>
+                                     style="z-index: 12;"><img src="/assets/images/posters_warlock_w.png" alt=""  width="405" height="611" data-no-retina> </div>
 
-                                
                                 <!-- LAYER NR. 12 -->
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-14"
@@ -196,6 +217,7 @@
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
+
                                      data-type="text"
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
@@ -208,7 +230,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 24; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 24; white-space: nowrap; text-shadow: 0px 0px 8px grey; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family: 'DejaVu Sans';font-weight:700; text-transform:uppercase;">ENOTWHYNOT </div>
 
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
@@ -234,12 +256,12 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 25; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">ENOTWHYNOT </div>
+                                     style="z-index: 25; white-space: nowrap; text-shadow: 0px 0px 8px gray;  font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family: 'DejaVu Sans'; font-weight:700;text-transform:uppercase;">ENOTWHYNOT </div>
 
                                 <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5"
                                      id="slide-964-layer-16"
-                                     data-x="['center','center','center','center']" data-hoffset="['-270','260','260','0']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['185','185','185','0']"
+                                     data-x="['center','center','center','center']" data-hoffset="['-322','260','260','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['180','185','185','0']"
                                      data-fontsize="['60','60','60','60']"
                                      data-lineheight="['60','60','60','60']"
                                      data-letterspacing="['0','0','0','0']"
@@ -259,7 +281,7 @@
                                      data-paddingleft="[50,50,50,50]"
                                      data-blendmode="overlay"
 
-                                     style="z-index: 26; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
+                                     style="z-index: 26; white-space: nowrap; text-shadow: 0px 0px 8px white; font-size: 60px; line-height: 60px; font-weight: 700; color: #000000; letter-spacing: 0px;font-family:Arial;text-transform:uppercase;">DARKSIDE </div>
 
                                 <!-- LAYER NR. 7 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
@@ -368,48 +390,48 @@
                                         size: {value: 2, random: true, min: 0.5, anim: {enable: false, speed: 40, size_min: 1, sync: false}},
                                         line_linked: {enable: false, distance: 150, color: "#ffffff", opacity: 0.4, width: 1},
                                         move: {enable: true, speed: 1, direction: "none", random: true, min_speed: 1, straight: false, out_mode: "out"}},
-                                    interactivity: {;
-                                        {{false, mode;: "repulse"}, {false, mode;: "repulse"}},
-                                        {{400, line_linked;: {0.5}}, {400, size;: 40, opacity;: 0.4}, {200}}
+                                    interactivity: {
+                                        events: {onhover: {enable: false, mode: "repulse"}, onclick: {enable: false, mode: "repulse"}},
+                                        modes: {grab: {distance: 400, line_linked: {opacity: 0.5}}, bubble: {distance: 400, size: 40, opacity: 0.4}, repulse: {distance: 200}}
                                     }
                                 },
 
-                                [1240,1240,1240,480],
-                                visibilityLevels;:[1240,1240,1240,480],
-                                gridwidth;:[1200,1200,1200,480],
-                                gridheight;:[800,800,800,700],
-                                lazyType;:"none",
-                                parallax;: {
-                                    "mouse+scroll",
-                                    origo;:"slidercenter",
-                                    speed;:400,
-                                    speedbg;:0,
-                                    speedls;:0,
-                                    levels;:[1,2,3,4,5,6,7,8,12,16,47,48,49,50,51,55],
+                                responsiveLevels:[1240,1240,1240,480],
+                                visibilityLevels:[1240,1240,1240,480],
+                                gridwidth:[1200,1200,1200,480],
+                                gridheight:[800,800,800,700],
+                                lazyType:"none",
+                                parallax: {
+                                    type:"mouse+scroll",
+                                    origo:"slidercenter",
+                                    speed:400,
+                                    speedbg:0,
+                                    speedls:0,
+                                    levels:[1,2,3,4,5,6,7,8,12,16,47,48,49,50,51,55],
                                 },
-                                0,
-                                spinner;:"off",
-                                stopLoop;:"on",
-                                stopAfterLoops;:0,
-                                stopAtSlide;:1,
-                                shuffle;:"off",
-                                autoHeight;:"off",
-                                fullScreenAutoWidth;:"off",
-                                fullScreenAlignForce;:"off",
-                                fullScreenOffsetContainer;: "",
-                                fullScreenOffset;: "",
-                                disableProgressBar;:"on",
-                                hideThumbsOnMobile;:"off",
-                                hideSliderAtLimit;:0,
-                                hideCaptionAtLimit;:0,
-                                hideAllCaptionAtLilmit;:0,
-                                debugMode;:false,
-                                fallbacks;: {
-                                    "off",
-                                    nextSlideOnWindowFocus;:"off",
-                                    disableFocusListener;:false,
+                                shadow:0,
+                                spinner:"off",
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+                                shuffle:"off",
+                                autoHeight:"off",
+                                fullScreenAutoWidth:"off",
+                                fullScreenAlignForce:"off",
+                                fullScreenOffsetContainer: "",
+                                fullScreenOffset: "",
+                                disableProgressBar:"on",
+                                hideThumbsOnMobile:"off",
+                                hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                debugMode:false,
+                                fallbacks: {
+                                    simplifyAll:"off",
+                                    nextSlideOnWindowFocus:"off",
+                                    disableFocusListener:false,
                                 }
-                        })
+                            });
                             var ua = window.navigator.userAgent;
                             var msie = ua.indexOf("MSIE ");
 
@@ -453,8 +475,8 @@
 
 
 
-                    })    /*ready*/
-				</script>
+                    });	/*ready*/
+                </script>
 
 
 
