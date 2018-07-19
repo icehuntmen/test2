@@ -163,6 +163,29 @@
 
                                      style="z-index: 12;"><img src="/assets/images/posters_dt.png" alt=""  width="405" height="611" data-no-retina> </div>
 
+
+                                <!-- LAYER NR. 11 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
+                                     id="slide-964-layer-33"
+                                     data-x="['center','center','center','center']" data-hoffset="['270','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-170']"
+                                     data-width="none"
+                                     data-height="none"
+                                     data-whitespace="nowrap"
+
+                                     data-type="image"
+                                     data-beforeafter="before"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":500,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['inherit','inherit','inherit','inherit']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[0,0,0,0]"
+
+                                     style="z-index: 12;"><img src="/assets/images/posters_wt.png" alt=""  width="405" height="611" data-no-retina> </div>
+
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
                                      id="slide-964-layer-13"
