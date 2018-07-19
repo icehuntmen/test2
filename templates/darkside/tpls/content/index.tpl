@@ -349,7 +349,27 @@
 
                                      style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">СДЕЛАЙ СВОЙ ВЫБОР СТРАЖ, СТОРОНА СВЕТА </div>
 
+                                <!-- LAYER NR. 13 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
+                                     id="slide-964-layer-44"
+                                     data-x="['center','center','center','center']" data-hoffset="['5','0','0','0']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['0','220','220','100']"
+                                     data-width="['960','960','960','320']"
+                                     data-height="none"
+                                     data-whitespace="normal"
 
+                                     data-type="text"
+                                     data-beforeafter="before"
+                                     data-responsive_offset="on"
+
+                                     data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-textAlign="['center','center','center','center']"
+                                     data-paddingtop="[0,0,0,0]"
+                                     data-paddingright="[0,0,0,0]"
+                                     data-paddingbottom="[0,0,0,0]"
+                                     data-paddingleft="[5,5,5,5]"
+
+                                     style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Arial;text-transform:uppercase;">CLAN </div>
 
                                 <!-- LAYER NR. 14 -->
                                 <a class="tp-caption   tp-resizeme rs-parallaxlevel-4"
