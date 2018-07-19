@@ -18,7 +18,7 @@
 <div class="cd-projects-container">
     <ul class="cd-projects-previews">
         <li><video autoplay muted loop id="myVideo">
-                <source src="rain.mp4" type="video/mp4">
+                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
             </video>
             <a href="#0">
                 <div class="cd-project-title">
