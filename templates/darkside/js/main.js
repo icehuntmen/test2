@@ -1,73 +1,147 @@
 jQuery(document).ready(function($){
-	//check if background-images have been loaded and show list items
-	$('.cd-single-project').bgLoaded({
+	//cache DOM elements
+	var projectsContainer = $('.cd-projects-container'),
+		projectsPreviewWrapper = projectsContainer.find('.cd-projects-previews'),
+		projectPreviews = projectsPreviewWrapper.children('li'),
+		projects = projectsContainer.find('.cd-projects'),
+		navigationTrigger = $('.cd-nav-trigger'),
+		navigation = $('.cd-primary-nav'),
+		//if browser doesn't support CSS transitions...
+		transitionsNotSupported = ( $('.no-csstransitions').length > 0);
+
+	var animating = false,
+		//will be used to extract random numbers for projects slide up/slide down effect
+		numRandoms = projects.find('li').length, 
+		uniqueRandoms = [];
+
+	//open project
+	projectsPreviewWrapper.on('click', 'a', function(event){
+		event.preventDefault();
+		if( animating == false ) {
+			animating = true;
+			navigationTrigger.add(projectsContainer).addClass('project-open');
+			openProject($(this).parent('li'));
+		}
+	});
+
+	navigationTrigger.on('click', function(event){
+		event.preventDefault();
+		
+		if( animating == false ) {
+			animating = true;
+			if( navigationTrigger.hasClass('project-open') ) {
+				//close visible project
+				navigationTrigger.add(projectsContainer).removeClass('project-open');
+				closeProject();
+			} else if( navigationTrigger.hasClass('nav-visible') ) {
+				//close main navigation
+				navigationTrigger.removeClass('nav-visible');
+				navigation.removeClass('nav-clickable nav-visible');
+				if(transitionsNotSupported) projectPreviews.removeClass('slide-out');
+				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, false);
+			} else {
+				//open main navigation
+				navigationTrigger.addClass('nav-visible');
+				navigation.addClass('nav-visible');
+				if(transitionsNotSupported) projectPreviews.addClass('slide-out');
+				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, true);
+			}
+		}	
+
+		if(transitionsNotSupported) animating = false;
+	});
+
+	//scroll down to project info
+	projectsContainer.on('click', '.scroll', function(){
+		projectsContainer.animate({'scrollTop':$(window).height()}, 500); 
+	});
+
+	//check if background-images have been loaded and show project previews
+	projectPreviews.children('a').bgLoaded({
 	  	afterLoaded : function(){
-	   		showCaption($('.projects-container li').eq(0));
+	   		showPreview(projectPreviews.eq(0));
 	  	}
 	});
 
-	//open project
-	$('.cd-single-project').on('click', function(){
-		var selectedProject = $(this),
-			toggle = !selectedProject.hasClass('is-full-width');
-		if(toggle) toggleProject($(this), $('.projects-container'), toggle);
-	});
-
-	//close project
-	$('.projects-container .cd-close').on('click', function(){
-		toggleProject($('.is-full-width'), $('.projects-container'), false);
-	});
-
-	//scroll to project info
-	$('.projects-container .cd-scroll').on('click', function(){
-		$('.projects-container').animate({'scrollTop':$(window).height()}, 500); 
-	});
-
-	//update title and .cd-scroll opacity while scrolling
-	$('.projects-container').on('scroll', function(){
-		window.requestAnimationFrame(changeOpacity);
-	});
-
-	function toggleProject(project, container, bool) {
-		if(bool) {
-			//expand project
-			container.addClass('project-is-open');
-			project.addClass('is-full-width').siblings('li').removeClass('is-loaded');
-		} else {
-			//check media query
-			var mq = window.getComputedStyle(document.querySelector('.projects-container'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, ""),
-				delay = ( mq == 'mobile' ) ? 100 : 0;
-
-			container.removeClass('project-is-open');
-			//fade out project
-			project.animate({opacity: 0}, 800, function(){
-				project.removeClass('is-loaded');
-				$('.projects-container').find('.cd-scroll').attr('style', '');
-				setTimeout(function(){
-					project.attr('style', '').removeClass('is-full-width').find('.cd-title').attr('style', '');
-				}, delay);
-				setTimeout(function(){
-					showCaption($('.projects-container li').eq(0));
-				}, 300);
-			});		
-		}
-	}
-
-	function changeOpacity(){
-		var newOpacity = 1- ($('.projects-container').scrollTop())/300;
-		$('.projects-container .cd-scroll').css('opacity', newOpacity);
-		$('.is-full-width .cd-title').css('opacity', newOpacity);
-		//Bug fixed - Chrome background-attachment:fixed rendering issue
-		$('.is-full-width').hide().show(0);
-	}
-
-	function showCaption(project) {
-		if(project.length > 0 ) {
+	function showPreview(projectPreview) {
+		if(projectPreview.length > 0 ) {
 			setTimeout(function(){
-				project.addClass('is-loaded');
-				showCaption(project.next());
+				projectPreview.addClass('bg-loaded');
+				showPreview(projectPreview.next());
 			}, 150);
 		}
+	}
+
+	function openProject(projectPreview) {
+		var projectIndex = projectPreview.index();
+		projects.children('li').eq(projectIndex).add(projectPreview).addClass('selected');
+		
+		if( transitionsNotSupported ) {
+			projectPreviews.addClass('slide-out').removeClass('selected');
+			projects.children('li').eq(projectIndex).addClass('content-visible');
+			animating = false;
+		} else { 
+			slideToggleProjects(projectPreviews, projectIndex, 0, true);
+		}
+	}
+
+	function closeProject() {
+		projects.find('.selected').removeClass('selected').on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+			$(this).removeClass('content-visible').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+			slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, false);
+		});
+
+		//if browser doesn't support CSS transitions...
+		if( transitionsNotSupported ) {
+			projectPreviews.removeClass('slide-out');
+			projects.find('.content-visible').removeClass('content-visible');
+			animating = false;
+		}
+	}
+
+	function slideToggleProjects(projectsPreviewWrapper, projectIndex, index, bool) {
+		if(index == 0 ) createArrayRandom();
+		if( projectIndex != -1 && index == 0 ) index = 1;
+
+		var randomProjectIndex = makeUniqueRandom();
+		if( randomProjectIndex == projectIndex ) randomProjectIndex = makeUniqueRandom();
+		
+		if( index < numRandoms - 1 ) {
+			projectsPreviewWrapper.eq(randomProjectIndex).toggleClass('slide-out', bool);
+			setTimeout( function(){
+				//animate next preview project
+				slideToggleProjects(projectsPreviewWrapper, projectIndex, index + 1, bool);
+			}, 150);
+		} else if ( index == numRandoms - 1 ) {
+			//this is the last project preview to be animated 
+			projectsPreviewWrapper.eq(randomProjectIndex).toggleClass('slide-out', bool).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+				if( projectIndex != -1) {
+					projects.children('li.selected').addClass('content-visible');
+					projectsPreviewWrapper.eq(projectIndex).addClass('slide-out').removeClass('selected');
+				} else if( navigation.hasClass('nav-visible') && bool ) {
+					navigation.addClass('nav-clickable');
+				}
+				projectsPreviewWrapper.eq(randomProjectIndex).off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+				animating = false;
+			});
+		}
+	}
+
+	//http://stackoverflow.com/questions/19351759/javascript-random-number-out-of-5-no-repeat-until-all-have-been-used
+	function makeUniqueRandom() {
+	    var index = Math.floor(Math.random() * uniqueRandoms.length);
+	    var val = uniqueRandoms[index];
+	    // now remove that value from the array
+	    uniqueRandoms.splice(index, 1);
+	    return val;
+	}
+
+	function createArrayRandom() {
+		//reset array
+		uniqueRandoms.length = 0;
+		for (var i = 0; i < numRandoms; i++) {
+            uniqueRandoms.push(i);
+        }
 	}
 });
 
@@ -93,7 +167,7 @@ jQuery(document).ready(function($){
 		// Loop through element
 		self.each(function(){
 			var $this = $(this),
-				bgImgs = window.getComputedStyle($this.get(0), '::before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "").split(', ');
+				bgImgs = $this.css('background-image').split(', ');
 			$this.data('loaded-count',0);
 			$.each( bgImgs, function(key, value){
 				var img = value.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
