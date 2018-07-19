@@ -177,7 +177,7 @@
                                      data-beforeafter="before"
                                      data-responsive_offset="on"
 
-                                     data-frames='[{"delay":500,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                                     data-frames='[{"delay":1200,"speed":3000,"frame":"0","from":"y:50px;sX:0.3;sY:0.3;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                                      data-textAlign="['inherit','inherit','inherit','inherit']"
                                      data-paddingtop="[0,0,0,0]"
                                      data-paddingright="[0,0,0,0]"
