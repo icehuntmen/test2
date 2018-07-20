@@ -22,7 +22,6 @@
     }
     .videocontent {
         margin-left: -370px;
-
     }
     .vname {
         right: 20px;
@@ -32,7 +31,6 @@
         font-family: "PT Sans";
         font-weight: 700;
     }
-
     .vp {
         background-image: url("https://cdn.thetrackernetwork.com/destiny/common/destiny2_content/icons/d3c2e878297ea7e1152e2895ae20cf2c.jpg");
         background-repeat: no-repeat;
@@ -54,39 +52,31 @@
         <li class="videoplace">
                 <div class="vp">
                     <h1 class="vname">grayjaco</h1>
-                    <p>Класс: Hunter</p>
-
                 </div>
                <video autoplay muted loop id="myVideo" class="videocontent">
-
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
-                </video>
-
+               </video>
         </li>
-
         <li class="videoplace">
-
-
                 <div class="vp2">
                     <h1 class="vname">grayjaco</h1>
-                    <p>Класс: Hunter</p>
                 </div>
                 <video autoplay muted loop id="myVideo" class="videocontent">
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
                 </video>
-
-
-
         </li>
-
-        <li>
+        <li class="videoplace">
+            <div class="vp2">
+                <h1 class="vname">grayjaco</h1>
+            </div>
             <video autoplay muted loop id="myVideo" class="videocontent">
                 <source src="/assets/videos/hunter2.mp4" type="video/mp4">
             </video>
-
         </li>
-
-        <li>
+        <li class="videoplace">
+            <div class="vp2">
+                <h1 class="vname">grayjaco</h1>
+            </div>
             <video autoplay muted loop id="myVideo" class="videocontent">
                 <source src="/assets/videos/hunter2.mp4" type="video/mp4">
             </video>
