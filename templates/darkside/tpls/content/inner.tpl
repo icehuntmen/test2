@@ -16,14 +16,19 @@
 <a class="cd-nav-trigger cd-text-replace" href="#primary-nav">Menu<span aria-hidden="true" class="cd-icon"></span></a>
 
 <style>
+    .videoplace {
+        position: relative;
+    }
     .videocontent {
         margin-left: -370px;
+
     }
+
 </style>
 
 <div class="cd-projects-container">
     <ul class="cd-projects-previews">
-        <li>
+        <li class="videoplace">
 
                <video autoplay muted loop id="myVideo" class="videocontent">
 
@@ -34,7 +39,7 @@
 
         </li>
 
-        <li>
+        <li class="videoplace">
 
 
 
