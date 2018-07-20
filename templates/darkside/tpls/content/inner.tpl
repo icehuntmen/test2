@@ -17,8 +17,8 @@
 
 <div class="cd-projects-container">
     <ul class="cd-projects-previews">
-        <li><video autoplay muted loop id="myVideo">
-                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
+        <li><video autoplay muted loop id="myVideo" class="videocontent">
+                <source src="/assets/videos/hunter.mp4" type="video/mp4">
             </video>
             <a href="#0">
                 <div class="cd-project-title">
@@ -29,6 +29,9 @@
         </li>
 
         <li>
+            <video autoplay muted loop id="myVideo" class="videocontent">
+                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
+            </video>
             <a href="#0">
                 <div class="cd-project-title">
                     <h2>Project 2</h2>
@@ -38,6 +41,9 @@
         </li>
 
         <li>
+            <video autoplay muted loop id="myVideo" class="videocontent">
+                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
+            </video>
             <a href="#0">
                 <div class="cd-project-title">
                     <h2>Project 3</h2>
@@ -47,6 +53,9 @@
         </li>
 
         <li>
+            <video autoplay muted loop id="myVideo" class="videocontent">
+                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
+            </video>
             <a href="#0">
                 <div class="cd-project-title">
                     <h2>Project 4</h2>
