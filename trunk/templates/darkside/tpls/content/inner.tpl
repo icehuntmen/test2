@@ -27,12 +27,19 @@
 
     }
 
+    .vp {
+        background-image: url("https://cdn.thetrackernetwork.com/destiny/common/destiny2_content/icons/d3c2e878297ea7e1152e2895ae20cf2c.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100px;
+    }
 </style>
 
 <div class="cd-projects-container">
     <ul class="cd-projects-previews">
         <li class="videoplace">
-
+                <div class="vp"></div>
                <video autoplay muted loop id="myVideo" class="videocontent">
 
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
@@ -45,10 +52,11 @@
         <li class="videoplace">
 
 
-
+                <div class="vp"></div>
                 <video autoplay muted loop id="myVideo" class="videocontent">
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
                 </video>
+
             <h1 class="vname">grayjaco</h1>
             <p>Класс: Hunter</p>
 
