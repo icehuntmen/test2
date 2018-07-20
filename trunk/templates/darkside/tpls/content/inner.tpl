@@ -24,7 +24,12 @@
 
     }
     .vname {
-
+        right: 20px;
+        position: absolute;
+        top: 20px;
+        font-size: 24px;
+        font-family: "PT Sans";
+        font-weight: 700;
     }
 
     .vp {
