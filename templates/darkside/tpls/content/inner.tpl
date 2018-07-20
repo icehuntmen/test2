@@ -25,10 +25,7 @@
     <ul class="cd-projects-previews">
         <li>
             <a href="#0">
-                <div class="cd-project-title">
-                    <h2>Project 1</h2>
-                    <p>Brief description of the project here</p>
-                </div> <video autoplay muted loop id="myVideo" >
+               <video autoplay muted loop id="myVideo" >
 
                     <source src="/assets/videos/hunter.mp4" type="video/mp4">
                 </video>
