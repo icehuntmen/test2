@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/templates/darkside/css/style.css"> <!-- Resource style -->
     <script src="/templates/darkside/js/modernizr.js"></script> <!-- Modernizr -->
 
-    <title>Sliding Panels Template | CodyHouse</title>
+    <title>%title%</title>
 </head>
 <body>
 <a class="cd-nav-trigger cd-text-replace" href="#primary-nav">Menu<span aria-hidden="true" class="cd-icon"></span></a>
