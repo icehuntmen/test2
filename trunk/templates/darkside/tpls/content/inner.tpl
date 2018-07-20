@@ -15,9 +15,15 @@
 <body>
 <a class="cd-nav-trigger cd-text-replace" href="#primary-nav">Menu<span aria-hidden="true" class="cd-icon"></span></a>
 
+<style>
+    .videocontent {
+        margin-left: -370px;
+    }
+</style>
+
 <div class="cd-projects-container">
     <ul class="cd-projects-previews">
-        <li><video autoplay muted loop id="myVideo" class="videocontent">
+        <li><video autoplay muted loop id="myVideo" >
                 <source src="/assets/videos/hunter.mp4" type="video/mp4">
             </video>
             <a href="#0">
