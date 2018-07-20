@@ -18,6 +18,7 @@
 <style>
     .videoplace {
         position: relative;
+        border-right: 6px solid #FFFFFF;
     }
     .videocontent {
         margin-left: -370px;
