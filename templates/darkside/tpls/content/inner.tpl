@@ -34,8 +34,8 @@
 
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
                 </video>
-                <h1>greyjaco</h1>
-            <p>Hunter</p>
+                <h1 class="vname">GRAYJACO</h1>
+            <p>Класс: Hunter</p>
 
         </li>
 
@@ -46,7 +46,8 @@
                 <video autoplay muted loop id="myVideo" class="videocontent">
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
                 </video>
-
+            <h1 class="vname">GRAYJACO</h1>
+            <p>Класс: Hunter</p>
 
         </li>
 
