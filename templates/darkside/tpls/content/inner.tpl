@@ -37,7 +37,7 @@
 
                     <source src="/assets/videos/hunter2.mp4" type="video/mp4">
                 </video>
-                <h1 class="vname">grayjaco/h1>
+                <h1 class="vname">grayjaco</h1>
             <p>Класс: Hunter</p>
 
         </li>
