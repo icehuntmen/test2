@@ -23,27 +23,29 @@
 
 <div class="cd-projects-container">
     <ul class="cd-projects-previews">
-        <li><video autoplay muted loop id="myVideo" >
-                <source src="/assets/videos/hunter.mp4" type="video/mp4">
-            </video>
+        <li>
             <a href="#0">
                 <div class="cd-project-title">
                     <h2>Project 1</h2>
                     <p>Brief description of the project here</p>
                 </div>
             </a>
+            <video autoplay muted loop id="myVideo" >
+                <source src="/assets/videos/hunter.mp4" type="video/mp4">
+            </video>
         </li>
 
         <li>
-            <video autoplay muted loop id="myVideo" class="videocontent">
-                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
-            </video>
+
             <a href="#0">
                 <div class="cd-project-title">
                     <h2>Project 2</h2>
                     <p>Brief description of the project here</p>
                 </div>
             </a>
+            <video autoplay muted loop id="myVideo" class="videocontent">
+                <source src="/assets/videos/hunter2.mp4" type="video/mp4">
+            </video>
         </li>
 
         <li>
