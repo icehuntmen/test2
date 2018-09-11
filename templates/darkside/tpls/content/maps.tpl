@@ -16,13 +16,22 @@
 
 		<!-- LOAD JQUERY LIBRARY -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-		
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
 
 	</head>
 	
 	<body>
-		
 
+    <div id='map' style='width: 900px; height: 300px;'></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYWxleGFuZGVyaHVudGVyIiwiYSI6ImNqbHhpcjlhZzFla2YzcG8xNWlheHgzdmUifQ.ZoxyL9e0uSq23OYN6y27_g';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v10'
+        });
+    </script>
 
 	</body>
 </html>
